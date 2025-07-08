@@ -1,0 +1,228 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const posts = await getCollection("blog");
+const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+// Get featured posts (first 3)
+const featuredPosts = sortedPosts.slice(0, 3);
+const editorsPicks = sortedPosts.slice(3, 7);
+const latestPosts = sortedPosts.slice(7, 15);
+---
+
+<BaseLayout title="Jessica Things - Beauty, Fashion & Lifestyle Blog">
+  <div class="min-h-screen bg-white">
+    <!-- Header -->
+    <header class="border-b border-gray-200">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-4">
+            <h1 class="text-3xl font-bold text-gray-900">Jessica Things</h1>
+            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+          </div>
+          <nav class="hidden md:flex space-x-6">
+            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <!-- Hero Section -->
+      <section class="mb-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-5xl font-bold text-gray-900 mb-4">
+              Discover Your Style
+            </h2>
+            <p class="text-xl text-gray-600 mb-6">
+              Explore the latest in beauty, fashion, and lifestyle with Jessica Things. 
+              Your go-to source for tips, reviews, and inspiration.
+            </p>
+            <a href="/" class="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
+              Explore Posts
+            </a>
+          </div>
+          <div class="relative">
+            {featuredPosts[0] && (
+              <div class="relative overflow-hidden rounded-lg">
+                <img 
+                  src={featuredPosts[0].data.thumbnail || '/placeholder-image.jpg'} 
+                  alt={featuredPosts[0].data.title}
+                  class="w-full h-96 object-cover"
+                />
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
+                  <div class="flex items-center space-x-2 mb-2">
+                    <span class="bg-white text-black px-2 py-1 rounded text-xs font-medium">
+                      {featuredPosts[0].data.categories?.[0] || 'BLOG'}
+                    </span>
+                    <span class="text-white text-sm">
+                      {new Date(featuredPosts[0].data.date).toLocaleDateString('en-US', { 
+                        month: 'short', 
+                        day: 'numeric', 
+                        year: 'numeric' 
+                      })}
+                    </span>
+                  </div>
+                  <h3 class="text-white text-xl font-bold mb-2">
+                    <a href={`/${featuredPosts[0].slug}`} class="hover:underline">
+                      {featuredPosts[0].data.title}
+                    </a>
+                  </h3>
+                  <p class="text-gray-200 text-sm line-clamp-2">
+                    {featuredPosts[0].data.excerpt || featuredPosts[0].data.description}
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+      <!-- Editor's Pick -->
+      <section class="mb-16">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-3xl font-bold text-gray-900">Editor's Pick</h2>
+          <a href="/" class="text-black hover:underline">View All</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {editorsPicks.map((post) => (
+            <article class="group">
+              <div class="relative overflow-hidden rounded-lg mb-4">
+                <img 
+                  src={post.data.thumbnail || '/placeholder-image.jpg'} 
+                  alt={post.data.title}
+                  class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div class="absolute top-4 left-4">
+                  <span class="bg-black text-white px-3 py-1 rounded text-xs font-medium">
+                    {post.data.categories?.[0] || 'BLOG'}
+                  </span>
+                </div>
+              </div>
+              <div class="space-y-2">
+                <span class="text-sm text-gray-500">
+                  {new Date(post.data.date).toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric', 
+                    year: 'numeric' 
+                  })}
+                </span>
+                <h3 class="text-xl font-bold text-gray-900 line-clamp-2">
+                  <a href={`/${post.slug}`} class="hover:underline">
+                    {post.data.title}
+                  </a>
+                </h3>
+                <p class="text-gray-600 text-sm line-clamp-2">
+                  {post.data.excerpt || post.data.description}
+                </p>
+                <a href={`/${post.slug}`} class="inline-flex items-center text-black hover:underline text-sm font-medium">
+                  READ MORE
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <!-- Latest Posts -->
+      <section class="mb-16">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-3xl font-bold text-gray-900">Latest</h2>
+          <a href="/" class="text-black hover:underline">View More</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {latestPosts.map((post) => (
+            <article class="flex space-x-4 group">
+              <div class="relative overflow-hidden rounded-lg flex-shrink-0">
+                <img 
+                  src={post.data.thumbnail || '/placeholder-image.jpg'} 
+                  alt={post.data.title}
+                  class="w-32 h-24 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div class="flex-1 space-y-2">
+                <div class="flex items-center space-x-2 text-sm text-gray-500">
+                  <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
+                    {post.data.categories?.[0] || 'BLOG'}
+                  </span>
+                  <span>
+                    {new Date(post.data.date).toLocaleDateString('en-US', { 
+                      month: 'short', 
+                      day: 'numeric', 
+                      year: 'numeric' 
+                    })}
+                  </span>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900 line-clamp-2">
+                  <a href={`/${post.slug}`} class="hover:underline">
+                    {post.data.title}
+                  </a>
+                </h3>
+                <p class="text-gray-600 text-sm line-clamp-2">
+                  {post.data.excerpt || post.data.description}
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200">
+      <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
+            <p class="text-gray-600 text-sm">
+              Your source for beauty, fashion, and lifestyle inspiration.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Categories</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="/category/beauty" class="hover:text-gray-900">Beauty</a></li>
+              <li><a href="/category/fashion" class="hover:text-gray-900">Fashion</a></li>
+              <li><a href="/category/lifestyle" class="hover:text-gray-900">Lifestyle</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
+              <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
+              <li><a href="#" class="hover:text-gray-900">Twitter</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
+            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <form class="flex">
+              <input 
+                type="email" 
+                placeholder="Your email"
+                class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-black"
+              />
+              <button 
+                type="submit"
+                class="bg-black text-white px-4 py-2 rounded-r hover:bg-gray-800 transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
+          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</BaseLayout>

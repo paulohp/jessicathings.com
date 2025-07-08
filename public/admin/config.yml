@@ -1,0 +1,28 @@
+backend:
+  name: github
+  branch: update
+  repo: username/repo
+  site_domain: example.com
+  base_url: https://example.com/
+  auth_endpoint: oauth
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dnk8j20ch
+    api_key: 796316847451711
+
+# media_folder: src/assets/img
+# public_folder: src/assets/img
+
+collections:
+  - name: "blog" 
+    label: "Blog" 
+    folder: "src/content/blog" 
+    create: true 
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "ogImage", name: "ogImage", widget: "image" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

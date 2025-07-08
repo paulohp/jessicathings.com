@@ -1,0 +1,31 @@
+---
+import { getCollection } from "astro:content";
+import PostLayout from "@layouts/PostLayout.astro";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+	const posts = await getCollection("blog");
+	console.log("Posts found:", posts.length);
+	console.log("Post slugs:", posts.map(post => post.slug));
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: { post },
+	}));
+}
+
+const { post } = Astro.props;
+console.log("Post in page:", post ? post.slug : "undefined");
+
+const { title, description, excerpt, ogImage, thumbnail } = post.data;
+const { Content } = await post.render();
+
+// Use description, excerpt, or fallback to title for meta description
+const metaDescription = description || excerpt || `Blog post: ${title}`;
+// Use ogImage or thumbnail for social media image
+const socialImage = ogImage || thumbnail;
+---
+
+<PostLayout title={title} description={metaDescription} ogImage={socialImage}>
+	<Content />
+</PostLayout>
