@@ -1,4 +1,4 @@
-export const prerender = "false";
+export const prerender = false;
 import type { APIRoute } from "astro";
 import { clientId, clientSecret, tokenUrl } from "./_config";
 

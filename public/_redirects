@@ -1,0 +1,5 @@
+# Redirect old blog URLs to new structure
+/blog/* /:splat 301
+
+# Handle trailing slashes
+/* /:splat 200
