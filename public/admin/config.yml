@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: update
-  repo: paulohp/alpha.jessicathings.com
+  repo: paulohp/jessicathings.com
   site_domain: jessicathings.com
   base_url: https://alpha.jessicathings.com
   auth_endpoint: oauth
