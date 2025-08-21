@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import cloudflare from "@astrojs/cloudflare";
 
 const config = defineConfig({
-	site: "https://jessicathings.com",
+	site: "https://alpha.jessicathings.com",
 	output: "static", // Static mode by default
 	adapter: cloudflare({
 		platformProxy: {

@@ -4,7 +4,7 @@ backend:
   repo: paulohp/jessicathings.com
   site_domain: jessicathings.com
   base_url: https://alpha.jessicathings.com
-  auth_endpoint: /api/auth
+  auth_endpoint: oauth
 
 media_library:
   name: cloudinary
