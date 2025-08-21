@@ -3,7 +3,7 @@ backend:
   branch: main
   repo: paulohp/jessicathings.com
   site_domain: jessicathings.com
-  base_url: https://alpha.jessicathings.com
+  base_url: https://jessicathings-com.vercel.app/
   auth_endpoint: oauth
 
 media_library:
