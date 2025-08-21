@@ -1,0 +1,231 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const posts = await getCollection("blog");
+
+// Extract all tags and count posts per tag
+const tagMap = new Map<string, number>();
+
+posts.forEach(post => {
+  if (post.data.tags && Array.isArray(post.data.tags)) {
+    post.data.tags.forEach(tag => {
+      if (tag && tag.trim()) {
+        tagMap.set(tag, (tagMap.get(tag) || 0) + 1);
+      }
+    });
+  }
+});
+
+// Convert to array and sort by post count (descending) and then alphabetically
+const tags = Array.from(tagMap.entries())
+  .sort((a, b) => {
+    // First sort by count (descending)
+    if (b[1] !== a[1]) {
+      return b[1] - a[1];
+    }
+    // Then sort alphabetically
+    return a[0].localeCompare(b[0]);
+  });
+
+const totalPosts = posts.length;
+const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags.length > 0).length;
+---
+
+<BaseLayout title="Tags - Jessica Things" description="Browse all tags on Jessica Things blog">
+  <div class="min-h-screen bg-white">
+    <!-- Header -->
+    <header class="border-b border-gray-200">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-4">
+            <h1 class="text-3xl font-bold text-gray-900">
+              <a href="/" class="hover:text-gray-700">Jessica Things</a>
+            </h1>
+            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+          </div>
+          <nav class="hidden md:flex space-x-6">
+            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
+            <a href="/tags" class="text-gray-900 font-medium">Tags</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <!-- Page Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Browse Tags</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Explore our {tags.length} tags covering {totalPostsWithTags} tagged posts about beauty, fashion, lifestyle, and more.
+        </p>
+      </div>
+
+      <!-- Tag Cloud Section -->
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Tag Cloud</h2>
+        <div class="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
+          {tags.map(([tagName, postCount]) => {
+            // Create URL-friendly slug from tag name
+            const tagSlug = tagName
+              .toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+              .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+              .trim()
+              .replace(/\s+/g, '-'); // Replace spaces with hyphens
+            
+            // Calculate tag size based on post count (min 12px, max 24px)
+            const maxCount = Math.max(...tags.map(t => t[1]));
+            const minSize = 12;
+            const maxSize = 24;
+            const fontSize = minSize + ((postCount / maxCount) * (maxSize - minSize));
+            
+            return (
+              <a 
+                href={`/tag/${tagSlug}`}
+                class="inline-block px-3 py-1 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105"
+                style={`font-size: ${fontSize}px`}
+                title={`${postCount} ${postCount === 1 ? 'post' : 'posts'}`}
+              >
+                {tagName}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      <!-- Tags Grid -->
+      <div class="mb-12">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">All Tags</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {tags.map(([tagName, postCount]) => {
+            // Create URL-friendly slug from tag name
+            const tagSlug = tagName
+              .toLowerCase()
+              .normalize('NFD')
+              .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+              .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+              .trim()
+              .replace(/\s+/g, '-'); // Replace spaces with hyphens
+            
+            return (
+              <a 
+                href={`/tag/${tagSlug}`}
+                class="group bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md hover:border-blue-300 transition-all duration-300"
+              >
+                <div class="flex items-center justify-between mb-2">
+                  <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-sm">
+                      #
+                    </span>
+                  </div>
+                  <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                    {postCount} {postCount === 1 ? 'post' : 'posts'}
+                  </span>
+                </div>
+                
+                <h3 class="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors mb-1 line-clamp-2">
+                  {tagName}
+                </h3>
+                
+                <p class="text-gray-600 text-xs">
+                  View {postCount === 1 ? 'article' : 'articles'} tagged with "{tagName}"
+                </p>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="bg-gray-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Tag Statistics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div>
+            <div class="text-3xl font-bold text-blue-600">{totalPosts}</div>
+            <div class="text-gray-600">Total Posts</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-indigo-600">{totalPostsWithTags}</div>
+            <div class="text-gray-600">Tagged Posts</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-purple-600">{tags.length}</div>
+            <div class="text-gray-600">Unique Tags</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-pink-600">
+              {Math.round((totalPostsWithTags / totalPosts) * 100)}%
+            </div>
+            <div class="text-gray-600">Posts Tagged</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 mt-16">
+      <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
+            <p class="text-gray-600 text-sm">
+              Your source for beauty, fashion, and lifestyle inspiration.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="/" class="hover:text-gray-900">Home</a></li>
+              <li><a href="/categories" class="hover:text-gray-900">Categories</a></li>
+              <li><a href="/tags" class="hover:text-gray-900">Tags</a></li>
+              <li><a href="/about" class="hover:text-gray-900">About</a></li>
+              <li><a href="/contact" class="hover:text-gray-900">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
+              <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
+              <li><a href="#" class="hover:text-gray-900">Twitter</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
+            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <form class="flex">
+              <input 
+                type="email" 
+                placeholder="Your email"
+                class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button 
+                type="submit"
+                class="bg-blue-600 text-white px-4 py-2 rounded-r hover:bg-blue-700 transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
+          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</BaseLayout>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

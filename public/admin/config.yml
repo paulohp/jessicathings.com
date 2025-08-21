@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: update
-  repo: username/repo
-  site_domain: example.com
-  base_url: https://example.com/
+  repo: paulohp/alpha.jessicathings.com
+  site_domain: jessicathings.com
+  base_url: https://alpha.jessicathings.com
   auth_endpoint: oauth
 
 media_library:

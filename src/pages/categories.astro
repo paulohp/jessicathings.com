@@ -1,0 +1,184 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const posts = await getCollection("blog");
+
+// Extract all categories and count posts per category
+const categoryMap = new Map<string, number>();
+
+posts.forEach(post => {
+  if (post.data.categories) {
+    post.data.categories.forEach(category => {
+      categoryMap.set(category, (categoryMap.get(category) || 0) + 1);
+    });
+  }
+});
+
+// Convert to array and sort by post count (descending) and then alphabetically
+const categories = Array.from(categoryMap.entries())
+  .sort((a, b) => {
+    // First sort by count (descending)
+    if (b[1] !== a[1]) {
+      return b[1] - a[1];
+    }
+    // Then sort alphabetically
+    return a[0].localeCompare(b[0]);
+  });
+
+const totalPosts = posts.length;
+---
+
+<BaseLayout title="Categories - Jessica Things" description="Browse all categories on Jessica Things blog">
+  <div class="min-h-screen bg-white">
+    <!-- Header -->
+    <header class="border-b border-gray-200">
+      <div class="container mx-auto px-4 py-6">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-4">
+            <h1 class="text-3xl font-bold text-gray-900">
+              <a href="/" class="hover:text-gray-700">Jessica Things</a>
+            </h1>
+            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+          </div>
+          <nav class="hidden md:flex space-x-6">
+            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
+            <a href="/categories" class="text-gray-900 font-medium">Categories</a>
+            <a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <!-- Page Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Browse Categories</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Explore our {categories.length} categories covering {totalPosts} posts about beauty, fashion, lifestyle, and more.
+        </p>
+      </div>
+
+      <!-- Categories Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {categories.map(([categoryName, postCount]) => {
+          // Create URL-friendly slug from category name
+          const categorySlug = categoryName
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+            .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+            .trim()
+            .replace(/\s+/g, '-'); // Replace spaces with hyphens
+          
+          return (
+            <a 
+              href={`/category/${categorySlug}`}
+              class="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-gray-300 transition-all duration-300"
+            >
+              <div class="flex items-center justify-between mb-4">
+                <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <span class="text-white font-bold text-lg">
+                    {categoryName.charAt(0).toUpperCase()}
+                  </span>
+                </div>
+                <span class="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                  {postCount} {postCount === 1 ? 'post' : 'posts'}
+                </span>
+              </div>
+              
+              <h3 class="text-lg font-semibold text-gray-900 group-hover:text-purple-600 transition-colors mb-2">
+                {categoryName}
+              </h3>
+              
+              <p class="text-gray-600 text-sm">
+                Discover {postCount} {postCount === 1 ? 'article' : 'articles'} about {categoryName.toLowerCase()}
+              </p>
+              
+              <div class="mt-4 flex items-center text-purple-600 text-sm font-medium group-hover:text-purple-700">
+                View posts
+                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                </svg>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+
+      <!-- Stats Section -->
+      <div class="mt-16 bg-gray-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Blog Statistics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div>
+            <div class="text-3xl font-bold text-purple-600">{totalPosts}</div>
+            <div class="text-gray-600">Total Posts</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-pink-600">{categories.length}</div>
+            <div class="text-gray-600">Categories</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-indigo-600">
+              {Math.round(totalPosts / categories.length)}
+            </div>
+            <div class="text-gray-600">Avg Posts per Category</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 mt-16">
+      <div class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
+            <p class="text-gray-600 text-sm">
+              Your source for beauty, fashion, and lifestyle inspiration.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="/" class="hover:text-gray-900">Home</a></li>
+              <li><a href="/categories" class="hover:text-gray-900">Categories</a></li>
+              <li><a href="/about" class="hover:text-gray-900">About</a></li>
+              <li><a href="/contact" class="hover:text-gray-900">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <ul class="space-y-2 text-sm text-gray-600">
+              <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
+              <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
+              <li><a href="#" class="hover:text-gray-900">Twitter</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
+            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <form class="flex">
+              <input 
+                type="email" 
+                placeholder="Your email"
+                class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+              />
+              <button 
+                type="submit"
+                class="bg-purple-600 text-white px-4 py-2 rounded-r hover:bg-purple-700 transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
+          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</BaseLayout>
