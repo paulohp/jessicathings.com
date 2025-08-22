@@ -27,9 +27,41 @@ const categories = Array.from(categoryMap.entries())
   });
 
 const totalPosts = posts.length;
+
+// SEO optimizations
+const seoTitle = "Categorias - Jessica Things | Beleza, Moda e Estilo de Vida";
+const seoDescription = `Explore todas as ${categories.length} categorias do Jessica Things. Descubra conteúdo organizado sobre beleza, moda, estilo de vida e muito mais em ${totalPosts} posts.`;
+
+// Structured data for categories page
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Categorias - Jessica Things",
+  "description": seoDescription,
+  "url": new URL("/categories", Astro.site).toString(),
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Jessica Things",
+    "url": Astro.site?.toString()
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": categories.length,
+    "itemListElement": categories.map(([categoryName, postCount], index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": categoryName,
+      "description": `${postCount} ${postCount === 1 ? 'post' : 'posts'} sobre ${categoryName.toLowerCase()}`
+    }))
+  }
+};
 ---
 
-<BaseLayout title="Categorias - Jessica Things" description="Navegue por todas as categorias do blog Jessica Things">
+<BaseLayout 
+  title={seoTitle} 
+  description={seoDescription}
+  structuredData={structuredData}
+>
   <div class="min-h-screen bg-white">
     <!-- Header -->
     <header class="border-b border-gray-200">

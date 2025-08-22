@@ -42,11 +42,68 @@ export async function getStaticPaths() {
 }
 
 const { tagName, posts } = Astro.props;
+
+// SEO optimizations
+const seoTitle = `#${tagName} - Jessica Things | Posts marcados com ${tagName}`;
+const seoDescription = `Explore ${posts.length} ${posts.length === 1 ? 'post' : 'posts'} marcados com #${tagName} no Jessica Things. Descubra conteúdo específico sobre ${tagName.toLowerCase()}.`;
+
+// Structured data for tag page
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": `#${tagName} - Jessica Things`,
+  "description": seoDescription,
+  "url": new URL(`/tag/${tagName.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-')}`, Astro.site).toString(),
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Jessica Things",
+    "url": Astro.site?.toString()
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": posts.length,
+    "itemListElement": posts.slice(0, 20).map((post, index) => ({
+      "@type": "BlogPosting",
+      "position": index + 1,
+      "headline": post.data.title,
+      "description": post.data.description,
+      "url": new URL(post.slug, Astro.site).toString(),
+      "datePublished": new Date(post.data.date).toISOString(),
+      "author": {
+        "@type": "Person",
+        "name": "Jessica"
+      }
+    }))
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": Astro.site?.toString()
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tags",
+        "item": new URL("/tags", Astro.site).toString()
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": `#${tagName}`
+      }
+    ]
+  }
+};
 ---
 
 <BaseLayout 
-  title={`${tagName} - Jessica Things`} 
-  description={`Navegue por todos os posts marcados com "${tagName}" no blog Jessica Things`}
+  title={seoTitle} 
+  description={seoDescription}
+  structuredData={structuredData}
 >
   <div class="min-h-screen bg-white">
     <!-- Header -->

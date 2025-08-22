@@ -30,9 +30,41 @@ const tags = Array.from(tagMap.entries())
 
 const totalPosts = posts.length;
 const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags.length > 0).length;
+
+// SEO optimizations
+const seoTitle = "Tags - Jessica Things | Todas as Tags do Blog";
+const seoDescription = `Navegue por todas as ${tags.length} tags do blog Jessica Things. Encontre conteúdo específico sobre beleza, moda e estilo de vida através de ${totalPostsWithTags} posts marcados.`;
+
+// Structured data for tags page
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Tags - Jessica Things",
+  "description": seoDescription,
+  "url": new URL("/tags", Astro.site).toString(),
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Jessica Things",
+    "url": Astro.site?.toString()
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": tags.length,
+    "itemListElement": tags.slice(0, 50).map(([tagName, postCount], index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": tagName,
+      "description": `${postCount} ${postCount === 1 ? 'post' : 'posts'} marcados com ${tagName}`
+    }))
+  }
+};
 ---
 
-<BaseLayout title="Tags - Jessica Things" description="Navegue por todas as tags do blog Jessica Things">
+<BaseLayout 
+  title={seoTitle} 
+  description={seoDescription}
+  structuredData={structuredData}
+>
   <div class="min-h-screen bg-white">
     <!-- Header -->
     <header class="border-b border-gray-200">

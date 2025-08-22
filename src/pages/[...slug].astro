@@ -26,15 +26,29 @@ if (!post || !post.data) {
 	throw new Error(`Post not found or missing data. Post: ${post ? 'exists' : 'undefined'}, Data: ${post?.data ? 'exists' : 'undefined'}`);
 }
 
-const { title, description, excerpt, ogImage, thumbnail } = post.data;
+const { title, description, excerpt, ogImage, thumbnail, date, tags, categories } = post.data;
 const { Content } = await post.render();
 
 // Use description, excerpt, or fallback to title for meta description
 const metaDescription = description || excerpt || `Blog post: ${title}`;
 // Use ogImage or thumbnail for social media image
 const socialImage = ogImage || thumbnail;
+
+// Calculate reading time (rough estimate: 200 words per minute)
+// Simple estimation based on title and description length
+const estimatedWords = (title?.length || 0) + (metaDescription?.length || 0) * 5; // Rough content estimation
+const readingTime = Math.max(1, Math.ceil(estimatedWords / 200));
 ---
 
-<PostLayout title={title} description={metaDescription} ogImage={socialImage}>
+<PostLayout 
+	title={title} 
+	description={metaDescription} 
+	ogImage={socialImage}
+	publishDate={date}
+	author="Jessica"
+	tags={tags}
+	categories={categories}
+	readingTime={readingTime}
+>
 	<Content />
 </PostLayout>
