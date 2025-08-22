@@ -3,17 +3,28 @@ import { getCollection } from "astro:content";
 import PostLayout from "@layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-	const posts = await getCollection("blog");
-	console.log("Posts found:", posts.length);
-	console.log("Post slugs:", posts.map(post => post.slug));
-	return posts.map((post) => ({
-		params: { slug: post.slug },
-		props: { post },
-	}));
+	try {
+		const posts = await getCollection("blog");
+		console.log("Posts found:", posts.length);
+		console.log("Post slugs:", posts.map(post => post.slug));
+		
+		return posts.map((post) => ({
+			params: { slug: post.slug },
+			props: { post },
+		}));
+	} catch (error) {
+		console.error("Error in getStaticPaths:", error);
+		return [];
+	}
 }
 
 const { post } = Astro.props;
 console.log("Post in page:", post ? post.slug : "undefined");
+
+// Check if post exists before accessing its properties
+if (!post || !post.data) {
+	throw new Error(`Post not found or missing data. Post: ${post ? 'exists' : 'undefined'}, Data: ${post?.data ? 'exists' : 'undefined'}`);
+}
 
 const { title, description, excerpt, ogImage, thumbnail } = post.data;
 const { Content } = await post.render();

@@ -5,8 +5,10 @@ import vercel from "@astrojs/vercel";
 
 const config = defineConfig({
 	site: "https://jessicathings-com.vercel.app/",
-	output: "server",
-	adapter: vercel(),
+	output: "static",
+	adapter: vercel({
+		webAnalytics: { enabled: true }
+	}),
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,
