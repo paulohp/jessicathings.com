@@ -5,7 +5,7 @@ import vercel from "@astrojs/vercel";
 
 const config = defineConfig({
 	site: "https://jessicathings-com.vercel.app/",
-	output: "static", // Static mode by default
+	output: "server",
 	adapter: vercel(),
 	integrations: [
 		tailwind({
