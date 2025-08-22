@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: paulohp/jessicathings.com
-  site_domain: jessicathings.com
+  site_domain: https://jessicathings-com.vercel.app/
   base_url: https://jessicathings-com.vercel.app/
   auth_endpoint: oauth
 
