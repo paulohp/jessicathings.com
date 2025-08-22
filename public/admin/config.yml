@@ -14,7 +14,7 @@ media_library:
 
 # media_folder: src/assets/img
 # public_folder: src/assets/img
-
+publish_mode: editorial_workflow
 collections:
   - name: "blog" 
     label: "Blog" 
