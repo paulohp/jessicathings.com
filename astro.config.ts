@@ -1,15 +1,12 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import cloudflare from "@astrojs/cloudflare";
+// import cloudflare from "@astrojs/cloudflare";
+import vercel from "@astrojs/vercel";
 
 const config = defineConfig({
-	site: "https://alpha.jessicathings.com",
+	site: "https://jessicathings-com.vercel.app/",
 	output: "static", // Static mode by default
-	adapter: cloudflare({
-		platformProxy: {
-			enabled: true
-		}
-	}),
+	adapter: vercel(),
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,

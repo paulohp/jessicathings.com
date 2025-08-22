@@ -17,6 +17,7 @@
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^12.6.0",
+		"@astrojs/vercel": "^8.2.1",
 		"astro": "^5.11.0"
 	},
 	"devDependencies": {
