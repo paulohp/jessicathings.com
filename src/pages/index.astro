@@ -12,7 +12,7 @@ const editorsPicks = sortedPosts.slice(3, 7);
 const latestPosts = sortedPosts;
 ---
 
-<BaseLayout title="Jessica Things - Beauty, Fashion & Lifestyle Blog">
+<BaseLayout title="Jessica Things - Blog de Beleza, Moda e Estilo de Vida">
   <div class="min-h-screen bg-white">
     <!-- Header -->
     <header class="border-b border-gray-200">
@@ -20,14 +20,14 @@ const latestPosts = sortedPosts;
         <div class="flex items-center justify-between">
           <div class="flex items-center space-x-4">
             <h1 class="text-3xl font-bold text-gray-900">Jessica Things</h1>
-            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
           </div>
           <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-900 font-medium">Home</a>
-            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
+            <a href="/" class="text-gray-900 font-medium">Início</a>
+            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
             <a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
           </nav>
         </div>
       </div>
@@ -39,14 +39,14 @@ const latestPosts = sortedPosts;
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h2 class="text-5xl font-bold text-gray-900 mb-4">
-              Discover Your Style
+              Descubra Seu Estilo
             </h2>
             <p class="text-xl text-gray-600 mb-6">
-              Explore the latest in beauty, fashion, and lifestyle with Jessica Things. 
-              Your go-to source for tips, reviews, and inspiration.
+              Explore o que há de mais novo em beleza, moda e estilo de vida com Jessica Things. 
+              Sua fonte de dicas, resenhas e inspiração.
             </p>
             <a href="/" class="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
-              Explore Posts
+              Explorar Posts
             </a>
           </div>
           <div class="relative">
@@ -63,7 +63,7 @@ const latestPosts = sortedPosts;
                       {featuredPosts[0].data.categories?.[0] || 'BLOG'}
                     </span>
                     <span class="text-white text-sm">
-                      {new Date(featuredPosts[0].data.date).toLocaleDateString('en-US', { 
+                      {new Date(featuredPosts[0].data.date).toLocaleDateString('pt-BR', { 
                         month: 'short', 
                         day: 'numeric', 
                         year: 'numeric' 
@@ -88,8 +88,8 @@ const latestPosts = sortedPosts;
       <!-- Editor's Pick -->
       <section class="mb-16">
         <div class="flex items-center justify-between mb-8">
-          <h2 class="text-3xl font-bold text-gray-900">Editor's Pick</h2>
-          <a href="/" class="text-black hover:underline">View All</a>
+          <h2 class="text-3xl font-bold text-gray-900">Escolha do Editor</h2>
+          <a href="/" class="text-black hover:underline">Ver Todos</a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {editorsPicks.map((post) => (
@@ -108,7 +108,7 @@ const latestPosts = sortedPosts;
               </div>
               <div class="space-y-2">
                 <span class="text-sm text-gray-500">
-                  {new Date(post.data.date).toLocaleDateString('en-US', { 
+                  {new Date(post.data.date).toLocaleDateString('pt-BR', { 
                     month: 'short', 
                     day: 'numeric', 
                     year: 'numeric' 
@@ -123,7 +123,7 @@ const latestPosts = sortedPosts;
                   {post.data.excerpt || post.data.description}
                 </p>
                 <a href={`/${post.slug}`} class="inline-flex items-center text-black hover:underline text-sm font-medium">
-                  READ MORE
+                  LEIA MAIS
                   <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                   </svg>
@@ -137,7 +137,7 @@ const latestPosts = sortedPosts;
       <!-- Latest Posts - All Content -->
       <section class="mb-16">
         <div class="flex items-center justify-between mb-8">
-          <h2 class="text-3xl font-bold text-gray-900">Latest</h2>
+          <h2 class="text-3xl font-bold text-gray-900">Mais Recentes</h2>
           <span class="text-gray-500 text-sm">{latestPosts.length} posts</span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -157,7 +157,7 @@ const latestPosts = sortedPosts;
               </div>
               <div class="p-4 space-y-2">
                 <div class="text-xs text-gray-500">
-                  {new Date(post.data.date).toLocaleDateString('en-US', { 
+                  {new Date(post.data.date).toLocaleDateString('pt-BR', { 
                     month: 'short', 
                     day: 'numeric', 
                     year: 'numeric' 
@@ -182,7 +182,7 @@ const latestPosts = sortedPosts;
             id="loadMoreBtn"
             class="bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors hidden"
           >
-            Load More Posts
+            Carregar Mais Posts
           </button>
         </div>
       </section>
@@ -195,19 +195,19 @@ const latestPosts = sortedPosts;
           <div>
             <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
             <p class="text-gray-600 text-sm">
-              Your source for beauty, fashion, and lifestyle inspiration.
+              Sua fonte de inspiração para beleza, moda e estilo de vida.
             </p>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Categories</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Categorias</h4>
             <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/category/beauty" class="hover:text-gray-900">Beauty</a></li>
-              <li><a href="/category/fashion" class="hover:text-gray-900">Fashion</a></li>
-              <li><a href="/category/lifestyle" class="hover:text-gray-900">Lifestyle</a></li>
+              <li><a href="/category/beauty" class="hover:text-gray-900">Beleza</a></li>
+              <li><a href="/category/fashion" class="hover:text-gray-900">Moda</a></li>
+              <li><a href="/category/lifestyle" class="hover:text-gray-900">Estilo de Vida</a></li>
             </ul>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
               <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
@@ -216,24 +216,24 @@ const latestPosts = sortedPosts;
           </div>
           <div>
             <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
             <form class="flex">
               <input 
                 type="email" 
-                placeholder="Your email"
+                placeholder="Seu e-mail"
                 class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-black"
               />
               <button 
                 type="submit"
                 class="bg-black text-white px-4 py-2 rounded-r hover:bg-gray-800 transition-colors"
               >
-                Subscribe
+                Inscrever
               </button>
             </form>
           </div>
         </div>
         <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

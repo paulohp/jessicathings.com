@@ -44,7 +44,7 @@ const { categoryName, posts } = Astro.props;
 
 <BaseLayout 
   title={`${categoryName} - Jessica Things`} 
-  description={`Browse all posts in the ${categoryName} category on Jessica Things blog`}
+  description={`Navegue por todos os posts na categoria ${categoryName} no blog Jessica Things`}
 >
   <div class="min-h-screen bg-white">
     <!-- Header -->
@@ -55,14 +55,14 @@ const { categoryName, posts } = Astro.props;
             <h1 class="text-3xl font-bold text-gray-900">
               <a href="/" class="hover:text-gray-700">Jessica Things</a>
             </h1>
-            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
           </div>
           <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
-            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
+            <a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
             <a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
           </nav>
         </div>
       </div>
@@ -73,7 +73,7 @@ const { categoryName, posts } = Astro.props;
       <nav class="mb-8" aria-label="Breadcrumb">
         <ol class="flex items-center space-x-2 text-sm text-gray-500">
           <li>
-            <a href="/" class="hover:text-gray-700">Home</a>
+            <a href="/" class="hover:text-gray-700">Início</a>
           </li>
           <li>
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -81,7 +81,7 @@ const { categoryName, posts } = Astro.props;
             </svg>
           </li>
           <li>
-            <a href="/categories" class="hover:text-gray-700">Categories</a>
+            <a href="/categories" class="hover:text-gray-700">Categorias</a>
           </li>
           <li>
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -103,7 +103,7 @@ const { categoryName, posts } = Astro.props;
         </div>
         <h1 class="text-4xl font-bold text-gray-900 mb-4">{categoryName}</h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          {posts.length} {posts.length === 1 ? 'post' : 'posts'} in this category
+          {posts.length} {posts.length === 1 ? 'post' : 'posts'} nesta categoria
         </p>
       </div>
 
@@ -127,7 +127,7 @@ const { categoryName, posts } = Astro.props;
             
             <div class="p-6">
               <div class="text-sm text-gray-500 mb-2">
-                {new Date(post.data.date).toLocaleDateString('en-US', { 
+                {new Date(post.data.date).toLocaleDateString('pt-BR', { 
                   month: 'long', 
                   day: 'numeric', 
                   year: 'numeric' 
@@ -156,7 +156,7 @@ const { categoryName, posts } = Astro.props;
                     ))}
                     {post.data.tags.length > 3 && (
                       <span class="text-xs text-gray-500">
-                        +{post.data.tags.length - 3} more
+                        +{post.data.tags.length - 3} mais
                       </span>
                     )}
                   </div>
@@ -167,7 +167,7 @@ const { categoryName, posts } = Astro.props;
                 href={`/${post.slug}`} 
                 class="inline-flex items-center text-purple-600 hover:text-purple-700 text-sm font-medium group-hover:underline"
               >
-                Read More
+                Ler Mais
                 <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
@@ -186,7 +186,7 @@ const { categoryName, posts } = Astro.props;
           <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18"></path>
           </svg>
-          Browse All Categories
+          Navegar Todas as Categorias
         </a>
       </div>
     </main>
@@ -198,20 +198,20 @@ const { categoryName, posts } = Astro.props;
           <div>
             <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
             <p class="text-gray-600 text-sm">
-              Your source for beauty, fashion, and lifestyle inspiration.
+              Sua fonte de inspiração para beleza, moda e estilo de vida.
             </p>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Links Rápidos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/" class="hover:text-gray-900">Home</a></li>
-              <li><a href="/categories" class="hover:text-gray-900">Categories</a></li>
-              <li><a href="/about" class="hover:text-gray-900">About</a></li>
-              <li><a href="/contact" class="hover:text-gray-900">Contact</a></li>
+              <li><a href="/" class="hover:text-gray-900">Início</a></li>
+              <li><a href="/categories" class="hover:text-gray-900">Categorias</a></li>
+              <li><a href="/about" class="hover:text-gray-900">Sobre</a></li>
+              <li><a href="/contact" class="hover:text-gray-900">Contato</a></li>
             </ul>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
               <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
@@ -220,24 +220,24 @@ const { categoryName, posts } = Astro.props;
           </div>
           <div>
             <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
             <form class="flex">
               <input 
                 type="email" 
-                placeholder="Your email"
+                placeholder="Seu e-mail"
                 class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
               <button 
                 type="submit"
                 class="bg-purple-600 text-white px-4 py-2 rounded-r hover:bg-purple-700 transition-colors"
               >
-                Subscribe
+                Inscrever
               </button>
             </form>
           </div>
         </div>
         <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

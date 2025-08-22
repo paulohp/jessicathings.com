@@ -29,7 +29,7 @@ const categories = Array.from(categoryMap.entries())
 const totalPosts = posts.length;
 ---
 
-<BaseLayout title="Categories - Jessica Things" description="Browse all categories on Jessica Things blog">
+<BaseLayout title="Categorias - Jessica Things" description="Navegue por todas as categorias do blog Jessica Things">
   <div class="min-h-screen bg-white">
     <!-- Header -->
     <header class="border-b border-gray-200">
@@ -39,14 +39,14 @@ const totalPosts = posts.length;
             <h1 class="text-3xl font-bold text-gray-900">
               <a href="/" class="hover:text-gray-700">Jessica Things</a>
             </h1>
-            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
           </div>
           <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
-            <a href="/categories" class="text-gray-900 font-medium">Categories</a>
+            <a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+            <a href="/categories" class="text-gray-900 font-medium">Categorias</a>
             <a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
           </nav>
         </div>
       </div>
@@ -55,9 +55,9 @@ const totalPosts = posts.length;
     <main class="container mx-auto px-4 py-8">
       <!-- Page Header -->
       <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">Browse Categories</h1>
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Navegue pelas Categorias</h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Explore our {categories.length} categories covering {totalPosts} posts about beauty, fashion, lifestyle, and more.
+          Explore nossas {categories.length} categorias cobrindo {totalPosts} posts sobre beleza, moda, estilo de vida e muito mais.
         </p>
       </div>
 
@@ -94,11 +94,11 @@ const totalPosts = posts.length;
               </h3>
               
               <p class="text-gray-600 text-sm">
-                Discover {postCount} {postCount === 1 ? 'article' : 'articles'} about {categoryName.toLowerCase()}
+                Descubra {postCount} {postCount === 1 ? 'artigo' : 'artigos'} sobre {categoryName.toLowerCase()}
               </p>
               
               <div class="mt-4 flex items-center text-purple-600 text-sm font-medium group-hover:text-purple-700">
-                View posts
+                Ver posts
                 <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
@@ -110,21 +110,21 @@ const totalPosts = posts.length;
 
       <!-- Stats Section -->
       <div class="mt-16 bg-gray-50 rounded-lg p-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">Blog Statistics</h2>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Estatísticas do Blog</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
             <div class="text-3xl font-bold text-purple-600">{totalPosts}</div>
-            <div class="text-gray-600">Total Posts</div>
+            <div class="text-gray-600">Total de Posts</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-pink-600">{categories.length}</div>
-            <div class="text-gray-600">Categories</div>
+            <div class="text-gray-600">Categorias</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-indigo-600">
               {Math.round(totalPosts / categories.length)}
             </div>
-            <div class="text-gray-600">Avg Posts per Category</div>
+            <div class="text-gray-600">Média de Posts por Categoria</div>
           </div>
         </div>
       </div>
@@ -137,20 +137,20 @@ const totalPosts = posts.length;
           <div>
             <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
             <p class="text-gray-600 text-sm">
-              Your source for beauty, fashion, and lifestyle inspiration.
+              Sua fonte de inspiração para beleza, moda e estilo de vida.
             </p>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Links Rápidos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/" class="hover:text-gray-900">Home</a></li>
-              <li><a href="/categories" class="hover:text-gray-900">Categories</a></li>
-              <li><a href="/about" class="hover:text-gray-900">About</a></li>
-              <li><a href="/contact" class="hover:text-gray-900">Contact</a></li>
+              <li><a href="/" class="hover:text-gray-900">Início</a></li>
+              <li><a href="/categories" class="hover:text-gray-900">Categorias</a></li>
+              <li><a href="/about" class="hover:text-gray-900">Sobre</a></li>
+              <li><a href="/contact" class="hover:text-gray-900">Contato</a></li>
             </ul>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
               <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
@@ -159,24 +159,24 @@ const totalPosts = posts.length;
           </div>
           <div>
             <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
             <form class="flex">
               <input 
                 type="email" 
-                placeholder="Your email"
+                placeholder="Seu e-mail"
                 class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
               <button 
                 type="submit"
                 class="bg-purple-600 text-white px-4 py-2 rounded-r hover:bg-purple-700 transition-colors"
               >
-                Subscribe
+                Inscrever
               </button>
             </form>
           </div>
         </div>
         <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

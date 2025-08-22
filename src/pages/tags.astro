@@ -32,7 +32,7 @@ const totalPosts = posts.length;
 const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags.length > 0).length;
 ---
 
-<BaseLayout title="Tags - Jessica Things" description="Browse all tags on Jessica Things blog">
+<BaseLayout title="Tags - Jessica Things" description="Navegue por todas as tags do blog Jessica Things">
   <div class="min-h-screen bg-white">
     <!-- Header -->
     <header class="border-b border-gray-200">
@@ -42,14 +42,14 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
             <h1 class="text-3xl font-bold text-gray-900">
               <a href="/" class="hover:text-gray-700">Jessica Things</a>
             </h1>
-            <span class="text-sm text-gray-500">Beauty, Fashion & Lifestyle</span>
+            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
           </div>
           <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
-            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
+            <a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+            <a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
             <a href="/tags" class="text-gray-900 font-medium">Tags</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
           </nav>
         </div>
       </div>
@@ -58,15 +58,15 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
     <main class="container mx-auto px-4 py-8">
       <!-- Page Header -->
       <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">Browse Tags</h1>
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Navegue pelas Tags</h1>
         <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Explore our {tags.length} tags covering {totalPostsWithTags} tagged posts about beauty, fashion, lifestyle, and more.
+          Explore nossas {tags.length} tags cobrindo {totalPostsWithTags} posts marcados sobre beleza, moda, estilo de vida e muito mais.
         </p>
       </div>
 
       <!-- Tag Cloud Section -->
       <div class="mb-16">
-        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Tag Cloud</h2>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Nuvem de Tags</h2>
         <div class="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
           {tags.map(([tagName, postCount]) => {
             // Create URL-friendly slug from tag name
@@ -100,7 +100,7 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
 
       <!-- Tags Grid -->
       <div class="mb-12">
-        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">All Tags</h2>
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Todas as Tags</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {tags.map(([tagName, postCount]) => {
             // Create URL-friendly slug from tag name
@@ -133,7 +133,7 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
                 </h3>
                 
                 <p class="text-gray-600 text-xs">
-                  View {postCount === 1 ? 'article' : 'articles'} tagged with "{tagName}"
+                  Ver {postCount === 1 ? 'artigo' : 'artigos'} marcados com "{tagName}"
                 </p>
               </a>
             );
@@ -143,25 +143,25 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
 
       <!-- Stats Section -->
       <div class="bg-gray-50 rounded-lg p-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">Tag Statistics</h2>
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Estatísticas das Tags</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div>
             <div class="text-3xl font-bold text-blue-600">{totalPosts}</div>
-            <div class="text-gray-600">Total Posts</div>
+            <div class="text-gray-600">Total de Posts</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-indigo-600">{totalPostsWithTags}</div>
-            <div class="text-gray-600">Tagged Posts</div>
+            <div class="text-gray-600">Posts com Tags</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-purple-600">{tags.length}</div>
-            <div class="text-gray-600">Unique Tags</div>
+            <div class="text-gray-600">Tags Únicas</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-pink-600">
               {Math.round((totalPostsWithTags / totalPosts) * 100)}%
             </div>
-            <div class="text-gray-600">Posts Tagged</div>
+            <div class="text-gray-600">Posts Marcados</div>
           </div>
         </div>
       </div>
@@ -174,21 +174,21 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
           <div>
             <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
             <p class="text-gray-600 text-sm">
-              Your source for beauty, fashion, and lifestyle inspiration.
+              Sua fonte de inspiração para beleza, moda e estilo de vida.
             </p>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Quick Links</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Links Rápidos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/" class="hover:text-gray-900">Home</a></li>
-              <li><a href="/categories" class="hover:text-gray-900">Categories</a></li>
+              <li><a href="/" class="hover:text-gray-900">Início</a></li>
+              <li><a href="/categories" class="hover:text-gray-900">Categorias</a></li>
               <li><a href="/tags" class="hover:text-gray-900">Tags</a></li>
-              <li><a href="/about" class="hover:text-gray-900">About</a></li>
-              <li><a href="/contact" class="hover:text-gray-900">Contact</a></li>
+              <li><a href="/about" class="hover:text-gray-900">Sobre</a></li>
+              <li><a href="/contact" class="hover:text-gray-900">Contato</a></li>
             </ul>
           </div>
           <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Follow</h4>
+            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
             <ul class="space-y-2 text-sm text-gray-600">
               <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
               <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
@@ -197,24 +197,24 @@ const totalPostsWithTags = posts.filter(post => post.data.tags && post.data.tags
           </div>
           <div>
             <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Get the latest updates</p>
+            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
             <form class="flex">
               <input 
                 type="email" 
-                placeholder="Your email"
+                placeholder="Seu e-mail"
                 class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button 
                 type="submit"
                 class="bg-blue-600 text-white px-4 py-2 rounded-r hover:bg-blue-700 transition-colors"
               >
-                Subscribe
+                Inscrever
               </button>
             </form>
           </div>
         </div>
         <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. All rights reserved.</p>
+          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
