@@ -16,13 +16,49 @@ media_library:
 # public_folder: src/assets/img
 publish_mode: editorial_workflow
 collections:
-  - name: "blog" 
-    label: "Blog" 
-    folder: "src/content/blog" 
-    create: true 
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "ogImage", name: "ogImage", widget: "image" }
       - { label: "Description", name: "description", widget: "string" }
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - "Betim"
+          - "Cabelo"
+          - "Cabelos coloridos"
+          - "Canadá"
+          - "Chile"
+          - "Corpo"
+          - "Escova Para Escovar o Cabelo"
+          - "Escovas Térmicas"
+          - "Escovas secadoras"
+          - "Estados Unidos"
+          - "Haia"
+          - "Holanda"
+          - "Ilhas Canárias"
+          - "Indonésia"
+          - "Malásia"
+          - "Maquiagem"
+          - "Nômades Digitais"
+          - "Outros"
+          - "Países"
+          - "Peru"
+          - "Poland"
+          - "Produtos de cabelo"
+          - "Rosto"
+          - "Secador de Cabelo"
+          - "Serra do Cipó"
+          - "Tecnologia"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
       - { label: "Body", name: "body", widget: "markdown" }
