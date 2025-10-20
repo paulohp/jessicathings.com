@@ -20,7 +20,7 @@ export const GET: APIRoute = async ({ site }) => {
 	const categoryMap = new Map<string, Date>();
 	posts.forEach((post) => {
 		if (post.data.categories) {
-			post.data.categories.forEach((category) => {
+			(post.data.categories as string[]).forEach((category) => {
 				const existingDate = categoryMap.get(category);
 				const postDate = new Date(post.data.date);
 				if (!existingDate || postDate > existingDate) {
