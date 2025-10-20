@@ -31,6 +31,7 @@ collections:
         multiple: true
         required: false
         options:
+          - "Livros"
           - "Betim"
           - "Cabelo"
           - "Cabelos coloridos"
