@@ -1,0 +1,66 @@
+name: Deploy to Vercel
+
+on:
+  deployment_status:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: >-
+      ${{ github.event_name == 'workflow_dispatch' ||
+          (github.event_name == 'deployment_status' &&
+           github.event.deployment_status.state == 'failure' &&
+           (github.event.deployment.ref == 'main' || github.event.deployment.ref == 'refs/heads/main') &&
+           contains(github.event.deployment_status.target_url, 'vercel.app') &&
+           (github.event.deployment.environment == 'Production' || github.event.deployment.environment == 'production' || github.event.deployment.environment == 'prod')) }}
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.url }}
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: |
+            - recursive: false
+              args: --frozen-lockfile
+
+      - name: Pull Vercel environment configuration
+        run: pnpm dlx vercel@latest pull --yes --environment=production
+
+      - name: Build with Vercel CLI
+        run: pnpm dlx vercel@latest build --prod
+
+      - name: Deploy to Vercel
+        id: deploy
+        run: |
+          DEPLOY_OUTPUT=$(pnpm dlx vercel@latest deploy --prebuilt --prod --yes)
+          echo "$DEPLOY_OUTPUT"
+          DEPLOYMENT_URL=$(printf '%s\n' "$DEPLOY_OUTPUT" | grep -Eo 'https://[^ ]*' | head -n 1)
+          if [ -z "$DEPLOYMENT_URL" ]; then
+            echo "Deployment URL not found in Vercel output" >&2
+            exit 1
+          fi
+          echo "url=$DEPLOYMENT_URL" >> "$GITHUB_OUTPUT"
