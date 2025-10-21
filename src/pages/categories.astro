@@ -7,24 +7,23 @@ const posts = await getCollection("blog");
 // Extract all categories and count posts per category
 const categoryMap = new Map<string, number>();
 
-posts.forEach(post => {
-  if (post.data.categories) {
-    post.data.categories.forEach(category => {
-      categoryMap.set(category, (categoryMap.get(category) || 0) + 1);
-    });
-  }
+posts.forEach((post) => {
+	if (post.data.categories) {
+		post.data.categories.forEach((category) => {
+			categoryMap.set(category, (categoryMap.get(category) || 0) + 1);
+		});
+	}
 });
 
 // Convert to array and sort by post count (descending) and then alphabetically
-const categories = Array.from(categoryMap.entries())
-  .sort((a, b) => {
-    // First sort by count (descending)
-    if (b[1] !== a[1]) {
-      return b[1] - a[1];
-    }
-    // Then sort alphabetically
-    return a[0].localeCompare(b[0]);
-  });
+const categories = Array.from(categoryMap.entries()).sort((a, b) => {
+	// First sort by count (descending)
+	if (b[1] !== a[1]) {
+		return b[1] - a[1];
+	}
+	// Then sort alphabetically
+	return a[0].localeCompare(b[0]);
+});
 
 const totalPosts = posts.length;
 
@@ -34,183 +33,202 @@ const seoDescription = `Explore todas as ${categories.length} categorias do Jess
 
 // Structured data for categories page
 const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "Categorias - Jessica Things",
-  "description": seoDescription,
-  "url": new URL("/categories", Astro.site).toString(),
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "Jessica Things",
-    "url": Astro.site?.toString()
-  },
-  "mainEntity": {
-    "@type": "ItemList",
-    "numberOfItems": categories.length,
-    "itemListElement": categories.map(([categoryName, postCount], index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": categoryName,
-      "description": `${postCount} ${postCount === 1 ? 'post' : 'posts'} sobre ${categoryName.toLowerCase()}`
-    }))
-  }
+	"@context": "https://schema.org",
+	"@type": "CollectionPage",
+	name: "Categorias - Jessica Things",
+	description: seoDescription,
+	url: new URL("/categories", Astro.site).toString(),
+	isPartOf: {
+		"@type": "WebSite",
+		name: "Jessica Things",
+		url: Astro.site?.toString(),
+	},
+	mainEntity: {
+		"@type": "ItemList",
+		numberOfItems: categories.length,
+		itemListElement: categories.map(([categoryName, postCount], index) => ({
+			"@type": "ListItem",
+			position: index + 1,
+			name: categoryName,
+			description: `${postCount} ${postCount === 1 ? "post" : "posts"} sobre ${categoryName.toLowerCase()}`,
+		})),
+	},
 };
 ---
 
-<BaseLayout 
-  title={seoTitle} 
-  description={seoDescription}
-  structuredData={structuredData}
->
-  <div class="min-h-screen bg-white">
-    <!-- Header -->
-    <header class="border-b border-gray-200">
-      <div class="container mx-auto px-4 py-6">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center space-x-4">
-            <h1 class="text-3xl font-bold text-gray-900">
-              <a href="/" class="hover:text-gray-700">Jessica Things</a>
-            </h1>
-            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
-          </div>
-          <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
-            <a href="/categories" class="text-gray-900 font-medium">Categorias</a>
-            <a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
-          </nav>
-        </div>
-      </div>
-    </header>
+<BaseLayout title={seoTitle} description={seoDescription} structuredData={structuredData}>
+	<div class="min-h-screen bg-white">
+		<!-- Header -->
+		<header class="border-b border-gray-200">
+			<div class="container mx-auto px-4 py-6">
+				<div class="flex items-center justify-between">
+					<div class="flex items-center space-x-4">
+						<h1 class="text-3xl font-bold text-gray-900">
+							<a href="/" class="hover:text-gray-700">Jessica Things</a>
+						</h1>
+						<span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
+					</div>
+					<nav class="hidden space-x-6 md:flex">
+						<a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+						<a href="/categories" class="font-medium text-gray-900">Categorias</a>
+						<a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
+						<a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+						<a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-    <main class="container mx-auto px-4 py-8">
-      <!-- Page Header -->
-      <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">Navegue pelas Categorias</h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Explore nossas {categories.length} categorias cobrindo {totalPosts} posts sobre beleza, moda, estilo de vida e muito mais.
-        </p>
-      </div>
+		<main class="container mx-auto px-4 py-8">
+			<!-- Page Header -->
+			<div class="mb-12 text-center">
+				<h1 class="mb-4 text-4xl font-bold text-gray-900">Navegue pelas Categorias</h1>
+				<p class="mx-auto max-w-2xl text-xl text-gray-600">
+					Explore nossas {categories.length} categorias cobrindo {totalPosts} posts sobre beleza, moda,
+					estilo de vida e muito mais.
+				</p>
+			</div>
 
-      <!-- Categories Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {categories.map(([categoryName, postCount]) => {
-          // Create URL-friendly slug from category name
-          const categorySlug = categoryName
-            .toLowerCase()
-            .normalize('NFD')
-            .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
-            .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-            .trim()
-            .replace(/\s+/g, '-'); // Replace spaces with hyphens
-          
-          return (
-            <a 
-              href={`/category/${categorySlug}`}
-              class="group bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-gray-300 transition-all duration-300"
-            >
-              <div class="flex items-center justify-between mb-4">
-                <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span class="text-white font-bold text-lg">
-                    {categoryName.charAt(0).toUpperCase()}
-                  </span>
-                </div>
-                <span class="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
-                  {postCount} {postCount === 1 ? 'post' : 'posts'}
-                </span>
-              </div>
-              
-              <h3 class="text-lg font-semibold text-gray-900 group-hover:text-purple-600 transition-colors mb-2">
-                {categoryName}
-              </h3>
-              
-              <p class="text-gray-600 text-sm">
-                Descubra {postCount} {postCount === 1 ? 'artigo' : 'artigos'} sobre {categoryName.toLowerCase()}
-              </p>
-              
-              <div class="mt-4 flex items-center text-purple-600 text-sm font-medium group-hover:text-purple-700">
-                Ver posts
-                <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
-              </div>
-            </a>
-          );
-        })}
-      </div>
+			<!-- Categories Grid -->
+			<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+				{
+					categories.map(([categoryName, postCount]) => {
+						// Create URL-friendly slug from category name
+						const categorySlug = categoryName
+							.toLowerCase()
+							.normalize("NFD")
+							.replace(/[\u0300-\u036f]/g, "") // Remove diacritics
+							.replace(/[^a-z0-9\s-]/g, "") // Remove special characters
+							.trim()
+							.replace(/\s+/g, "-"); // Replace spaces with hyphens
 
-      <!-- Stats Section -->
-      <div class="mt-16 bg-gray-50 rounded-lg p-8 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 mb-4">Estatísticas do Blog</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div>
-            <div class="text-3xl font-bold text-purple-600">{totalPosts}</div>
-            <div class="text-gray-600">Total de Posts</div>
-          </div>
-          <div>
-            <div class="text-3xl font-bold text-pink-600">{categories.length}</div>
-            <div class="text-gray-600">Categorias</div>
-          </div>
-          <div>
-            <div class="text-3xl font-bold text-indigo-600">
-              {Math.round(totalPosts / categories.length)}
-            </div>
-            <div class="text-gray-600">Média de Posts por Categoria</div>
-          </div>
-        </div>
-      </div>
-    </main>
+						return (
+							<a
+								href={`/category/${categorySlug}`}
+								class="group rounded-lg border border-gray-200 bg-white p-6 transition-all duration-300 hover:border-gray-300 hover:shadow-lg"
+							>
+								<div class="mb-4 flex items-center justify-between">
+									<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-pink-500 to-purple-600">
+										<span class="text-lg font-bold text-white">
+											{categoryName.charAt(0).toUpperCase()}
+										</span>
+									</div>
+									<span class="rounded-full bg-gray-100 px-2 py-1 text-sm text-gray-500">
+										{postCount} {postCount === 1 ? "post" : "posts"}
+									</span>
+								</div>
 
-    <!-- Footer -->
-    <footer class="bg-gray-50 border-t border-gray-200 mt-16">
-      <div class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
-            <p class="text-gray-600 text-sm">
-              Sua fonte de inspiração para beleza, moda e estilo de vida.
-            </p>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Links Rápidos</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/" class="hover:text-gray-900">Início</a></li>
-              <li><a href="/categories" class="hover:text-gray-900">Categorias</a></li>
-              <li><a href="/about" class="hover:text-gray-900">Sobre</a></li>
-              <li><a href="/contact" class="hover:text-gray-900">Contato</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
-              <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
-              <li><a href="#" class="hover:text-gray-900">Twitter</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
-            <form class="flex">
-              <input 
-                type="email" 
-                placeholder="Seu e-mail"
-                class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
-              />
-              <button 
-                type="submit"
-                class="bg-purple-600 text-white px-4 py-2 rounded-r hover:bg-purple-700 transition-colors"
-              >
-                Inscrever
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
-        </div>
-      </div>
-    </footer>
-  </div>
+								<h3 class="mb-2 text-lg font-semibold text-gray-900 transition-colors group-hover:text-purple-600">
+									{categoryName}
+								</h3>
+
+								<p class="text-sm text-gray-600">
+									Descubra {postCount} {postCount === 1 ? "artigo" : "artigos"} sobre{" "}
+									{categoryName.toLowerCase()}
+								</p>
+
+								<div class="mt-4 flex items-center text-sm font-medium text-purple-600 group-hover:text-purple-700">
+									Ver posts
+									<svg
+										class="ml-1 h-4 w-4 transform transition-transform group-hover:translate-x-1"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M17 8l4 4m0 0l-4 4m4-4H3"
+										/>
+									</svg>
+								</div>
+							</a>
+						);
+					})
+				}
+			</div>
+
+			<!-- Stats Section -->
+			<div class="mt-16 rounded-lg bg-gray-50 p-8 text-center">
+				<h2 class="mb-4 text-2xl font-bold text-gray-900">Estatísticas do Blog</h2>
+				<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+					<div>
+						<div class="text-3xl font-bold text-purple-600">{totalPosts}</div>
+						<div class="text-gray-600">Total de Posts</div>
+					</div>
+					<div>
+						<div class="text-3xl font-bold text-pink-600">{categories.length}</div>
+						<div class="text-gray-600">Categorias</div>
+					</div>
+					<div>
+						<div class="text-3xl font-bold text-indigo-600">
+							{Math.round(totalPosts / categories.length)}
+						</div>
+						<div class="text-gray-600">Média de Posts por Categoria</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="mt-16 border-t border-gray-200 bg-gray-50">
+			<div class="container mx-auto px-4 py-12">
+				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+					<div>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<p class="text-sm text-gray-600">
+							Sua fonte de inspiração para beleza, moda e estilo de vida.
+						</p>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Links Rápidos</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li><a href="/" class="hover:text-gray-900">Início</a></li>
+							<li><a href="/categories" class="hover:text-gray-900">Categorias</a></li>
+							<li><a href="/about" class="hover:text-gray-900">Sobre</a></li>
+							<li><a href="/contact" class="hover:text-gray-900">Contato</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Siga-nos</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li>
+								<a href="https://www.instagram.com/jessicatthings_" class="hover:text-gray-900"
+									>Instagram</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@JessicaThings_" class="hover:text-gray-900"
+									>YouTube</a>
+							</li>
+							<li>
+								<a href="https://www.tiktok.com/@jessicatthings_" class="hover:text-gray-900"
+									>TikTok</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Newsletter</h4>
+						<p class="mb-4 text-sm text-gray-600">Receba as últimas atualizações</p>
+						<form class="flex">
+							<input
+								type="email"
+								placeholder="Seu e-mail"
+								class="flex-1 rounded-l border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+							/>
+							<button
+								type="submit"
+								class="rounded-r bg-purple-600 px-4 py-2 text-white transition-colors hover:bg-purple-700"
+							>
+								Inscrever
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
+					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </BaseLayout>
