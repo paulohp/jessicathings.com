@@ -1,206 +1,240 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-const { title, description, ogImage, publishDate, author = "Jessica Things", tags = [], categories = [], readingTime } = Astro.props;
+const {
+	title,
+	description,
+	ogImage,
+	publishDate,
+	author = "Jessica Things",
+	tags = [],
+	categories = [],
+	readingTime,
+} = Astro.props;
 
 // Handle both image objects and string URLs
-const ogImageUrl = ogImage ? (typeof ogImage === 'string' ? ogImage : ogImage.src) : null;
+const ogImageUrl = ogImage ? (typeof ogImage === "string" ? ogImage : ogImage.src) : null;
 
 // SEO optimizations
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 const structuredData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": title,
-  "description": description,
-  "image": ogImageUrl ? new URL(ogImageUrl, Astro.site).toString() : null,
-  "author": {
-    "@type": "Person",
-    "name": author
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Things",
-    "logo": {
-      "@type": "ImageObject",
-      "url": new URL("/favicon.svg", Astro.site).toString()
-    }
-  },
-  "datePublished": publishDate ? new Date(publishDate).toISOString() : new Date().toISOString(),
-  "dateModified": new Date().toISOString(),
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": canonicalUrl.toString()
-  },
-  "wordCount": readingTime ? readingTime * 200 : undefined,
-  "timeRequired": readingTime ? `PT${readingTime}M` : undefined,
-  "keywords": tags?.join(", "),
-  "articleSection": categories?.join(", "),
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Início",
-        "item": Astro.site?.toString()
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": title
-      }
-    ]
-  }
+	"@context": "https://schema.org",
+	"@type": "BlogPosting",
+	headline: title,
+	description: description,
+	image: ogImageUrl ? new URL(ogImageUrl, Astro.site).toString() : null,
+	author: {
+		"@type": "Person",
+		name: author,
+	},
+	publisher: {
+		"@type": "Organization",
+		name: "Jessica Things",
+		logo: {
+			"@type": "ImageObject",
+			url: new URL("/favicon.svg", Astro.site).toString(),
+		},
+	},
+	datePublished: publishDate ? new Date(publishDate).toISOString() : new Date().toISOString(),
+	dateModified: new Date().toISOString(),
+	mainEntityOfPage: {
+		"@type": "WebPage",
+		"@id": canonicalUrl.toString(),
+	},
+	wordCount: readingTime ? readingTime * 200 : undefined,
+	timeRequired: readingTime ? `PT${readingTime}M` : undefined,
+	keywords: tags?.join(", "),
+	articleSection: categories?.join(", "),
+	breadcrumb: {
+		"@type": "BreadcrumbList",
+		itemListElement: [
+			{
+				"@type": "ListItem",
+				position: 1,
+				name: "Início",
+				item: Astro.site?.toString(),
+			},
+			{
+				"@type": "ListItem",
+				position: 2,
+				name: title,
+			},
+		],
+	},
 };
 ---
 
-<BaseLayout 
-  title={title} 
-  description={description} 
-  ogImage={ogImageUrl}
-  canonicalUrl={canonicalUrl.toString()}
-  structuredData={structuredData}
-  publishDate={publishDate}
-  author={author}
-  tags={tags}
-  articleType="article"
+<BaseLayout
+	title={title}
+	description={description}
+	ogImage={ogImageUrl}
+	canonicalUrl={canonicalUrl.toString()}
+	structuredData={structuredData}
+	publishDate={publishDate}
+	author={author}
+	tags={tags}
+	articleType="article"
 >
-  <div class="min-h-screen bg-white">
-    <!-- Header -->
-    <header class="border-b border-gray-200">
-      <div class="container mx-auto px-4 py-6">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center space-x-4">
-            <h1 class="text-3xl font-bold text-gray-900">
-              <a href="/" class="hover:text-gray-700">Jessica Things</a>
-            </h1>
-            <span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
-          </div>
-          <nav class="hidden md:flex space-x-6">
-            <a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
-            <a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
-            <a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
-          </nav>
-        </div>
-      </div>
-    </header>
+	<div class="min-h-screen bg-white">
+		<!-- Header -->
+		<header class="border-b border-gray-200">
+			<div class="container mx-auto px-4 py-6">
+				<div class="flex items-center justify-between">
+					<div class="flex items-center space-x-4">
+						<h1 class="text-3xl font-bold text-gray-900">
+							<a href="/" class="hover:text-gray-700">Jessica Things</a>
+						</h1>
+						<span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
+					</div>
+					<nav class="hidden space-x-6 md:flex">
+						<a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+						<a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
+						<a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-    <main class="container mx-auto px-4 py-8">
-      <!-- Back to Blog -->
-      <div class="mb-8">
-        <a href="/" class="inline-flex items-center text-gray-600 hover:text-gray-900 text-sm">
-          <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-          Voltar ao Início
-        </a>
-      </div>
+		<main class="container mx-auto px-4 py-8">
+			<!-- Back to Blog -->
+			<div class="mb-8">
+				<a href="/" class="inline-flex items-center text-sm text-gray-600 hover:text-gray-900">
+					<svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M15 19l-7-7 7-7"></path>
+					</svg>
+					Voltar ao Início
+				</a>
+			</div>
 
-      <!-- Article -->
-      <article class="max-w-4xl mx-auto">
-        <!-- Article Header -->
-        <header class="mb-12 text-center">
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            {title}
-          </h1>
-          <div class="flex items-center justify-center space-x-4 text-sm text-gray-500 mb-4">
-            <span>{author}</span>
-            <span>•</span>
-            <time>{publishDate ? new Date(publishDate).toLocaleDateString('pt-BR', { 
-              month: 'long', 
-              day: 'numeric', 
-              year: 'numeric' 
-            }) : new Date().toLocaleDateString('pt-BR', { 
-              month: 'long', 
-              day: 'numeric', 
-              year: 'numeric' 
-            })}</time>
-            {readingTime && (
-              <>
-                <span>•</span>
-                <span>{readingTime} min de leitura</span>
-              </>
-            )}
-          </div>
-          
-          {/* Article Tags */}
-          {tags && tags.length > 0 && (
-            <div class="flex flex-wrap items-center justify-center gap-2 mb-6">
-              {tags.map((tag: string) => (
-                <span class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-xs rounded-full hover:bg-gray-200 transition-colors">
-                  #{tag}
-                </span>
-              ))}
-            </div>
-          )}
+			<!-- Article -->
+			<article class="mx-auto max-w-4xl">
+				<!-- Article Header -->
+				<header class="mb-12 text-center">
+					<h1 class="mb-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl">
+						{title}
+					</h1>
+					<div class="mb-4 flex items-center justify-center space-x-4 text-sm text-gray-500">
+						<span>{author}</span>
+						<span>•</span>
+						<time
+							>{
+								publishDate
+									? new Date(publishDate).toLocaleDateString("pt-BR", {
+											month: "long",
+											day: "numeric",
+											year: "numeric",
+										})
+									: new Date().toLocaleDateString("pt-BR", {
+											month: "long",
+											day: "numeric",
+											year: "numeric",
+										})
+							}</time
+						>
+						{
+							readingTime && (
+								<>
+									<span>•</span>
+									<span>{readingTime} min de leitura</span>
+								</>
+							)
+						}
+					</div>
 
-          {/* Article Categories */}
-          {categories && categories.length > 0 && (
-            <div class="flex flex-wrap items-center justify-center gap-2">
-              {categories.map((category: string) => (
-                <span class="inline-block px-3 py-1 bg-purple-100 text-purple-700 text-xs rounded-full hover:bg-purple-200 transition-colors">
-                  {category}
-                </span>
-              ))}
-            </div>
-          )}
-        </header>
+					{/* Article Tags */}
+					{
+						tags && tags.length > 0 && (
+							<div class="mb-6 flex flex-wrap items-center justify-center gap-2">
+								{tags.map((tag: string) => (
+									<span class="inline-block rounded-full bg-gray-100 px-3 py-1 text-xs text-gray-700 transition-colors hover:bg-gray-200">
+										#{tag}
+									</span>
+								))}
+							</div>
+						)
+					}
 
-        <!-- Article Content -->
-        <div class="prose prose-lg max-w-none">
-          <slot />
-        </div>
-      </article>
-    </main>
+					{/* Article Categories */}
+					{
+						categories && categories.length > 0 && (
+							<div class="flex flex-wrap items-center justify-center gap-2">
+								{categories.map((category: string) => (
+									<span class="inline-block rounded-full bg-purple-100 px-3 py-1 text-xs text-purple-700 transition-colors hover:bg-purple-200">
+										{category}
+									</span>
+								))}
+							</div>
+						)
+					}
+				</header>
 
-    <!-- Footer -->
-    <footer class="bg-gray-50 border-t border-gray-200 mt-16">
-      <div class="container mx-auto px-4 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <h3 class="text-lg font-bold text-gray-900 mb-4">Jessica Things</h3>
-            <p class="text-gray-600 text-sm">
-              Sua fonte de inspiração para beleza, moda e estilo de vida.
-            </p>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Categorias</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="/category/beauty" class="hover:text-gray-900">Beleza</a></li>
-              <li><a href="/category/fashion" class="hover:text-gray-900">Moda</a></li>
-              <li><a href="/category/lifestyle" class="hover:text-gray-900">Estilo de Vida</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Siga-nos</h4>
-            <ul class="space-y-2 text-sm text-gray-600">
-              <li><a href="#" class="hover:text-gray-900">Instagram</a></li>
-              <li><a href="#" class="hover:text-gray-900">YouTube</a></li>
-              <li><a href="#" class="hover:text-gray-900">Twitter</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="text-sm font-semibold text-gray-900 mb-4">Newsletter</h4>
-            <p class="text-sm text-gray-600 mb-4">Receba as últimas atualizações</p>
-            <form class="flex">
-              <input 
-                type="email" 
-                placeholder="Seu e-mail"
-                class="flex-1 px-3 py-2 border border-gray-300 rounded-l text-sm focus:outline-none focus:ring-2 focus:ring-black"
-              />
-              <button 
-                type="submit"
-                class="bg-black text-white px-4 py-2 rounded-r hover:bg-gray-800 transition-colors"
-              >
-                Inscrever
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
-          <p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
-        </div>
-      </div>
-    </footer>
-  </div>
+				<!-- Article Content -->
+				<div class="prose prose-lg max-w-none">
+					<slot />
+				</div>
+			</article>
+		</main>
+
+		<!-- Footer -->
+		<footer class="mt-16 border-t border-gray-200 bg-gray-50">
+			<div class="container mx-auto px-4 py-12">
+				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+					<div>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<p class="text-sm text-gray-600">
+							Sua fonte de inspiração para beleza, moda e estilo de vida.
+						</p>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Categorias</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li><a href="/category/beauty" class="hover:text-gray-900">Beleza</a></li>
+							<li><a href="/category/fashion" class="hover:text-gray-900">Moda</a></li>
+							<li><a href="/category/lifestyle" class="hover:text-gray-900">Estilo de Vida</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Siga-nos</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li>
+								<a href="https://www.instagram.com/jessicatthings_" class="hover:text-gray-900"
+									>Instagram</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@JessicaThings_" class="hover:text-gray-900"
+									>YouTube</a>
+							</li>
+							<li>
+								<a href="https://www.tiktok.com/@jessicatthings_" class="hover:text-gray-900"
+									>TikTok</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Newsletter</h4>
+						<p class="mb-4 text-sm text-gray-600">Receba as últimas atualizações</p>
+						<form class="flex">
+							<input
+								type="email"
+								placeholder="Seu e-mail"
+								class="flex-1 rounded-l border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"
+							/>
+							<button
+								type="submit"
+								class="rounded-r bg-black px-4 py-2 text-white transition-colors hover:bg-gray-800"
+							>
+								Inscrever
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
+					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </BaseLayout>
