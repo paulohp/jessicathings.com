@@ -9,10 +9,8 @@ categories:
 ---
 📚 O que o sol faz com as flores por  Rupi Kaur  
 
-Publicado em 26 fevereiro 2018 pela Editora Planeta, com 256 páginas classificado com literatura e ficção literária  
+Publicado em 26 de fevereiro de 2018 pela Editora Planeta, este livro de 256 páginas é classificado na categoria de Literatura e Ficção Literária.
 
+A obra reúne diversos poemas que exploram o ciclo do amor e do término, a sexualidade feminina, e metáforas do ciclo vital como murchar, cair, enraizar, crescer e florescer.
 
-O livro reune vários poemas que retrata um pouco sobre o amor, o termino, a sexualidade feminina, murchar, cair, enraizar, crescer, florescer.
-
-
-Eu comprei  este livro em fevereiro de 2021 para outra pessoa ler e só agora em 2025 que eu fui ler, eu ouvi muito sobre a autora nas redes sociais, ela ficou em alta por muitos anos, eu amei mas esperava algo ainda mais rebatedor sabe, mais intenso e impactante.
+Embora eu tenha comprado este exemplar em fevereiro de 2021 para outra pessoa, só consegui realizar a leitura agora em 2025. Eu acompanhei o sucesso da autora nas redes sociais, onde ela esteve em alta por muitos anos. Embora eu tenha gostado bastante, confesso que esperava um impacto ainda maior, algo mais avassalador, intenso e marcante.
