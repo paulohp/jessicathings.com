@@ -8,7 +8,7 @@ description: O que o sol faz com as flores é uma coletânea de poemas
 categories:
   - Livros
 ---
-📚 O que o sol faz com as flores por  Rupi Kaur  
+**[📚 O que o sol faz com as flores por  Rupi Kaur  ](https://amzn.to/4hy2bY2)**
 
 Publicado em 26 de fevereiro de 2018 pela Editora Planeta, este livro de 256 páginas é classificado na categoria de Literatura e Ficção Literária.
 
