@@ -2,18 +2,28 @@
 import "@assets/styles/global.css";
 
 export interface Props {
-  title: string;
-  description?: string;
-  ogImage?: string;
-  canonicalUrl?: string;
-  structuredData?: object;
-  publishDate?: string;
-  author?: string;
-  tags?: string[];
-  articleType?: 'article' | 'website';
+	title: string;
+	description?: string;
+	ogImage?: string;
+	canonicalUrl?: string;
+	structuredData?: object;
+	publishDate?: string;
+	author?: string;
+	tags?: string[];
+	articleType?: "article" | "website";
 }
 
-const { title, description, ogImage, canonicalUrl, structuredData, publishDate, author, tags, articleType = 'website' } = Astro.props;
+const {
+	title,
+	description,
+	ogImage,
+	canonicalUrl,
+	structuredData,
+	publishDate,
+	author,
+	tags,
+	articleType = "website",
+} = Astro.props;
 
 // Generate full URLs for social media
 const fullOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : null;
@@ -21,19 +31,19 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, Astro.site)
 
 // Default structured data for website
 const defaultStructuredData = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Jessica Things",
-  "description": "Sua fonte de inspiração para beleza, moda e estilo de vida",
-  "url": Astro.site?.toString(),
-  "publisher": {
-    "@type": "Organization",
-    "name": "Jessica Things",
-    "logo": {
-      "@type": "ImageObject",
-      "url": new URL("/favicon.svg", Astro.site).toString()
-    }
-  }
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	name: "Jessica Things",
+	description: "Sua fonte de inspiração para beleza, moda e estilo de vida",
+	url: Astro.site?.toString(),
+	publisher: {
+		"@type": "Organization",
+		name: "Jessica Things",
+		logo: {
+			"@type": "ImageObject",
+			url: new URL("/favicon.svg", Astro.site).toString(),
+		},
+	},
 };
 
 const finalStructuredData = structuredData || defaultStructuredData;
@@ -41,71 +51,82 @@ const finalStructuredData = structuredData || defaultStructuredData;
 
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content={Astro.generator} />
-    
-    <!-- SEO Meta Tags -->
-    <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    <link rel="canonical" href={fullCanonicalUrl} />
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:type" content={articleType} />
-    <meta property="og:title" content={title} />
-    {description && <meta property="og:description" content={description} />}
-    <meta property="og:url" content={fullCanonicalUrl} />
-    <meta property="og:site_name" content="Jessica Things" />
-    <meta property="og:locale" content="pt_BR" />
-    {fullOgImage && <meta property="og:image" content={fullOgImage} />}
-    {fullOgImage && <meta property="og:image:alt" content={title} />}
-    {fullOgImage && <meta property="og:image:width" content="1200" />}
-    {fullOgImage && <meta property="og:image:height" content="630" />}
-    
-    <!-- Article-specific Open Graph tags -->
-    {articleType === 'article' && publishDate && <meta property="article:published_time" content={new Date(publishDate).toISOString()} />}
-    {articleType === 'article' && author && <meta property="article:author" content={author} />}
-    {articleType === 'article' && tags && tags.map((tag: string) => (
-      <meta property="article:tag" content={tag} />
-    ))}
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    {description && <meta name="twitter:description" content={description} />}
-    {fullOgImage && <meta name="twitter:image" content={fullOgImage} />}
-    {author && <meta name="twitter:creator" content={`@${author}`} />}
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Jessica Things" />
-    <meta name="language" content="pt-BR" />
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json" set:html={JSON.stringify(finalStructuredData)} />
-    
-    <!-- Preconnect to external domains for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <style>
-      .line-clamp-2 {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-      .line-clamp-3 {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-      }
-    </style>
-  </head>
-  <body class="bg-white text-gray-900">
-    <slot />
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+
+		<!-- SEO Meta Tags -->
+		<title>{title}</title>
+		{description && <meta name="description" content={description} />}
+		<link rel="canonical" href={fullCanonicalUrl} />
+
+		<!-- Open Graph Meta Tags -->
+		<meta property="og:type" content={articleType} />
+		<meta property="og:title" content={title} />
+		{description && <meta property="og:description" content={description} />}
+		<meta property="og:url" content={fullCanonicalUrl} />
+		<meta property="og:site_name" content="Jessica Things" />
+		<meta property="og:locale" content="pt_BR" />
+		{fullOgImage && <meta property="og:image" content={fullOgImage} />}
+		{fullOgImage && <meta property="og:image:alt" content={title} />}
+		{fullOgImage && <meta property="og:image:width" content="1200" />}
+		{fullOgImage && <meta property="og:image:height" content="630" />}
+
+		<!-- Article-specific Open Graph tags -->
+		{
+			articleType === "article" && publishDate && (
+				<meta property="article:published_time" content={new Date(publishDate).toISOString()} />
+			)
+		}
+		{articleType === "article" && author && <meta property="article:author" content={author} />}
+		{
+			articleType === "article" &&
+				tags &&
+				tags.map((tag: string) => <meta property="article:tag" content={tag} />)
+		}
+
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		{description && <meta name="twitter:description" content={description} />}
+		{fullOgImage && <meta name="twitter:image" content={fullOgImage} />}
+		{author && <meta name="twitter:creator" content={`@${author}`} />}
+
+		<!-- Additional SEO Meta Tags -->
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="Jessica Things" />
+		<meta name="language" content="pt-BR" />
+
+		<!-- Structured Data -->
+		<script type="application/ld+json" set:html={JSON.stringify(finalStructuredData)} />
+
+		<script
+			async
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9737122509851883"
+			crossorigin="anonymous"></script>
+
+		<!-- Preconnect to external domains for performance -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<style>
+			.line-clamp-2 {
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+			.line-clamp-3 {
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body class="bg-white text-gray-900">
+		<slot />
+	</body>
 </html>
