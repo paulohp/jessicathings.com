@@ -23,4 +23,6 @@ Sua vida vira de cabeça para baixo quando a cafeteria onde trabalha fecha, deix
 
 Nesse encontro improvável, os dois começam a desenvolver uma relação de amizade. Will, no entanto, sabe exatamente como dar um fim ao seu sofrimento, enquanto Louisa se apaixona por ele mais do que deveria. Nenhum dos dois desconfia que a história de um irá mudar para sempre a do outro. É uma emocionante e inesquecível história de amor e coragem.
 
+<https://youtu.be/gCCXdDJH7DM?si=sF5C8Yd95gq03DsH>
+
 <https://amzn.to/43QX3Zo>
