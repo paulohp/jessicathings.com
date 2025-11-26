@@ -1,6 +1,6 @@
 ---
 title: 📚 Depois de você -  por Jojo Moyes
-date: 2025-11-29T16:00:00.000+01:00
+date: 2025-11-28T15:00:00.000+01:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764172683/DSC00251_im03gv.jpg
 description: "Depois de você: (Trilogia Como Eu Era Antes de Você - livro dois): 2 "
 categories:
