@@ -1,7 +1,7 @@
 ---
 title: 📚 Como eu era antes de você -  por Jojo Moyes
-date: 2025-11-28T16:00:00.000+01:00
-thumbnail: https://photos.google.com/u/1/photo/AF1QipMjZ8YPUzl4rJf-6ErwpN9ErYXYerbDGRt8yDtv
+date: 2025-11-27T15:30:00.000+01:00
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764172386/DSC00233_hh5brg.jpg
 description: "Livro de romance "
 categories:
   - Livros
