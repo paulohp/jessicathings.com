@@ -32,6 +32,6 @@ Atraída instintivamente pela notícia, a repórter Kelsey Castle vai até a cid
 
 Este foi o meu primeiro livro dos autor, e preciso dizer que ele me prendeu desde a primeira página, eu li em junho de 2023 e para quem gosta de suspense e mistério provavelmente vai amar este aqui.
 
-[https://youtu.be/TF-CJJPAa84?si=nBYYcBqY77unQcR_](https://openyoutu.be/TF-CJJPAa84?si=nBYYcBqY77unQcR_)
+<https://youtu.be/TF-CJJPAa84?si=nBYYcBqY77unQcR_>
 
 Compre através do meu link [https://amzn.to/4adC6M6 ](https://amzn.to/49HFPkX)
