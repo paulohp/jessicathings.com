@@ -2,7 +2,8 @@
 title: 📚 Como eu era antes de você -  por Jojo Moyes
 date: 2025-11-27T15:30:00.000+01:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764172386/DSC00233_hh5brg.jpg
-description: "Livro de romance "
+description: "Louisa Clark, uma jovem de 26 anos sem grandes ambições, que leva
+  uma vida simples e financeiramente apertada. "
 categories:
   - Livros
 tags:
