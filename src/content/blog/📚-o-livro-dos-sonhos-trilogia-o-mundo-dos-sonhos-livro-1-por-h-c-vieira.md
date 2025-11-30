@@ -13,7 +13,7 @@ tags:
   - leitores
   - ""
 ---
-O Livro dos Sonhos: Trilogia o Mundo dos Sonhos - Livro 1 por H. C. Vieira  Data de publicação - 15 junho 2020 e tem 254 páginas,  o gênero é fantasia e ficção. 
+<https://youtu.be/wwSBtTen3zI?si=SzIEOkr-ThdgaMT4>O Livro dos Sonhos: Trilogia o Mundo dos Sonhos - Livro 1 por H. C. Vieira  Data de publicação - 15 junho 2020 e tem 254 páginas,  o gênero é fantasia e ficção. 
 
 Hugo leva uma vida adolescente monótona, dividida entre os estudos, o cursinho e a casa da avó. Sua rotina desinteressante é bruscamente interrompida quando estranhos acontecimentos tomam conta de sua realidade: visões atormentadoras de um mundo paralelo, o surgimento de um livro enigmático e, por fim, a aparição de Teibek – uma rã de terno, chapéu e passaporte em seu próprio quarto.
 
