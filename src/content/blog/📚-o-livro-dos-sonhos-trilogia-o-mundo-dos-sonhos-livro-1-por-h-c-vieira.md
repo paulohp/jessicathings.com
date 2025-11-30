@@ -17,6 +17,8 @@ tags:
 
 Hugo leva uma vida adolescente monótona, dividida entre os estudos, o cursinho e a casa da avó. Sua rotina desinteressante é bruscamente interrompida quando estranhos acontecimentos tomam conta de sua realidade: visões atormentadoras de um mundo paralelo, o surgimento de um livro enigmático e, por fim, a aparição de Teibek – uma rã de terno, chapéu e passaporte em seu próprio quarto.
 
+> ### ***São as diferenças que o fazem ser único!***
+
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764511923/DSC00335_jvtlx7.jpg)
 
 Hugo descobre que a humanidade parou de sonhar misteriosamente, e a busca por explicações o arrasta para uma aventura épica. Ele mergulha no Mundo Mágico dos Sonhos, um lugar vibrante, misterioso e repleto de fantasia, onde ele descobrirá sua verdadeira origem e destino.
@@ -34,5 +36,3 @@ Eu diria que  este livro é para ser lido por todos os públicos, desde crianç
 ### [Assista resenha no YouTube ](https://youtu.be/wwSBtTen3zI?si=Zi65FjuuNJTVlR_P)
 
 [](https://youtu.be/wwSBtTen3zI?si=Zi65FjuuNJTVlR_P)
-
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764512447/Sa%CC%83o_as_diferenc%CC%A7as_que_o_fazem_ser_u%CC%81nico_ixfk1a.png)
