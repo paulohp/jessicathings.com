@@ -1,5 +1,5 @@
 ---
-title: "Contos de SeteAlém por Rita Flôres "
+title: "📚 Contos de SeteAlém por Rita Flôres "
 date: 2025-11-29T15:30:00.000+01:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764177502/co%CC%81pia_de_DSC00317_liftz1.jpg
 description: " Contos Literatura e Ficção"
@@ -24,6 +24,12 @@ Ao mergulhar nessas narrativas, a leitura nos incita a uma reflexão profunda e 
 
 A ficção frequentemente bebe na fonte da ciência, e essa questão é uma das mais debatidas pela física teórica e pela cosmologia moderna. A simples menção de 'seteiaém' e outras dimensões ecoa o conceito do Multiverso, a hipótese de que a nossa realidade não é a única.
 
-<https://youtu.be/SM8duQw8HfY?si=m9YXVwOWTID175nZ>
+[Assista a resenha no Youtube ](https://youtu.be/SM8duQw8HfY?si=m9YXVwOWTID175nZ)
+
+[](https://youtu.be/SM8duQw8HfY?si=m9YXVwOWTID175nZ)
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764512789/Outras_dimenso%CC%83es..._Sera%CC%81_que_ha%CC%81_fronteiras_finais_no_Universo_1_rwupea.png)
+
+
 
 [Compre através do meu link: https://amzn.to/3JXOsO1](https://amzn.to/3JXOsO1)
