@@ -35,4 +35,4 @@ Eu diria que  este livro é para ser lido por todos os públicos, desde crianç
 
 [](https://youtu.be/wwSBtTen3zI?si=Zi65FjuuNJTVlR_P)
 
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764512447/Sa%CC%83o_as_diferenc%CC%A7as_que_o_fazem_ser_u%CC%81nico_ixfk1a.png)
+![]()
