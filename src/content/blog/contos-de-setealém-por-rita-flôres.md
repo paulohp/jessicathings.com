@@ -28,4 +28,6 @@ A ficção frequentemente bebe na fonte da ciência, e essa questão é uma das 
 
 [](https://youtu.be/SM8duQw8HfY?si=m9YXVwOWTID175nZ)
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764512789/Outras_dimenso%CC%83es..._Sera%CC%81_que_ha%CC%81_fronteiras_finais_no_Universo_1_rwupea.png)
+
 [Compre através do meu link: https://amzn.to/3JXOsO1](https://amzn.to/3JXOsO1)
