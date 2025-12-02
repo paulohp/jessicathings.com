@@ -22,7 +22,12 @@ Olá meus amores, tudo bem com vocês? No post de hoje vamos falar da escova sec
 * 2,4 polegadas
 * Design leve e ergonómico
 * Na versão 127v e 220v
-* Escova não é rotativa.
+* Escova não é rotativa
+* Escova de 2,4"
+* 3 configurações de calor e velocidade
+* \- Potência: 1200 watts
+* Fio de Alimentação – 1,80 metros
+
 
 ![](https://images.jessicathings.com/2024/07/IMG_2977-copy.png)
 
