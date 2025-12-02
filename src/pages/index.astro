@@ -54,31 +54,103 @@ const structuredData = {
 <BaseLayout title={seoTitle} description={seoDescription} structuredData={structuredData}>
 	<div class="min-h-screen bg-white">
 		<!-- Header -->
-		<header class="border-b border-gray-200">
-			<div class="container mx-auto px-4 py-6">
+		<header class="sticky top-0 z-50 border-b border-gray-200 bg-white shadow-sm">
+			<div class="container mx-auto px-4 py-4">
 				<div class="flex items-center justify-between">
-					<div class="flex items-center space-x-4">
-						<h1 class="text-3xl font-bold text-gray-900">Jessica Things</h1>
-						<span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
+					<div class="flex items-center space-x-2 md:space-x-4">
+						<a href="/" class="text-2xl font-bold text-gray-900 md:text-3xl">Jessica Things</a>
+						<span class="hidden text-sm text-gray-500 sm:inline">Beleza, Moda & Estilo de Vida</span
+						>
 					</div>
+
+					<!-- Desktop Navigation -->
 					<nav class="hidden space-x-6 md:flex">
 						<a href="/" class="font-medium text-gray-900">Início</a>
-						<a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
-						<a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-						<a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
-						<a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
+						<a href="/explorar" class="text-gray-700 transition-colors hover:text-gray-900"
+							>Explorar</a
+						>
+						<a href="/categories" class="text-gray-700 transition-colors hover:text-gray-900"
+							>Categorias</a
+						>
+						<a href="/tags" class="text-gray-700 transition-colors hover:text-gray-900">Tags</a>
 					</nav>
+
+					<!-- Mobile Menu Button -->
+					<button
+						id="mobile-menu-btn"
+						class="flex items-center justify-center rounded-lg p-2 text-gray-700 transition-colors hover:bg-gray-100 md:hidden"
+						aria-label="Toggle menu"
+					>
+						<svg
+							id="menu-icon"
+							class="h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+						<svg
+							id="close-icon"
+							class="hidden h-6 w-6"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"></path>
+						</svg>
+					</button>
 				</div>
+
+				<!-- Mobile Navigation -->
+				<nav id="mobile-menu" class="hidden overflow-hidden md:hidden">
+					<div class="space-y-1 pb-3 pt-4">
+						<a
+							href="/"
+							class="block rounded-lg bg-gray-100 px-3 py-2 text-base font-medium text-gray-900"
+						>
+							Início
+						</a>
+						<a
+							href="/explorar"
+							class="block rounded-lg px-3 py-2 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
+						>
+							Explorar
+						</a>
+						<a
+							href="/categories"
+							class="block rounded-lg px-3 py-2 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
+						>
+							Categorias
+						</a>
+						<a
+							href="/tags"
+							class="block rounded-lg px-3 py-2 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
+						>
+							Tags
+						</a>
+					</div>
+				</nav>
 			</div>
 		</header>
 
-		<main class="container mx-auto px-4 py-8">
+		<main class="container mx-auto px-4 py-6 md:py-8">
 			<!-- Hero Section -->
-			<section class="mb-16">
-				<div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+			<section class="mb-12 md:mb-16">
+				<div class="grid grid-cols-1 items-center gap-6 md:gap-8 lg:grid-cols-2">
 					<div>
-						<h2 class="mb-4 text-5xl font-bold text-gray-900">Descubra Seu Estilo</h2>
-						<p class="mb-6 text-xl text-gray-600">
+						<h2 class="mb-3 text-3xl font-bold text-gray-900 md:mb-4 md:text-5xl">
+							Descubra Seu Estilo
+						</h2>
+						<p class="mb-4 text-base text-gray-600 md:mb-6 md:text-xl">
 							Explore o que há de mais novo em beleza, moda e estilo de vida com Jessica Things. Sua
 							fonte de dicas, resenhas e inspiração.
 						</p>
@@ -128,12 +200,12 @@ const structuredData = {
 			</section>
 
 			<!-- Editor's Pick -->
-			<section class="mb-16">
-				<div class="mb-8 flex items-center justify-between">
-					<h2 class="text-3xl font-bold text-gray-900">Escolha do Editor</h2>
-					<a href="/" class="text-black hover:underline">Ver Todos</a>
+			<section class="mb-12 md:mb-16">
+				<div class="mb-6 flex items-center justify-between md:mb-8">
+					<h2 class="text-2xl font-bold text-gray-900 md:text-3xl">Escolha do Editor</h2>
+					<a href="/explorar" class="text-sm text-black hover:underline md:text-base">Ver Todos</a>
 				</div>
-				<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+				<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
 					{
 						editorsPicks.map((post) => (
 							<article class="group">
@@ -191,12 +263,12 @@ const structuredData = {
 			</section>
 
 			<!-- Latest Posts - All Content -->
-			<section class="mb-16">
-				<div class="mb-8 flex items-center justify-between">
-					<h2 class="text-3xl font-bold text-gray-900">Mais Recentes</h2>
-					<span class="text-sm text-gray-500">{latestPosts.length} posts</span>
+			<section class="mb-12 md:mb-16">
+				<div class="mb-6 flex items-center justify-between md:mb-8">
+					<h2 class="text-2xl font-bold text-gray-900 md:text-3xl">Mais Recentes</h2>
+					<span class="text-xs text-gray-500 md:text-sm">{latestPosts.length} posts</span>
 				</div>
-				<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
 					{
 						latestPosts.map((post) => (
 							<article class="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
@@ -309,6 +381,40 @@ const structuredData = {
 		</footer>
 	</div>
 </BaseLayout>
+
+<script>
+	// Mobile menu toggle
+	const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+	const mobileMenu = document.getElementById("mobile-menu");
+	const menuIcon = document.getElementById("menu-icon");
+	const closeIcon = document.getElementById("close-icon");
+
+	mobileMenuBtn?.addEventListener("click", () => {
+		const isHidden = mobileMenu?.classList.contains("hidden");
+
+		if (isHidden) {
+			mobileMenu?.classList.remove("hidden");
+			menuIcon?.classList.add("hidden");
+			closeIcon?.classList.remove("hidden");
+		} else {
+			mobileMenu?.classList.add("hidden");
+			menuIcon?.classList.remove("hidden");
+			closeIcon?.classList.add("hidden");
+		}
+	});
+
+	// Close mobile menu when clicking outside
+	document.addEventListener("click", (e) => {
+		const target = e.target;
+		if (target instanceof Element) {
+			if (!target.closest("#mobile-menu-btn") && !target.closest("#mobile-menu")) {
+				mobileMenu?.classList.add("hidden");
+				menuIcon?.classList.remove("hidden");
+				closeIcon?.classList.add("hidden");
+			}
+		}
+	});
+</script>
 
 <style>
 	.line-clamp-2 {
