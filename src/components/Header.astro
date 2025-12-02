@@ -144,24 +144,38 @@ const { currentPage = "home" } = Astro.props;
 </header>
 
 <script>
-	// Mobile menu toggle
+	// Mobile menu toggle with iOS compatibility
 	const mobileMenuBtn = document.getElementById("mobile-menu-btn");
 	const mobileMenu = document.getElementById("mobile-menu");
 	const menuIcon = document.getElementById("menu-icon");
 	const closeIcon = document.getElementById("close-icon");
 
-	mobileMenuBtn?.addEventListener("click", () => {
-		const isHidden = mobileMenu?.classList.contains("hidden");
-
-		if (isHidden) {
+	// Prevent scroll when menu is open (iOS fix)
+	const toggleMenu = (show: boolean) => {
+		if (show) {
 			mobileMenu?.classList.remove("hidden");
 			menuIcon?.classList.add("hidden");
 			closeIcon?.classList.remove("hidden");
+			// Prevent body scroll on iOS
+			document.body.style.overflow = "hidden";
+			document.body.style.position = "fixed";
+			document.body.style.width = "100%";
 		} else {
 			mobileMenu?.classList.add("hidden");
 			menuIcon?.classList.remove("hidden");
 			closeIcon?.classList.add("hidden");
+			// Restore body scroll
+			document.body.style.overflow = "";
+			document.body.style.position = "";
+			document.body.style.width = "";
 		}
+	};
+
+	mobileMenuBtn?.addEventListener("click", (e) => {
+		e.preventDefault();
+		e.stopPropagation();
+		const isHidden = mobileMenu?.classList.contains("hidden");
+		toggleMenu(isHidden || false);
 	});
 
 	// Close mobile menu when clicking outside
@@ -169,10 +183,23 @@ const { currentPage = "home" } = Astro.props;
 		const target = e.target;
 		if (target instanceof Element) {
 			if (!target.closest("#mobile-menu-btn") && !target.closest("#mobile-menu")) {
-				mobileMenu?.classList.add("hidden");
-				menuIcon?.classList.remove("hidden");
-				closeIcon?.classList.add("hidden");
+				toggleMenu(false);
 			}
+		}
+	});
+
+	// Close menu when link is clicked
+	const menuLinks = mobileMenu?.querySelectorAll("a");
+	menuLinks?.forEach((link) => {
+		link.addEventListener("click", () => {
+			toggleMenu(false);
+		});
+	});
+
+	// Handle orientation change on iOS
+	window.addEventListener("orientationchange", () => {
+		if (!mobileMenu?.classList.contains("hidden")) {
+			toggleMenu(false);
 		}
 	});
 </script>
