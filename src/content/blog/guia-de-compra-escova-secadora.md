@@ -72,15 +72,19 @@ E por fim a densidade do seu cabelo ou seja a quantidade de fios que você tem n
 
 ##### 3 QUAL O RESULTADO QUE VOCÊ DESEJA
 
-Sabendo o seu tipo de cabelo e a quantidade de cabelo que você tem, agora é hora de pensar no resultado do cabelo que voce deseja, um cabelo mais liso e baixinho ou um cabelo mais modelado com um aspecto de escova de salão? Apesar de as marcas de escovas secadoras prometerem secar alisar e dar volume, em geral elas não dão muito volume, o volume muitas das vezes é so nas primeiras horas da escovação, e também depende da quantidade e o tipo de cabelo que você tem. [\[caption id="attachment_127494" align="aligncenter" width="1280"]](<[caption id="attachment_127494" align="aligncenter" width="1280"]>)![](https://images.jessicathings.com/2025/01/Design-sem-nome-2.png) Cabelo Modelado X Cabelo Liso\[/caption]
+Sabendo o seu tipo de cabelo e a quantidade de cabelo que você tem, agora é hora de pensar no resultado do cabelo que voce deseja, um cabelo mais liso e baixinho ou um cabelo mais modelado com um aspecto de escova de salão? Apesar de as marcas de escovas secadoras prometerem secar alisar e dar volume, em geral elas não dão muito volume, o volume muitas das vezes é so nas primeiras horas da escovação, e também depende da quantidade e o tipo de cabelo que você tem.![](https://images.jessicathings.com/2025/01/Design-sem-nome-2.png) Cabelo Modelado X Cabelo Liso
 
 ###### 3.1 LISO
 
-Quando digo cabelo liso, me refiro a um cabelo sem modelagem, alinhado ou somente com as pontas modeladas, tipo um cabelo que foi pranchado. \[caption id="attachment_127490" align="aligncenter" width="1280"][![](https://images.jessicathings.com/2025/01/cabelo-liso.png)]([![YouTube Video](http://img.youtube.com/vi/tTtF1rdrJ44/0.jpg)](http://www.youtube.com/watch?v=tTtF1rdrJ44) Cabelo liso com as pontas levemente modeladas feito com escova secadora Mondial\[/caption]
+Quando digo cabelo liso, me refiro a um cabelo sem modelagem, alinhado ou somente com as pontas modeladas, tipo um cabelo que foi pranchado. ![](https://images.jessicathings.com/2025/01/cabelo-liso.png)[![YouTube Video](http://img.youtube.com/vi/tTtF1rdrJ44/0.jpg)](http://www.youtube.com/watch?v=tTtF1rdrJ44) 
+
+Cabelo liso com as pontas levemente modeladas feito com escova secadora Mondial
 
 ###### ![](https://images.jessicathings.com/2025/01/IMG_0865.heic)3.2 MODELADO
 
-Já o cabelo modelado é um cabelo com ondulações ou até cachos, como uma escova modelada de salão. \[caption id="attachment_127492" align="aligncenter" width="1280"][![](https://images.jessicathings.com/2025/01/root-booster.png)]([![YouTube Video](http://img.youtube.com/vi/SXvKKKVOt5U/0.jpg)](http://www.youtube.com/watch?v=SXvKKKVOt5U) Cabelo modelado feito com com escova secadora Root Booster\[/caption]
+Já o cabelo modelado é um cabelo com ondulações ou até cachos, como uma escova modelada de salão.![](https://images.jessicathings.com/2025/01/root-booster.png)[![YouTube Video](http://img.youtube.com/vi/SXvKKKVOt5U/0.jpg)](http://www.youtube.com/watch?v=SXvKKKVOt5U) 
+
+Cabelo modelado feito com com escova secadora Root Booster
 
 ##### 4. TIPOS DE ESCOVAS SECADORAS
 
@@ -88,7 +92,7 @@ A função das escovas secadoras é basicamente **Secar, Alisar e Modelar** os f
 
 ###### 4.2 ESCOVA OVAL
 
-Geralmente serve para quase todos os tamanhos de cabelo, eu já tive o cabelo bem curto como chanel e chanel de bico e usava escovas ovais normalmente. Ótimas para escovar o cabelo mais rapidamente no dia a dia pois você consegue pegar uma quantidade maior de cabelo. [![](https://images.jessicathings.com/2023/03/IMG_3542-scaled.jpg)]([![YouTube Video](http://img.youtube.com/vi/b11zxuuPL4U/0.jpg)](http://www.youtube.com/watch?v=b11zxuuPL4U)
+Geralmente serve para quase todos os tamanhos de cabelo, eu já tive o cabelo bem curto como chanel e chanel de bico e usava escovas ovais normalmente. Ótimas para escovar o cabelo mais rapidamente no dia a dia pois você consegue pegar uma quantidade maior de cabelo. ![](https://images.jessicathings.com/2023/03/IMG_3542-scaled.jpg)[![YouTube Video](http://img.youtube.com/vi/b11zxuuPL4U/0.jpg)](http://www.youtube.com/watch?v=b11zxuuPL4U)
 
 ###### 4.3 ESCOVA REDONDA
 
@@ -96,7 +100,7 @@ Já as escovas redondas são mais indicadas para pessoas que gostam do cabelo ma
 
 ###### 4.4 ESCOVA REDONDA ROTATIVA
 
-As escovas rotativas redondas são muito indicadas para pessoas que tem o cabelo bem curto, como um corte pixie, short bob ou qualquer outro corte bem curtinho, mas a única escova rotativa que experimentei, essa na foto logo abaixo, eu detestei porque a escova não tinha força para girar no meu cabelo, além de para de funcionar a cada mecha. [![](https://images.jessicathings.com/2023/06/IMG_3079-scaled.jpg)]([![YouTube Video](http://img.youtube.com/vi/5_FXH8Cddx0/0.jpg)](http://www.youtube.com/watch?v=5_FXH8Cddx0)
+As escovas rotativas redondas são muito indicadas para pessoas que tem o cabelo bem curto, como um corte pixie, short bob ou qualquer outro corte bem curtinho, mas a única escova rotativa que experimentei, essa na foto logo abaixo, eu detestei porque a escova não tinha força para girar no meu cabelo, além de para de funcionar a cada mecha. ![](https://images.jessicathings.com/2023/06/IMG_3079-scaled.jpg)[![YouTube Video](http://img.youtube.com/vi/5_FXH8Cddx0/0.jpg)](http://www.youtube.com/watch?v=5_FXH8Cddx0)
 
 ##### 5. TABELA DAS ESCOVAS
 
@@ -122,6 +126,10 @@ A lista está ordenada conforme custo benéfico e a performance das escovas. ![]
 8. [Escova Secadora Britânia Compact 1300W **Bivolt**](https://a.co/d/jkfWVDv)
 9. [Escova Secadora Mondia Golden Rose 1200W](https://a.co/d/5le1fZu)
 
-Se você quer assistir alguma resenha dessas escovas secadores é só clicar \[aqui]([![YouTube Video](http://img.youtube.com/vi/74SOVTfabnA/0.jpg)](http://www.youtube.com/watch?v=74SOVTfabnA) que você vai para a playlist de resenhas [![YouTube Video](http://img.youtube.com/vi/74SOVTfabnA/0.jpg)](http://www.youtube.com/watch?v=74SOVTfabnA "Click to Watch")  
+Se você quer assistir alguma resenha dessas escovas secadores é só clicar que você vai para
+
+ a playlist de resenhas.
+
+[![YouTube Video](http://img.youtube.com/vi/74SOVTfabnA/0.jpg)](http://www.youtube.com/watch?v=74SOVTfabnA "Click to Watch")  
 
 \#escovassecadoras
