@@ -3,7 +3,7 @@ excerpt: ""
 slug: guia-de-compra-escova-secadora
 title: "GUIA DE COMPRA: ESCOVA SECADORA"
 date: 2025-01-26 18:34:58
-thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764687423/IMG_1036_yfnlhl.heic
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764687655/co%CC%81pia_de_IMG_1036_oemlus.jpg
 description: Primeiro precisamos saber qual é a textura do seu fio; Liso,
   Ondulado, Cacheado ou Crespo?
 categories:
