@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
 
 export async function getStaticPaths() {
 	const posts = await getCollection("blog");
@@ -111,28 +112,9 @@ const structuredData = {
 
 <BaseLayout title={seoTitle} description={seoDescription} structuredData={structuredData}>
 	<div class="min-h-screen bg-white">
-		<!-- Header -->
-		<header class="border-b border-gray-200">
-			<div class="container mx-auto px-4 py-6">
-				<div class="flex items-center justify-between">
-					<div class="flex items-center space-x-4">
-						<h1 class="text-3xl font-bold text-gray-900">
-							<a href="/" class="hover:text-gray-700">Jessica Things</a>
-						</h1>
-						<span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
-					</div>
-					<nav class="hidden space-x-6 md:flex">
-						<a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
-						<a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
-						<a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
-						<a href="/about" class="text-gray-700 hover:text-gray-900">Sobre</a>
-						<a href="/contact" class="text-gray-700 hover:text-gray-900">Contato</a>
-					</nav>
-				</div>
-			</div>
-		</header>
+		<Header currentPage="categories" />
 
-		<main class="container mx-auto px-4 py-8">
+		<main class="container mx-auto px-4 py-6 md:py-8">
 			<!-- Breadcrumb -->
 			<nav class="mb-8" aria-label="Breadcrumb">
 				<ol class="flex items-center space-x-2 text-sm text-gray-500">
@@ -302,15 +284,18 @@ const structuredData = {
 						<ul class="space-y-2 text-sm text-gray-600">
 							<li>
 								<a href="https://www.instagram.com/jessicatthings_" class="hover:text-gray-900"
-									>Instagram</a>
+									>Instagram</a
+								>
 							</li>
 							<li>
 								<a href="https://www.youtube.com/@JessicaThings_" class="hover:text-gray-900"
-									>YouTube</a>
+									>YouTube</a
+								>
 							</li>
 							<li>
 								<a href="https://www.tiktok.com/@jessicatthings_" class="hover:text-gray-900"
-									>TikTok</a>
+									>TikTok</a
+								>
 							</li>
 						</ul>
 					</div>
