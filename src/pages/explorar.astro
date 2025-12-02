@@ -1,0 +1,311 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const posts = await getCollection("blog");
+
+// Shuffle posts randomly
+const shuffledPosts = posts.sort(() => Math.random() - 0.5);
+
+const seoTitle = "Explorar Posts - Jessica Things";
+const seoDescription =
+	"Explore todos os posts do Jessica Things de forma aleatória. Descubra conteúdo sobre beleza, moda e estilo de vida.";
+---
+
+<BaseLayout title={seoTitle} description={seoDescription}>
+	<div class="min-h-screen bg-white">
+		<!-- Header -->
+		<header class="border-b border-gray-200">
+			<div class="container mx-auto px-4 py-6">
+				<div class="flex items-center justify-between">
+					<div class="flex items-center space-x-4">
+						<h1 class="text-3xl font-bold text-gray-900">Jessica Things</h1>
+						<span class="text-sm text-gray-500">Beleza, Moda & Estilo de Vida</span>
+					</div>
+					<nav class="hidden space-x-6 md:flex">
+						<a href="/" class="text-gray-700 hover:text-gray-900">Início</a>
+						<a href="/explorar" class="font-medium text-gray-900">Explorar</a>
+						<a href="/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
+						<a href="/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="container mx-auto px-4 py-8">
+			<!-- Page Header -->
+			<div class="mb-8">
+				<h2 class="mb-2 text-4xl font-bold text-gray-900">Explorar Posts</h2>
+				<p class="text-gray-600">Descubra conteúdo aleatório do nosso blog</p>
+			</div>
+
+			<!-- Posts Grid -->
+			<div
+				id="posts-container"
+				class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+			>
+				<!-- Initial posts will be rendered here -->
+			</div>
+
+			<!-- Loading Trigger (invisible) -->
+			<div id="loading-trigger" class="h-10"></div>
+
+			<!-- Loading Indicator -->
+			<div id="loading" class="mt-8 hidden text-center">
+				<div
+					class="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-black border-r-transparent"
+				>
+				</div>
+				<p class="mt-2 text-gray-600">Carregando mais posts...</p>
+			</div>
+
+			<!-- End Message -->
+			<div id="end-message" class="mt-8 hidden text-center">
+				<p class="text-gray-600">Você viu todos os posts! 🎉</p>
+				<button
+					id="shuffle-btn"
+					class="mt-4 rounded-full bg-black px-6 py-2 text-white transition-colors hover:bg-gray-800"
+				>
+					Embaralhar Novamente
+				</button>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="border-t border-gray-200 bg-gray-50">
+			<div class="container mx-auto px-4 py-12">
+				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+					<div>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<p class="text-sm text-gray-600">
+							Sua fonte de inspiração para beleza, moda e estilo de vida.
+						</p>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Categorias</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li><a href="/category/beauty" class="hover:text-gray-900">Beleza</a></li>
+							<li><a href="/category/fashion" class="hover:text-gray-900">Moda</a></li>
+							<li><a href="/category/lifestyle" class="hover:text-gray-900">Estilo de Vida</a></li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Siga-nos</h4>
+						<ul class="space-y-2 text-sm text-gray-600">
+							<li>
+								<a href="https://www.instagram.com/jessicatthings_" class="hover:text-gray-900"
+									>Instagram</a
+								>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@JessicaThings_" class="hover:text-gray-900"
+									>YouTube</a
+								>
+							</li>
+							<li>
+								<a href="https://www.tiktok.com/@jessicatthings_" class="hover:text-gray-900"
+									>TikTok</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 class="mb-4 text-sm font-semibold text-gray-900">Newsletter</h4>
+						<p class="mb-4 text-sm text-gray-600">Receba as últimas atualizações</p>
+						<form class="flex">
+							<input
+								type="email"
+								placeholder="Seu e-mail"
+								class="flex-1 rounded-l border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black"
+							/>
+							<button
+								type="submit"
+								class="rounded-r bg-black px-4 py-2 text-white transition-colors hover:bg-gray-800"
+							>
+								Inscrever
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
+					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</BaseLayout>
+
+<script define:vars={{ posts: shuffledPosts }}>
+	let currentIndex = 0;
+	const postsPerPage = 12;
+	let allPosts = [...posts];
+
+	function createPostCard(post) {
+		const article = document.createElement("article");
+		article.className =
+			"group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md";
+
+		const thumbnail = post.data.thumbnail || post.data.ogImage || "/placeholder-image.jpg";
+		const category = post.data.categories?.[0] || "BLOG";
+		const date = new Date(post.data.date).toLocaleDateString("pt-BR", {
+			month: "short",
+			day: "numeric",
+			year: "numeric",
+		});
+		const title = post.data.title;
+		const description = post.data.excerpt || post.data.description || "";
+		const slug = post.slug;
+
+		article.innerHTML = `
+			<div class="relative overflow-hidden">
+				<img
+					src="${thumbnail}"
+					alt="${title}"
+					class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+					loading="lazy"
+				/>
+				<div class="absolute left-3 top-3">
+					<span class="rounded bg-black px-2 py-1 text-xs font-medium text-white">
+						${category}
+					</span>
+				</div>
+			</div>
+			<div class="space-y-2 p-4">
+				<div class="text-xs text-gray-500">
+					${date}
+				</div>
+				<h3 class="line-clamp-2 text-sm font-bold text-gray-900">
+					<a href="/${slug}" class="hover:underline">
+						${title}
+					</a>
+				</h3>
+				<p class="line-clamp-2 text-xs text-gray-600">
+					${description}
+				</p>
+			</div>
+		`;
+
+		return article;
+	}
+
+	let isLoading = false;
+
+	function loadMorePosts() {
+		if (isLoading) return;
+
+		const container = document.getElementById("posts-container");
+		const loading = document.getElementById("loading");
+		const endMessage = document.getElementById("end-message");
+		const trigger = document.getElementById("loading-trigger");
+
+		const nextPosts = allPosts.slice(currentIndex, currentIndex + postsPerPage);
+
+		if (nextPosts.length === 0) {
+			loading?.classList.add("hidden");
+			endMessage?.classList.remove("hidden");
+			trigger?.classList.add("hidden");
+			return;
+		}
+
+		isLoading = true;
+		loading?.classList.remove("hidden");
+
+		// Simulate loading delay for better UX
+		setTimeout(() => {
+			nextPosts.forEach((post) => {
+				const card = createPostCard(post);
+				container?.appendChild(card);
+			});
+
+			currentIndex += nextPosts.length;
+
+			loading?.classList.add("hidden");
+			isLoading = false;
+
+			if (currentIndex >= allPosts.length) {
+				endMessage?.classList.remove("hidden");
+				trigger?.classList.add("hidden");
+			}
+		}, 300);
+	}
+
+	function shufflePosts() {
+		allPosts = allPosts.sort(() => Math.random() - 0.5);
+		currentIndex = 0;
+		isLoading = false;
+		const container = document.getElementById("posts-container");
+		const trigger = document.getElementById("loading-trigger");
+		if (container) {
+			container.innerHTML = "";
+		}
+		document.getElementById("end-message")?.classList.add("hidden");
+		trigger?.classList.remove("hidden");
+		loadMorePosts();
+	}
+
+	// Intersection Observer for infinite scroll
+	const observer = new IntersectionObserver(
+		(entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting && !isLoading && currentIndex < allPosts.length) {
+					loadMorePosts();
+				}
+			});
+		},
+		{
+			rootMargin: "200px",
+			threshold: 0.1,
+		},
+	);
+
+	// Initial load
+	loadMorePosts();
+
+	// Observe the trigger element (not the loading indicator)
+	const triggerElement = document.getElementById("loading-trigger");
+	if (triggerElement) {
+		observer.observe(triggerElement);
+	}
+
+	// Shuffle button
+	const shuffleBtn = document.getElementById("shuffle-btn");
+	shuffleBtn?.addEventListener("click", () => {
+		shufflePosts();
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	});
+</script>
+
+<style>
+	.line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	@keyframes spin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+
+	.animate-spin {
+		animation: spin 1s linear infinite;
+	}
+
+	/* Smooth appearance animation */
+	#posts-container article {
+		animation: fadeIn 0.3s ease-in;
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+</style>
