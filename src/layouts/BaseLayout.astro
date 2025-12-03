@@ -110,6 +110,17 @@ const finalStructuredData = structuredData || defaultStructuredData;
 		<!-- Structured Data -->
 		<script type="application/ld+json" set:html={JSON.stringify(finalStructuredData)} />
 
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9R84BE0QS"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				window.dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-G9R84BE0QS");
+		</script>
+
 		<script
 			async
 			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9737122509851883"
