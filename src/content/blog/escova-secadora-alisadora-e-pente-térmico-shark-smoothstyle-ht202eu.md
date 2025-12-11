@@ -81,7 +81,7 @@ Seja seu cabelo naturalmente liso ou ondulado, com cachos definidos ou encaracol
 
 Eu paguei €56.10 na Amazon aqui da Holanda na Black Friday 
 
-No Brasil você encontra no [https://mercadolivre.com/sec/12x7CJJ ](https://mercadolivre.com/sec/1Q4gXYv)ou aqui <https://mercadolivre.com/sec/2A9TKmt>
+No Brasil você encontra no [https://mercadolivre.com/sec/12x7CJJ ](https://mercadolivre.com/sec/12x7CJJ)ou aqui <https://mercadolivre.com/sec/2A9TKmt>
 
 **[Aqui você encontra todos os meus links 🔗 ](https://linktr.ee/jhessi_oliv)**
 
