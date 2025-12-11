@@ -1,5 +1,5 @@
 ---
-title: Escova Secadora Alisadora e Pente térmico Shark SmoothStyle HT202EU
+title: Escova Secadora Alisadora Shark SmoothStyle e Pente térmico  HT202EU
 date: 2025-12-09T15:30:00.000+01:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764938079/DSC00756_rbwelx.jpg
 description: "O Shark SmoothStyle é o modelador multifuncional ideal para os
@@ -81,7 +81,7 @@ Seja seu cabelo naturalmente liso ou ondulado, com cachos definidos ou encaracol
 
 Eu paguei €56.10 na Amazon aqui da Holanda na Black Friday 
 
-No Brasil você encontra no <https://mercadolivre.com/sec/1Q4gXYv> ou aqui <https://mercadolivre.com/sec/2A9TKmt>
+No Brasil você encontra no [https://mercadolivre.com/sec/12x7CJJ ](https://mercadolivre.com/sec/1Q4gXYv)ou aqui <https://mercadolivre.com/sec/2A9TKmt>
 
 **[Aqui você encontra todos os meus links 🔗 ](https://linktr.ee/jhessi_oliv)**
 
