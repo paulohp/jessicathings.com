@@ -95,6 +95,8 @@ No Brasil você encontra no [https://mercadolivre.com/sec/12x7CJJ ](https://merc
 
 #### ASSISTA O VÍDEO PARA MAIS DETALHES
 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/yCbFv8gBxhE?si=QrpUtmo6PlIrHv-R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 #### VEJA TAMBÉM
 
 *<https://jessicathings.com/escova-secadora-e-modeladora-revlon-root-booster-rvdr5292-127v>*
