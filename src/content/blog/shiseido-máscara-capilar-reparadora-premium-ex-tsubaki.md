@@ -47,10 +47,12 @@ O produto proporciona cabelos fortes.
 
 Eu paguei 12,59 € [no site da YesStyle ](https://www.yesstyle.com/en/shiseido-tsubaki-premium-ex-repair-hair-mask-180g/info.html/pid.1130837968?rco=JESSITHINGS1&utm_term=JESSITHINGS1&utm_medium=Influencer&utm_source=dynamic&mcg=influencer)
 
-
+[](https://www.yesstyle.com/en/shiseido-tsubaki-premium-ex-repair-hair-mask-180g/info.html/pid.1130837968?rco=JESSITHINGS1&utm_term=JESSITHINGS1&utm_medium=Influencer&utm_source=dynamic&mcg=influencer)
 
 #### **ONDE COMPRAR**
 
-Amazon https://amzn.to/4te23lT
+Amazon <https://amzn.to/4te23lT>
+
+[](https://amzn.to/4te23lT)
 
 \#yesstyle #yesstylecode #fino #shiseido  #hairmask #cabelo #tratamentocapilar #hairmask #shiseido #yesstylereview #japones #tsubaki #cabelo
