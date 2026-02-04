@@ -1,7 +1,7 @@
 ---
-title: Shiseido Máscara Capilar Reparadora Premium EX Tsubaki
+title: "Shiseido Tsubaki Máscara Capilar Reparadora Premium EX "
 date: 2026-02-02T11:22:00.000+01:00
-thumbnail: https://collection.cloudinary.com/dsjslrvmd/97b1e434b0fa92528b74383a8360e6dd
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1770203145/tsubaki_-_premium_ex_repair_mask_180ml_ex_repair_mask_150ml_refil__qzhkii.webp
 description: "Ela penetra nos fios para reparar os danos e proporcionar
   hidratação profunda através de uma tecnologia inovadora de infiltração,
   suavizando o cabelo da raiz às pontas. "
