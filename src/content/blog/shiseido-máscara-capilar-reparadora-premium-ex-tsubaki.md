@@ -12,7 +12,7 @@ tags:
   - Tsubaki
   - Shiseido Máscara Capilar
 ---
-Olá meus amores tudo bem com vocês? Na resenha de hoje vamo falar da máscara capilar **"Shiseido Máscara Capilar Reparadora Premium EX Tsubaki",** que devido a uma recente mudança na razão social,desde 2023 a Fine Today Shiseido Co., Ltd. agora se chama FineToday Co., Ltd. Consequentemente, a embalagem do produto foi atualizada e o nome "Shiseido" não consta mais nela.
+Olá meus amores tudo bem com vocês? Na resenha de hoje vamos  falar da máscara capilar **"Shiseido Máscara Capilar Reparadora Premium EX Tsubaki",** que devido a uma recente mudança na razão social,desde 2023 a Fine Today Shiseido Co., Ltd. agora se chama FineToday Co., Ltd. Consequentemente, a embalagem do produto foi atualizada e o nome "Shiseido" não consta mais nela.
 
 Esta máscara capilar oferece cuidados de salão no conforto da sua casa. Ela penetra nos fios para reparar os danos e proporcionar ***hidratação profunda*** através de uma tecnologia inovadora de infiltração, suavizando o cabelo da raiz às pontas. A máscara possui um agradável aroma de ***camélia.***
 
@@ -39,8 +39,6 @@ O mel de camélia, elegante e belo, harmoniza-se com o aroma de frutas aromátic
 Não contém conservantes adicionados, nem pigmentos, é suave e não há necessidade de proteger o couro cabeludo e o cabelo.Instruções de uso:
 
 O produto proporciona cabelos fortes.
-
-
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1770203840/co%CC%81pia_de_IMG_4842_co9pik.jpg)
 
