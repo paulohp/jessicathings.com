@@ -14,7 +14,7 @@ tags:
   - agarotadolago
   - ""
 ---
-[A garota do lago](https://amzn.to/3KcaXig), com 296 páginas, a versão brasileira foi publicado em 1 janeiro 2017 pela editora Faro Editorial, a Idade sugerida é de  6 anos e acima.
+[A garota do lago](https://amzn.to/3KcaXig), com 296 páginas, a versão brasileira foi publicado em 1 janeiro 2017 pela editora Faro Editorial, a Idade sugerida é de  16 anos e acima.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1764172379/DSC00215_ifzff6.jpg)
 
