@@ -34,19 +34,19 @@ const totalPostsWithTags = posts.filter(
 ).length;
 
 // SEO optimizations
-const seoTitle = "Tags - Jessica Things | Todas as Tags do Blog";
-const seoDescription = `Navegue por todas as ${tags.length} tags do blog Jessica Things. Encontre conteúdo específico sobre beleza, moda e estilo de vida através de ${totalPostsWithTags} posts marcados.`;
+const seoTitle = "Tags - Jéssica Oliveira Beauty | Todas as Tags do Blog";
+const seoDescription = `Navegue por todas as ${tags.length} tags do blog Jéssica Oliveira Beauty. Encontre conteúdo específico sobre beleza, moda e estilo de vida através de ${totalPostsWithTags} posts marcados.`;
 
 // Structured data for tags page
 const structuredData = {
 	"@context": "https://schema.org",
 	"@type": "CollectionPage",
-	name: "Tags - Jessica Things",
+	name: "Tags - Jéssica Oliveira Beauty",
 	description: seoDescription,
 	url: new URL("/tags", Astro.site).toString(),
 	isPartOf: {
 		"@type": "WebSite",
-		name: "Jessica Things",
+		name: "Jéssica Oliveira Beauty",
 		url: Astro.site?.toString(),
 	},
 	mainEntity: {
@@ -186,7 +186,7 @@ const structuredData = {
 			<div class="container mx-auto px-4 py-12">
 				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
 					<div>
-						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jéssica Oliveira Beauty</h3>
 						<p class="text-sm text-gray-600">
 							Sua fonte de inspiração para beleza, moda e estilo de vida.
 						</p>
@@ -240,7 +240,7 @@ const structuredData = {
 					</div>
 				</div>
 				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
-					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+					<p>&copy; 2025 Jéssica Oliveira Beauty. Todos os direitos reservados.</p>
 				</div>
 			</div>
 		</footer>

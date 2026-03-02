@@ -45,14 +45,14 @@ export async function getStaticPaths() {
 const { categoryName, posts } = Astro.props;
 
 // SEO optimizations
-const seoTitle = `${categoryName} - Jessica Things | Posts sobre ${categoryName}`;
-const seoDescription = `Descubra ${posts.length} ${posts.length === 1 ? "post" : "posts"} sobre ${categoryName} no Jessica Things. Conteúdo especializado em beleza, moda e estilo de vida.`;
+const seoTitle = `${categoryName} - Jéssica Oliveira Beauty | Posts sobre ${categoryName}`;
+const seoDescription = `Descubra ${posts.length} ${posts.length === 1 ? "post" : "posts"} sobre ${categoryName} no Jéssica Oliveira Beauty. Conteúdo especializado em beleza, moda e estilo de vida.`;
 
 // Structured data for category page
 const structuredData = {
 	"@context": "https://schema.org",
 	"@type": "CollectionPage",
-	name: `${categoryName} - Jessica Things`,
+	name: `${categoryName} - Jéssica Oliveira Beauty`,
 	description: seoDescription,
 	url: new URL(
 		`/category/${categoryName
@@ -66,7 +66,7 @@ const structuredData = {
 	).toString(),
 	isPartOf: {
 		"@type": "WebSite",
-		name: "Jessica Things",
+		name: "Jéssica Oliveira Beauty",
 		url: Astro.site?.toString(),
 	},
 	mainEntity: {
@@ -265,7 +265,7 @@ const structuredData = {
 			<div class="container mx-auto px-4 py-12">
 				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
 					<div>
-						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jéssica Oliveira Beauty</h3>
 						<p class="text-sm text-gray-600">
 							Sua fonte de inspiração para beleza, moda e estilo de vida.
 						</p>
@@ -318,7 +318,7 @@ const structuredData = {
 					</div>
 				</div>
 				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
-					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+					<p>&copy; 2025 Jéssica Oliveira Beauty. Todos os direitos reservados.</p>
 				</div>
 			</div>
 		</footer>

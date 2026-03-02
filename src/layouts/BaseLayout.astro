@@ -33,12 +33,12 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, Astro.site)
 const defaultStructuredData = {
 	"@context": "https://schema.org",
 	"@type": "WebSite",
-	name: "Jessica Things",
-	description: "Sua fonte de inspiração para beleza, moda e estilo de vida",
+	name: "Jéssica Oliveira Beauty",
+	description: "Sua fonte de inspiração para beleza, cabelo e estilo de vida",
 	url: Astro.site?.toString(),
 	publisher: {
 		"@type": "Organization",
-		name: "Jessica Things",
+		name: "Jéssica Oliveira Beauty",
 		logo: {
 			"@type": "ImageObject",
 			url: new URL("/favicon.svg", Astro.site).toString(),
@@ -75,7 +75,7 @@ const finalStructuredData = structuredData || defaultStructuredData;
 		<meta property="og:title" content={title} />
 		{description && <meta property="og:description" content={description} />}
 		<meta property="og:url" content={fullCanonicalUrl} />
-		<meta property="og:site_name" content="Jessica Things" />
+		<meta property="og:site_name" content="Jéssica Oliveira Beauty" />
 		<meta property="og:locale" content="pt_BR" />
 		{fullOgImage && <meta property="og:image" content={fullOgImage} />}
 		{fullOgImage && <meta property="og:image:alt" content={title} />}
@@ -104,7 +104,7 @@ const finalStructuredData = structuredData || defaultStructuredData;
 
 		<!-- Additional SEO Meta Tags -->
 		<meta name="robots" content="index, follow" />
-		<meta name="author" content="Jessica Things" />
+		<meta name="author" content="Jéssica Oliveira Beauty" />
 		<meta name="language" content="pt-BR" />
 
 		<!-- Structured Data -->

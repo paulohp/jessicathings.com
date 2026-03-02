@@ -29,19 +29,19 @@ const categories = Array.from(categoryMap.entries()).sort((a, b) => {
 const totalPosts = posts.length;
 
 // SEO optimizations
-const seoTitle = "Categorias - Jessica Things | Beleza, Moda e Estilo de Vida";
-const seoDescription = `Explore todas as ${categories.length} categorias do Jessica Things. Descubra conteúdo organizado sobre beleza, moda, estilo de vida e muito mais em ${totalPosts} posts.`;
+const seoTitle = "Categorias - Jéssica Oliveira Beauty | Beleza, Moda e Estilo de Vida";
+const seoDescription = `Explore todas as ${categories.length} categorias do Jéssica Oliveira Beauty. Descubra conteúdo organizado sobre beleza, moda, estilo de vida e muito mais em ${totalPosts} posts.`;
 
 // Structured data for categories page
 const structuredData = {
 	"@context": "https://schema.org",
 	"@type": "CollectionPage",
-	name: "Categorias - Jessica Things",
+	name: "Categorias - Jéssica Oliveira Beauty",
 	description: seoDescription,
 	url: new URL("/categories", Astro.site).toString(),
 	isPartOf: {
 		"@type": "WebSite",
-		name: "Jessica Things",
+		name: "Jéssica Oliveira Beauty",
 		url: Astro.site?.toString(),
 	},
 	mainEntity: {
@@ -158,7 +158,7 @@ const structuredData = {
 			<div class="container mx-auto px-4 py-12">
 				<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
 					<div>
-						<h3 class="mb-4 text-lg font-bold text-gray-900">Jessica Things</h3>
+						<h3 class="mb-4 text-lg font-bold text-gray-900">Jéssica Oliveira Beauty</h3>
 						<p class="text-sm text-gray-600">
 							Sua fonte de inspiração para beleza, moda e estilo de vida.
 						</p>
@@ -211,7 +211,7 @@ const structuredData = {
 					</div>
 				</div>
 				<div class="mt-8 border-t border-gray-200 pt-8 text-center text-sm text-gray-600">
-					<p>&copy; 2025 Jessica Things. Todos os direitos reservados.</p>
+					<p>&copy; 2025 Jéssica Oliveira Beauty. Todos os direitos reservados.</p>
 				</div>
 			</div>
 		</footer>
