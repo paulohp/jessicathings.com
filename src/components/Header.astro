@@ -9,9 +9,9 @@ const { currentPage = "home" } = Astro.props;
 <header class="sticky top-0 z-50 border-b border-gray-200 bg-white shadow-sm">
 	<div class="container mx-auto px-4 py-4">
 		<div class="flex items-center justify-between">
-			<div class="flex items-center space-x-2 md:space-x-4">
-				<a href="/" class="text-2xl font-bold text-gray-900 md:text-3xl">Jéssica Oliveira Beauty</a>
-				<span class="hidden text-sm text-gray-500 sm:inline">Beleza, Moda & Estilo de Vida</span>
+			<div class="flex items-center space-x-3 md:space-x-5">
+				<a href="/" class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">Jéssica Oliveira Beauty</a>
+				<span class="hidden text-xs uppercase tracking-widest text-gray-400 sm:inline">Beleza & Estilo</span>
 			</div>
 
 			<!-- Desktop Navigation -->
@@ -19,10 +19,10 @@ const { currentPage = "home" } = Astro.props;
 				<a
 					href="/"
 					class:list={[
-						"transition-colors",
+						"text-sm tracking-wide transition-colors",
 						currentPage === "home"
-							? "font-medium text-gray-900"
-							: "text-gray-700 hover:text-gray-900",
+							? "border-b border-gray-900 pb-0.5 font-medium text-gray-900"
+							: "text-gray-500 hover:text-gray-900",
 					]}
 				>
 					Início
@@ -30,10 +30,10 @@ const { currentPage = "home" } = Astro.props;
 				<a
 					href="/explorar"
 					class:list={[
-						"transition-colors",
+						"text-sm tracking-wide transition-colors",
 						currentPage === "explorar"
-							? "font-medium text-gray-900"
-							: "text-gray-700 hover:text-gray-900",
+							? "border-b border-gray-900 pb-0.5 font-medium text-gray-900"
+							: "text-gray-500 hover:text-gray-900",
 					]}
 				>
 					Explorar
@@ -41,10 +41,10 @@ const { currentPage = "home" } = Astro.props;
 				<a
 					href="/categories"
 					class:list={[
-						"transition-colors",
+						"text-sm tracking-wide transition-colors",
 						currentPage === "categories"
-							? "font-medium text-gray-900"
-							: "text-gray-700 hover:text-gray-900",
+							? "border-b border-gray-900 pb-0.5 font-medium text-gray-900"
+							: "text-gray-500 hover:text-gray-900",
 					]}
 				>
 					Categorias
@@ -52,10 +52,10 @@ const { currentPage = "home" } = Astro.props;
 				<a
 					href="/tags"
 					class:list={[
-						"transition-colors",
+						"text-sm tracking-wide transition-colors",
 						currentPage === "tags"
-							? "font-medium text-gray-900"
-							: "text-gray-700 hover:text-gray-900",
+							? "border-b border-gray-900 pb-0.5 font-medium text-gray-900"
+							: "text-gray-500 hover:text-gray-900",
 					]}
 				>
 					Tags

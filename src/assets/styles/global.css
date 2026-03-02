@@ -27,7 +27,8 @@
 	.prose h4,
 	.prose h5,
 	.prose h6 {
-		@apply font-bold text-gray-900;
+		@apply font-display font-semibold text-gray-900;
+		letter-spacing: -0.02em;
 	}
 
 	.prose p {
@@ -47,7 +48,8 @@
 	}
 
 	.prose blockquote {
-		@apply border-l-4 border-gray-300 pl-4 italic text-gray-600;
+		@apply border-l-4 pl-4 italic text-gray-600;
+		border-color: #c9a49e;
 	}
 
 	.prose img {

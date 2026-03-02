@@ -6,6 +6,10 @@ const config: Config = {
 	darkMode: "class",
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['"DM Sans"', "system-ui", "sans-serif"],
+				display: ['"Cormorant Garamond"', "Georgia", "serif"],
+			},
 			// Add webkit prefixes for better iOS support
 			supports: {
 				"webkit-appearance": {
