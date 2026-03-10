@@ -16,7 +16,7 @@ compatibility_flags = ["nodejs_compat"]
 
 # Custom domains (update with your actual domain)
 # [env.production]
-# custom_domain = "jessicathings.com"
+# custom_domain = "jessica.blog.br"
 
 # Redirects for SEO (optional)
 [[redirects]]

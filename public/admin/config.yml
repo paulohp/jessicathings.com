@@ -2,8 +2,8 @@ backend:
   name: github
   branch: main
   repo: paulohp/jessicathings.com
-  site_domain: jessica.blog.br
-  base_url: https://jessica.blog.br
+  site_domain: www.jessica.blog.br
+  base_url: https://www.jessica.blog.br
   auth_endpoint: oauth
 
 media_library:
