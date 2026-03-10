@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel";
 
 const config = defineConfig({
-	site: "https://jessicathings.com/",
+	site: "https://jessica.blog.br/",
 	output: "static",
 	adapter: vercel({
 		webAnalytics: { enabled: true }
