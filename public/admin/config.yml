@@ -2,8 +2,8 @@ backend:
   name: github
   branch: main
   repo: paulohp/jessicathings.com
-  site_domain: jessicathings.com
-  base_url: https://jessicathings.com/
+  site_domain: jessica.blog.br
+  base_url: https://jessica.blog.br
   auth_endpoint: oauth
 
 media_library:
@@ -34,13 +34,13 @@ collections:
           - "Livros"
           - "Betim"
           - "Cabelo"
-          - "Cabelos coloridos"
+          - "Cabelos Coloridos"
           - "Canadá"
           - "Chile"
           - "Corpo"
           - "Escova Para Escovar o Cabelo"
           - "Escovas Térmicas"
-          - "Escovas secadoras"
+          - "Escovas Secadoras"
           - "Estados Unidos"
           - "Haia"
           - "Holanda"
@@ -53,11 +53,12 @@ collections:
           - "Países"
           - "Peru"
           - "Poland"
-          - "Produtos de cabelo"
+          - "Produtos de Cabelo"
           - "Rosto"
           - "Secador de Cabelo"
           - "Serra do Cipó"
           - "Tecnologia"
+          - "Hair Tools"
       - label: "Tags"
         name: "tags"
         widget: "list"
