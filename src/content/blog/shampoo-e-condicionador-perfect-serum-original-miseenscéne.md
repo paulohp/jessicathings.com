@@ -1,7 +1,7 @@
 ---
 title: Shampoo e Condicionador Perfect Serum Original - miseenscéne
 date: 2026-03-16T09:45:00.000+01:00
-thumbnail: https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/wagner-moura-o-agente-secreto.jpg?w=1200&h=675&crop=1
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1773652855/perfect-serum-original-conditioner___260112_puryyn.webp
 description: nutrição aos cabelos, protegê-los contra a quebra e proporcionar
   uma aparência mais saudável por mais tempo. Indicado para cabelos secos,
   quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro
@@ -19,6 +19,9 @@ Indicado para todos os tipos de cabelo, o **Shampoo Perfect Serum** limpa deli
 * Garante cabelos brilhantes e macios
 * Promove a hidratação e reparação da fibra capilar
 * Ajuda a fortalecer cabelos enfraquecidos e danificados
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1773652855/perfect-serum-original-conditioner___260112_puryyn.webp)
+
 
 
 ### Descrição Shampoo
@@ -56,13 +59,17 @@ Promove Hidratação, brilho e maciez, prevenção de pontas duplas,  limpeza, r
 * Ácido cítrico, 
 * Glicerina
 
-### Ingredientes 
+### Ingredientes
 
 ÁGUA, GLICERINA, DIPROPILENOGLICOL, ÁLCOOL CETÍLICO, ÁLCOOL ESTEARÍLICO, DIMETICONA, CLORETO DE BEHENTRIMÔNIO, ÁLCOOL ISOPROPÍLICO, FRAGRÂNCIA, HIDROXIETILCELULOSE, ETILHEXILGLICERINA, EDTA DISSÓDICO, AMARELO 5 (CI 19140), AMARELO 6 (CI 15985), TOCOFEROL, ÓLEO DE SEMENTE DE SIMMONDSIA CHINENSIS (JOJOBA), ÓLEO DE FRUTA DE OLEA EUROPAEA (OLIVA), ÓLEO DE SEMENTE DE PRUNUS ARMENIACA (DAMASCO), ÓLEO DE SEMENTE DE ARGANIA SPINOSA, ÓLEO DE SEMENTE DE CAMELLIA JAPONICA, ÓLEO DE COCOS NUCIFERA (COCO), VERMELHO 33 (CI 17200), AZUL 1 (CI 15985). 42090), COCO-CAPRILATO/CAPRATO, ÓLEO DE SEMENTE DE SCLEROCARYA BIRREA, GLICOLIPÍDIOS.
-
-
 
 ### Modo de Uso
 
 * Aplique uma quantidade moderada nos cabelos lavados e úmidos, evitando a raiz.
 * Massageie suavemente, deixe agir por alguns minutos e enxágue completamente.
+
+### Onde comprar
+
+1. Mercado Livre:[ Shampoo e condicionador](https://meli.la/16jRt39)
+2. Amazon: [Shampoo e condicionador](https://amzn.to/4s7epLH)
+3. Shopee: [Shampoo e condicionador ](https://s.shopee.com.br/AUpJbhdBVw)
