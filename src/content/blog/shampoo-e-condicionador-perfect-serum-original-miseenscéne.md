@@ -8,8 +8,7 @@ description: nutrição aos cabelos, protegê-los contra a quebra e proporcionar
   cabeludo.
 categories:
   - Produtos de Cabelo
-tags:
-  - shampooecondicionador+
+tags: []
 ---
 Olá meus amores, tudo bem com voCês?! Na resenha de hoje vamos falar sobre o Shampoo e Condicionador **"Perfect Serum Original - Miseenscéne"** que promete nutrição aos cabelos, protegê-los contra a quebra e proporcionar uma aparência mais saudável por mais tempo. Indicado para cabelos secos, quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro cabeludo.
 
@@ -73,3 +72,7 @@ Promove Hidratação, brilho e maciez, prevenção de pontas duplas,  limpeza, r
 1. Mercado Livre:[ Shampoo e condicionador](https://meli.la/16jRt39)
 2. Amazon: [Shampoo e condicionador](https://amzn.to/4s7epLH)
 3. Shopee: [Shampoo e condicionador ](https://s.shopee.com.br/AUpJbhdBVw)
+
+
+
+\#perfectserum
