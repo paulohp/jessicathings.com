@@ -44,6 +44,8 @@ O óleo de jojoba e o azeite de oliva hidratam, o óleo de coco reveste os fios,
 * Aplique nos cabelos molhados, massageie suavemente até formar espuma e enxágue bem. 
 * Para melhores resultados, use regularmente e combine com o condicionador da mesma linha.
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1773654341/D_Q_NP_674284-MLB79464075300_102024-O_v75xvd.webp)
+
 ### Descrição Condicionador
 
 O **Perfect Serum Condicionador** complementa o tratamento capilar, proporcionando nutrição intensa, brilho radiante e um toque sedoso. Infundido com **7 óleos nobres** , incluindo **Óleo de Argan** , **Óleo de Jojoba** , **Óleo de Oliva** e **Óleo de Camélia** , ele restaura a vitalidade dos cabelos e protege contra os danos do dia a dia.
