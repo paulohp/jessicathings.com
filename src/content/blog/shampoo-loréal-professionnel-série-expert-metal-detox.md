@@ -12,7 +12,7 @@ tags:
   - shampoometadetox
   - ""
 ---
-Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o shampoo “O Shampoo Metal Detox da L'Oréal” que promete brilho e suavidade, proteção da cor, prevenção de pontas espigadas, limpeza profunda.
+Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o  "**Shampoo Metal Detox da L'Oréal”** que promete brilho e suavidade, proteção da cor, prevenção de pontas espigadas, limpeza profunda.
 
 *Aqui no Países Baixos/Holanda e na maioria dos países da Europa temos a a água com calcário (água dura) que contém metais, principalmente cálcio (Ca²⁺) e magnésio (Mg²⁺), em elevadas concentrações. Esses minerais são dissolvidos naturalmente ao passar por rochas calcárias. Embora o calcário cause ressecamento na pele e cabelo, ele não é um metal tóxico.*
 
@@ -70,8 +70,6 @@ O fabricante é responsável pela composição deste produto. Devido a possívei
 
 * Aplique uma pequena quantidade do shampoo de limpeza L'Oréal Metal Detox nos cabelos molhados. 
 * Massageie bem até formar espuma e enxágue abundantemente com água.
-
-
 
 ### ONDE COMPRAR
 
