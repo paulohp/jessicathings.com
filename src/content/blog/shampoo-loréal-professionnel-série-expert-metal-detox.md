@@ -16,8 +16,7 @@ Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o  
 
 *Aqui no Países Baixos/Holanda e na maioria dos países da Europa temos a a água com calcário (água dura) que contém metais, principalmente cálcio (Ca²⁺) e magnésio (Mg²⁺), em elevadas concentrações. Esses minerais são dissolvidos naturalmente ao passar por rochas calcárias. Embora o calcário cause ressecamento na pele e cabelo, ele não é um metal tóxico.*
 
-A penetração de metais na água(água com calcário também conhecida como água dura), que se acumula no cabelo lavagem após cada lavagem, é uma das principais causas de quebra.
-Este tratamento capilar patenteado é enriquecido com Glicoamina, uma molécula pequena suficiente para penetrar na fibra capilar, capturar os metais e neutralizar seu efeito.
+A penetração de metais na água que se acumula no cabelo lavagem após cada lavagem, é uma das principais causas de quebra. Este tratamento capilar patenteado é enriquecido com Glicoamina, uma molécula pequena suficiente para penetrar na fibra capilar, capturar os metais e neutralizar seu efeito.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1773655302/product_packshotmd_ajo3nx.webp)
 
