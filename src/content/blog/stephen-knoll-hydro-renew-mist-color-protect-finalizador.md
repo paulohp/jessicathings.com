@@ -1,6 +1,4 @@
 ---
-
-date: "2025-03-13 11:39:39"
 excerpt: ""
 slug: stephen-knoll-hydro-renew-mist-color-protect-finalizador
 title: Stephen Knoll Hydro Renew Mist Color & Protect – Finalizador
