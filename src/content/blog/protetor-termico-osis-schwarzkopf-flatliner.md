@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2023-05-28 18:00:58"
 excerpt: ""
 slug: protetor-termico-osis-schwarzkopf-flatliner
@@ -28,8 +28,8 @@ AQUA (ÁGUA, EAU), ÁLCOOL DENAT, PROPILENO GLICOL, POLIURETANO-48, QUERATINA HI
 
 #### MODO DE USO
 
-*   Aplique no cabelo úmido antes de secar com o secador
-*   Ou no cabelo seco antes de utilizar fontes de calor como babyliss/chapinhas e modeladores.
+- Aplique no cabelo úmido antes de secar com o secador
+- Ou no cabelo seco antes de utilizar fontes de calor como babyliss/chapinhas e modeladores.
 
 #### VALOR
 

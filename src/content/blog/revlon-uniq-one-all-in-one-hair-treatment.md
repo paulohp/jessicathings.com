@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2023-07-30 18:00:03"
 excerpt: ""
 slug: revlon-uniq-one-all-in-one-hair-treatment
@@ -26,7 +26,7 @@ Olá meu amores, tudo bem com vocês? No post de hoje nos vamos falar sobre o Le
 7.  Aumenta o brilho e protege a cor
 8.  Maciez e maleabilidade
 9.  Previne pontas duplas
-10.  Controle o volume
+10. Controle o volume
 
 [![](https://images.jessicathings.com/2023/06/IMG_9391-copy.png)](https://www.magazinevoce.com.br/magazinejessicathings/revlon-professional-uniq-one-all-in-one-hair-treatment-leave-in/p/545112900/pf/licp/)
 
@@ -62,9 +62,9 @@ AQUA (ÁGUA) (EAU), CETEARYL ALCOHOL, BEHENTRIMONIUM CHLORIDE, PARFUM (FRAGRÂNC
 
 #### MODO DE USO
 
-*   Aplique o creme de pentear no comprimento e pontas dos fios
-*   Massageie bem e deixe agir por alguns minutos
-*   Não enxágue
+- Aplique o creme de pentear no comprimento e pontas dos fios
+- Massageie bem e deixe agir por alguns minutos
+- Não enxágue
 
 **Sugestão de uso:** Nos cabelos molhados: aplique a uma distância de 20 cm, desembarace os cabelos com pente e finalize como desejar. Nos cabelos secos: esfregue o produto entre as mãos e aplique nos cabelos evitando a raíz, se necessário retoque o penteado com o secador ou a prancha.
 

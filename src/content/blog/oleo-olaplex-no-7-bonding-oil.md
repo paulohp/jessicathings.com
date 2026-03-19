@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2024-07-16 13:12:44"
 excerpt: ""
 slug: oleo-olaplex-no-7-bonding-oil
@@ -14,16 +14,16 @@ title: ÓLEO OLAPLEX Nº.7 Bonding Oil
 
 Olá meus amores, tudo bem com você?! No post de hoje vamos falar sobre o óleo **"Olaplex Nº.7 Bonding Oil"** onde  Bonding oil significa Óleo de ligação. Sua nota olfativa é Ácido cítrico, Fresco, Frutado, apesar de ter uma cor amarela no site da marca ele é indicado para todas a cores de cabelo inclusive as loiras. Tem proteção UV e térmica de até 232°C.
 
-*   Todos os tipos de cabelo
-*   valor do PH
-*   Vegano
-*   Crueldade livre
-*   Não contém gluten
-*   Livre de nozes
-*   Sem parabenos
-*   Livre de ftalatos
-*   Livre de fosfatos
-*   Livre de sulfato
+- Todos os tipos de cabelo
+- valor do PH
+- Vegano
+- Crueldade livre
+- Não contém gluten
+- Livre de nozes
+- Sem parabenos
+- Livre de ftalatos
+- Livre de fosfatos
+- Livre de sulfato
 
 ![](https://images.jessicathings.com/2024/07/HERO_PDP_IN_N7_BOX_3000x3000_682003df-9f97-413e-a3d6-5fb144fac277_1440x.webp)
 
@@ -33,9 +33,9 @@ Olaplex Bonding Oil é mais do que apenas um óleo modelador. N°7 não só prop
 
 #### COMO USAR, QUANDO USAR,PARA QUEM
 
-*   Pode ser usado diariamente em cabelos molhados e secos ou para modelar com calor.
-*   Distribua apenas algumas gotas nos cabelos.
-*   Indicado para todos os tipos de cabelo, principalmente para quem usa secador, chapinha ou modelador de cabelo todos os dias.
+- Pode ser usado diariamente em cabelos molhados e secos ou para modelar com calor.
+- Distribua apenas algumas gotas nos cabelos.
+- Indicado para todos os tipos de cabelo, principalmente para quem usa secador, chapinha ou modelador de cabelo todos os dias.
 
 ![](https://images.jessicathings.com/2024/07/HERO_PDP_IN_N7_3000x3000_969ff103-5aa1-46d2-a55b-30d0571ba792_1440x.webp)
 
@@ -95,12 +95,12 @@ O óleo Olaplex pode reduzir significativamente o frizz e os cabelos rebeldes, d
 
 Dimeticona, isohexadecano, isoparafina C13-14, coco-caprilato, fenil trimeticona, dimaleato de bis-aminopropil diglicol, propanodiol, óleo de Zea Mays (milho), beta-caroteno, óleo de semente de Helianthus Annuus (girassol), óleo de semente de Moringa Oleifera, Punica Granatum Óleo de Semente, Água (Aqua/Eau), Pó de Fruta Morinda Citrifolia, Fragrância (Parfum), Hexil Cinnamal, Extrato de Eclipta Prostrata, Metoxicinamato de Etilhexil, Limoneno, Tocoferol, Citral, Linalol, Extrato de Folha de Melia Azadirachta, Citronelol, Pseudozyma Epicola/Camellia Sinensis Filtrado de extrato de fermento de óleo de semente
 
->  
-> 
+>
+>
 > Ver essa foto no Instagram
-> 
->  
-> 
+>
+>
+>
 > [Uma publicação compartilhada por Jéssica Things (@jessicatthings\_)](https://www.instagram.com/reel/C9fG-xKt8kd/?utm_source=ig_embed&utm_campaign=loading)
 
 🛍️ Onde comprar: [https://www.magazinevoce.com.br/magazinejessicathings/oleo-capilar-olaplex-n7-bonding-oil](https://www.magazinevoce.com.br/magazinejessicathings/oleo-capilar-olaplex-n7-bonding-oil-reparacao-de-30ml/p/gb17k6b1jf/pf/mfxc/)

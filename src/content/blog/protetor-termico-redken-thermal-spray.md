@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2024-03-20 08:40:35"
 excerpt: ""
 slug: protetor-termico-redken-thermal-spray
@@ -16,10 +16,10 @@ title: THERMAL SPRAY PROTETOR TÉRMICO REDKEN
 
 Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar do protetor térmico de baixa retenção  **"Thermal Spray Low Hold da Redken"** que protege contra o calor de secador, chapinha, babyliss e outras ferramentas de calor de até 230º graus.
 
-*   Spray de proteção térmica
-*   Evita pontas duplas
-*   Hidrata o cabelo
-*   Facilita o penteado do cabelo
+- Spray de proteção térmica
+- Evita pontas duplas
+- Hidrata o cabelo
+- Facilita o penteado do cabelo
 
 #### SOBRE O PRODUTO
 
@@ -33,20 +33,20 @@ Thermal Spray Low Hold da Redken é um ótimo spray modelador projetado para dar
 
 **Características:**
 
-*   cuida do seu cabelo durante a modelagem térmica
-*   protege seu cabelo contra danos causados ​​pelo calor até 230°C
-*   protege contra umidade e fiapos por 24 horas
-*   fornece fixação média
-*   dá brilho e maciez ao cabelo
-*   Não deixa grudar
-*   hidrata e fortalece as fibras capilares
+- cuida do seu cabelo durante a modelagem térmica
+- protege seu cabelo contra danos causados ​​pelo calor até 230°C
+- protege contra umidade e fiapos por 24 horas
+- fornece fixação média
+- dá brilho e maciez ao cabelo
+- Não deixa grudar
+- hidrata e fortalece as fibras capilares
 
 **Composto:**
 
-*   Tecnologia Re-style – permite que você mude o estilo do seu cabelo
-*   ceramidas – fortalecem as fibras capilares
-*   óleo de cranberry – condiciona o cabelo, proporciona nutrição e hidratação
-*   composição vegana
+- Tecnologia Re-style – permite que você mude o estilo do seu cabelo
+- ceramidas – fortalecem as fibras capilares
+- óleo de cranberry – condiciona o cabelo, proporciona nutrição e hidratação
+- composição vegana
 
 ![](https://images.jessicathings.com/2023/11/IMG_9018-scaled.jpg)
 
@@ -56,8 +56,8 @@ AQUA/WATER/EAU, HYDROFLUOROCARBON 152A, VP/VA COPOLYMER, BUTANE, PEG/PPG-20/6 DI
 
 #### MODO DE USO
 
-*   O produto deve ser pulverizado nos cabelos molhados antes de secar, ondular ou alisar em combinação com ferramentas térmicas.
-*   Você também pode optar por usá-lo em cabelos completamente secos antes de modelá-los.
+- O produto deve ser pulverizado nos cabelos molhados antes de secar, ondular ou alisar em combinação com ferramentas térmicas.
+- Você também pode optar por usá-lo em cabelos completamente secos antes de modelá-los.
 
 #### VALOR
 

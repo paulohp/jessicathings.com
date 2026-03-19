@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2023-09-19 18:00:54"
 excerpt: ""
 slug: shampoo-e-condicionador-hidratante-moroccanoil
@@ -14,10 +14,10 @@ title: SHAMPOO E CONDICIONADOR HIDRATANTE MOROCCANOIL
 
 Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar do **"Shampoo e Condicionador Hidratante Moroccanoil".** Que promete uma limpeza suave de uso diário que hidrata e nutre os cabelos. Restaura o equilíbrio natural da hidratação, deixando o cabelo saudável, macio, suave, maleáveis e vibrante.
 
-*   Hidratação
-*   Para cabelos secos
-*   Contém vitaminas A, E e algas vermelhas.
-*   Contém óleo de argan
+- Hidratação
+- Para cabelos secos
+- Contém vitaminas A, E e algas vermelhas.
+- Contém óleo de argan
 
 ![](https://images.jessicathings.com/2023/09/IMG_7953-scaled.jpg)
 
@@ -33,10 +33,10 @@ SHAMPOO: Aqua/água/eau, Lauroil Sarcosinato de Sódio, Cocamidopropil Hidroxisu
 
 #### MODO DE USO
 
-*   Massageie suavemente o shampoo em todo o cabelo e no couro cabeludo.
-*   Adicione mais água para ativar a espuma. Enxague bem. Repita se necessário.
-*   Em seguida, use o Condicionador Hidratante.Após a lavagem, esprema cuidadosamente o excesso de água e distribua o Condicionador Hidratante até as pontas.
-*   Deixe agir por 1 a 2 minutos. Enxague bem. Use regularmente para obter melhores resultados.
+- Massageie suavemente o shampoo em todo o cabelo e no couro cabeludo.
+- Adicione mais água para ativar a espuma. Enxague bem. Repita se necessário.
+- Em seguida, use o Condicionador Hidratante.Após a lavagem, esprema cuidadosamente o excesso de água e distribua o Condicionador Hidratante até as pontas.
+- Deixe agir por 1 a 2 minutos. Enxague bem. Use regularmente para obter melhores resultados.
 
 #### ONDE COMPRAR
 

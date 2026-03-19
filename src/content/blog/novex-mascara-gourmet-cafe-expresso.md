@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2018-06-10 15:20:40"
 excerpt: ""
 slug: novex-mascara-gourmet-cafe-expresso
@@ -27,9 +27,9 @@ title: NOVEX CAFÉ EXPRESSO TRATAMENTO GOURMET EMBELLEZE
 
 Olá meus amores, tudo bem com vocês? No post de hoje vamos falar da máscara de hidratação "**NOVEX CAFÉ EXPRESSO TRATAMENTO GOURMET" da [EMBELLEZE.](https://www.embelleze.com/)** Para cabelos quimicamente tratados.
 
-*   Reparação
-*   Brilho
-*   Vitalidade
+- Reparação
+- Brilho
+- Vitalidade
 
 ![](https://images.jessicathings.com/2018/07/IMG_6819-1-scaled.jpg)
 
@@ -39,7 +39,7 @@ O Café e o D-Panthenol são a combinação perfeita para ajudar a estimular o c
 
 #### COMPOSIÇÃO
 
-AQUA, CETEARYL ALCOHOL, GLYCINE SOJA OIL, BUTYROSPERMUM PARKII BUTTER, ZEA MAYS STARCH, CETRIMONIUM CHLORIDE, PARFUM, BENZYL ALCOHOL, HYDROXYETHYL UREA, COFFEA ARABICA SEED EXTRACT, PANTHENOL, CETEARETH-60 MYRISTYL GLYCOL, BENZOIC ACID, BHT, SORBIC ACID, CARAMEL, LACTIC ACID, PHENOXYETHANOL. ![](https://images.jessicathings.com/2018/06/IMG_6914.jpg)  
+AQUA, CETEARYL ALCOHOL, GLYCINE SOJA OIL, BUTYROSPERMUM PARKII BUTTER, ZEA MAYS STARCH, CETRIMONIUM CHLORIDE, PARFUM, BENZYL ALCOHOL, HYDROXYETHYL UREA, COFFEA ARABICA SEED EXTRACT, PANTHENOL, CETEARETH-60 MYRISTYL GLYCOL, BENZOIC ACID, BHT, SORBIC ACID, CARAMEL, LACTIC ACID, PHENOXYETHANOL. ![](https://images.jessicathings.com/2018/06/IMG_6914.jpg)
 
 #### RECEITA DE BELEZA CAFÉ EXPRESSO GOURMERT
 
@@ -55,9 +55,9 @@ Só tenho uma palavra para descrever essa máscara MARAVILHOSA! Meu cabelo ficou
 
 **ASSISTA O VÍDEO PARA MAIS DETALHES**
 
- 
 
- 
+
+
 
 **Então é isso amores, um grande beijo e até o próximooo!**
 

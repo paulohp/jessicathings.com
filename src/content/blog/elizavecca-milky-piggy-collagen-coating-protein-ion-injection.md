@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2025-02-26 12:18:41"
 excerpt: ""
 slug: elizavecca-milky-piggy-collagen-coating-protein-ion-injection
@@ -35,29 +35,29 @@ Nº de catálogo:
 
 **Benefícios:**
 
-*   Uma essência capilar que oferece um tratamento rápido e simples, digno de salão, para cabelos crespos e ásperos
-*   Enriquecido com colágeno suíno e proteínas para nutrir os cabelos e deixá-los com uma camada de colágeno
-*   Contém ceramida 3 para fortalecer as cutículas do cabelo e deixar os fios mais grossos e saudáveis
+- Uma essência capilar que oferece um tratamento rápido e simples, digno de salão, para cabelos crespos e ásperos
+- Enriquecido com colágeno suíno e proteínas para nutrir os cabelos e deixá-los com uma camada de colágeno
+- Contém ceramida 3 para fortalecer as cutículas do cabelo e deixar os fios mais grossos e saudáveis
 
 **Como usar:**
 
-*   Aplique uma quantidade adequada no cabelo seco, começando pelas partes danificadas.
+- Aplique uma quantidade adequada no cabelo seco, começando pelas partes danificadas.
 
-  **Tamanho:**   50ml
+**Tamanho:**   50ml
 
 **Benefícios:**
 
-*   Uma essência capilar que oferece um tratamento rápido e simples, digno de salão, para cabelos crespos e ásperos
-*   Enriquecido com colágeno suíno e proteínas para nutrir os cabelos e deixá-los com uma camada de colágeno
-*   Contém ceramida 3 para fortalecer as cutículas do cabelo e deixar os fios mais grossos e saudáveis
+- Uma essência capilar que oferece um tratamento rápido e simples, digno de salão, para cabelos crespos e ásperos
+- Enriquecido com colágeno suíno e proteínas para nutrir os cabelos e deixá-los com uma camada de colágeno
+- Contém ceramida 3 para fortalecer as cutículas do cabelo e deixar os fios mais grossos e saudáveis
 
 **Como usar:**
 
-*   Aplique uma quantidade adequada no cabelo seco, começando pelas partes danificadas.
+- Aplique uma quantidade adequada no cabelo seco, começando pelas partes danificadas.
 
 **Tamanho :**  50ml
 
- 
+
 
 ##### Sobre a marca: [Elizavecca](https://www.yesstyle.com/en/elizavecca/list.html/bpt.299_bid.313867)
 

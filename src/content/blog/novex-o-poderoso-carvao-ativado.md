@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2018-06-10 13:42:01"
 excerpt: ""
 slug: novex-o-poderoso-carvao-ativado
@@ -26,10 +26,10 @@ title: NOVEX - O PODEROSO CARVÃO ATIVADO EMBELLEZE
 
 Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre o Novex [**"O PODEROSO CARVÃO ATIVADO"** da EMBELLEZE.](https://www.embelleze.com/)
 
-*   Antipoluição
-*   Purificação
-*   Restauração
-*   Proteção
+- Antipoluição
+- Purificação
+- Restauração
+- Proteção
 
 #### SOBRE O PRODUTO
 
@@ -41,7 +41,7 @@ AQUA, CETEARYL ALCOHOL, ZEA MAYS STARCH, BUTYROSPERMUM PARKII BUTTER, CETRIMONIU
 
 #### RITUAL DE ATIVAÇÃO PODEROSA
 
-1 - Lave os cabelos com o Shampoo Vitay de sua preferência e retire em seguida. 2 - Aplique Novex O Poderoso Carvão Ativado enluvando mecha a mecha e deixe agir por 10 minutos. Enxágue. 3 - Aplique o Novex O Poderoso Carvão Blindagem Antipoluição e finalize como de costume.  
+1 - Lave os cabelos com o Shampoo Vitay de sua preferência e retire em seguida. 2 - Aplique Novex O Poderoso Carvão Ativado enluvando mecha a mecha e deixe agir por 10 minutos. Enxágue. 3 - Aplique o Novex O Poderoso Carvão Blindagem Antipoluição e finalize como de costume.
 
 #### MINHAS CONSIDERAÇÕES
 
@@ -49,19 +49,19 @@ Eu simplesmente amei, deixou meu cabelo com muito brilho, macio e cheiroso. Supe
 
 #### CUSTO
 
-E paguei **R$ 22,41 reais** em uma embalagem de 1kg  
+E paguei **R$ 22,41 reais** em uma embalagem de 1kg
 
 #### ONDE COMPRAR
 
-Em qualquer loja de cosméticos e online no site deles [aqui](https://www.embelleze.com/)  
+Em qualquer loja de cosméticos e online no site deles [aqui](https://www.embelleze.com/)
 
 **ASSISTA O VÍDEO PARA MAIS DETALHES**
 
- 
+
 
 **Então é isso meus amores, um grande beijo e até o próximooo!**
 
- 
+
 
 #### VEJA TAMBÉM:
 

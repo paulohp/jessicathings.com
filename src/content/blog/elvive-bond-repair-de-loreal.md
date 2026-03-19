@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2024-04-24 10:00:32"
 excerpt: ""
 slug: elvive-bond-repair-de-loreal
@@ -54,8 +54,8 @@ AQUA / ÁGUA / EAU • ÁLCOOL CETEARÍLICO • GLICERINA • CLORETO DE BEHENTR
 
 #### VALOR
 
-Eu paguei **€12.99** euros em cada que da um total de **€38.97** 
+Eu paguei **€12.99** euros em cada que da um total de **€38.97**
 
 #### MINHAS CONSIDERAÇÕES
 
-As minhas primeiras impressões dos produtos foram, eu amei o cheirinho um pouco cítrico  e um pouco floral super leve, quando enxaguei o pré-shampoo meu cabelo estava muito macio, depois apliquei o shampoo de limpeza suave que fez muita espuma e libou bem o cabelo sem agredir os fios, em seguida apliquei o condicionador que tem uma textura mais grossinha parecido com um máscara e o cabelo ficou ainda mais macio porém encorpado, depois de enxaguar o condicionador o cabelo continuou macio e encorpado. \[caption id="attachment\_126511" align="aligncenter" width="2316"\]![](https://images.jessicathings.com/2024/04/IMG_3914-copy.png) Esse é o meu cabelo natural antes de usar os produtos\[/caption\] Deixei secar naturalmente para vê o resultado, e apesar do cabelo ter ficado muito macio e brilhosos ele ficou com bastante frizz, infelizmente esqueci de tirar foto do cabelo seco naturalmente mas eu mostrei tudo no vídeo ![](https://images.jessicathings.com/2024/04/IMG_3949-copy.png) Eu gostei dos produtos mas não me surpreendeu, esperava um pouco mais pelo hype do produto nas redes sociais, porém vou continuar usando para trazer uma resenha completinha para vocês!
+As minhas primeiras impressões dos produtos foram, eu amei o cheirinho um pouco cítrico  e um pouco floral super leve, quando enxaguei o pré-shampoo meu cabelo estava muito macio, depois apliquei o shampoo de limpeza suave que fez muita espuma e libou bem o cabelo sem agredir os fios, em seguida apliquei o condicionador que tem uma textura mais grossinha parecido com um máscara e o cabelo ficou ainda mais macio porém encorpado, depois de enxaguar o condicionador o cabelo continuou macio e encorpado. \[caption id="attachment_126511" align="aligncenter" width="2316"\]![](https://images.jessicathings.com/2024/04/IMG_3914-copy.png) Esse é o meu cabelo natural antes de usar os produtos\[/caption\] Deixei secar naturalmente para vê o resultado, e apesar do cabelo ter ficado muito macio e brilhosos ele ficou com bastante frizz, infelizmente esqueci de tirar foto do cabelo seco naturalmente mas eu mostrei tudo no vídeo ![](https://images.jessicathings.com/2024/04/IMG_3949-copy.png) Eu gostei dos produtos mas não me surpreendeu, esperava um pouco mais pelo hype do produto nas redes sociais, porém vou continuar usando para trazer uma resenha completinha para vocês!

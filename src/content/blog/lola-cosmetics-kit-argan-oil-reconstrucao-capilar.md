@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2023-05-03 14:32:21"
 excerpt: ""
 slug: lola-cosmetics-kit-argan-oil-reconstrucao-capilar
@@ -17,10 +17,10 @@ title: LOLA COSMETICS KIT ARGAN OIL  RECONSTRUÇÃO CAPILAR
 
 Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar do [**"Kit Lola Cosmetics Argan Oil Recontrução"**](https://www.magazinevoce.com.br/magazinejessicathings/busca/Lola+Cosmetics+Kit+Argan+Oil/)  ideal para fios danificados que precisam de reconstrução. Sua fórmula rica em Óleo de Argan, restaura profundamente o cabelo e repõe aminoácidos de forma leve, controla o frizz e tem proteção térmica. ![](https://images.jessicathings.com/2023/04/IMG_3093-scaled.jpg)
 
-*   Nutre, da brilho e repara as pontas
-*   O shampoo é indicado para cabelos que precisam de corpo e reposição de massa
-*   A máscara contém sodium PCA: agente hidratante que reduz a estática e o frizz
-*   O óleo tem uma formulação leve e com toque seco que não pesa nos fios
+- Nutre, da brilho e repara as pontas
+- O shampoo é indicado para cabelos que precisam de corpo e reposição de massa
+- A máscara contém sodium PCA: agente hidratante que reduz a estática e o frizz
+- O óleo tem uma formulação leve e com toque seco que não pesa nos fios
 
 #### SOBRE O PRODUTO
 
@@ -44,9 +44,9 @@ Fórmula super leve e com toque seco, auxilia no controle do frizz e estática. 
 
 #### MODO DE USO
 
-*   Aplique no cabelo molhado, massageando suavemente do couro cabeludo até às pontas. Enxágue e se necessário repita o procedimento.
-*   Após o uso do Shampoo Reconstrutor Argan Oil, coloque uma porção do produto (quantidade maior para cabelos longos) nas palmas das mãos e distribua uniformemente sobre os cabelos, previamente secos com toalha, da raiz às pontas. Deixe agir de 5 à 10 minutos e enxágue.
-*   Aplicar uma pequena quantidade e distribuir nos fios. Finalizar como de costume.
+- Aplique no cabelo molhado, massageando suavemente do couro cabeludo até às pontas. Enxágue e se necessário repita o procedimento.
+- Após o uso do Shampoo Reconstrutor Argan Oil, coloque uma porção do produto (quantidade maior para cabelos longos) nas palmas das mãos e distribua uniformemente sobre os cabelos, previamente secos com toalha, da raiz às pontas. Deixe agir de 5 à 10 minutos e enxágue.
+- Aplicar uma pequena quantidade e distribuir nos fios. Finalizar como de costume.
 
 #### VALOR
 
@@ -58,9 +58,9 @@ Usei a primeira vez quando estava no brasil, e não escovei meu cabelo e o resul
 
 #### ASSISTA O VÍDEO PARA MAIS DETALHES
 
- 
 
-   
+
+
 
 #### VEJA TAMBÉM
 

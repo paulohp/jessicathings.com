@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2018-07-03 11:30:27"
 excerpt: ""
 slug: novex-oleo-de-argan
@@ -22,12 +22,12 @@ thumbnail: https://images.jessicathings.com/2018/07/IMG_7164-scaled.jpg
 title: NOVEX ÓLEO DE ARGAN
 ---
 
-Olá meus amores, tudo bom com vocês?! No post de hoje vamos falar sobre o **"NOVEX Óleo de Argan"** creme de tratamento condicionante da **[EMBELLEZE.](https://www.embelleze.com/)** 
+Olá meus amores, tudo bom com vocês?! No post de hoje vamos falar sobre o **"NOVEX Óleo de Argan"** creme de tratamento condicionante da **[EMBELLEZE.](https://www.embelleze.com/)**
 
-*   Hidratação,
-*   Nutrição,
-*   Força,
-*   Brilho e ação anti-frizz.
+- Hidratação,
+- Nutrição,
+- Força,
+- Brilho e ação anti-frizz.
 
 ![](https://images.jessicathings.com/2018/07/IMG_7164-scaled.jpg)
 
@@ -60,9 +60,9 @@ Paguei **R$ 7,90 reias** no site da Embelleze.
 
 Lojinhas de cosméticos, Lojas Redes e **[aqui na Magazine](https://www.parceiromagalu.com.br/magazinejessicathings/creme-novex-trat-1kg-oleo-de-argan-embelleze/p/hak38567gh/PF/CPOL/?utm_source=jessicathings&utm_medium=creme-novex-trat-1kg-oleo-de-argan-embelleze&utm_campaign=copy-paste&utm_content=copy-paste-share)**
 
- **ASSISTA O VÓDEO PARA MAIS DETALHES!**
+**ASSISTA O VÓDEO PARA MAIS DETALHES!**
 
-  Então é isso amores, por hoje é só um grande beijo e até o próximooo?
+Então é isso amores, por hoje é só um grande beijo e até o próximooo?
 
 #### VEJA TAMBÉM
 

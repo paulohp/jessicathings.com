@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2025-02-26 13:16:22"
 excerpt: ""
 slug: elizavecca-milky-piggy-cer-100-collagen-ceramide-coating-protein
@@ -19,21 +19,21 @@ O tratamento com colágeno de porco protege e fornece nutrientes para cabelos da
 
 **Benefícios:**
 
-*   *   O tratamento capilar repara cutículas e cabelos danificados e proporciona hidratação para melhorar a saúde dos fios, deixando um acabamento brilhante.
+- - O tratamento capilar repara cutículas e cabelos danificados e proporciona hidratação para melhorar a saúde dos fios, deixando um acabamento brilhante.
 
-*   *   Contém colágeno e ingredientes vegetais (como colágeno de origem suína, proteína de soja hidrolisada e ceramida), que fornecem nutrientes e hidratação aos fios.
+- - Contém colágeno e ingredientes vegetais (como colágeno de origem suína, proteína de soja hidrolisada e ceramida), que fornecem nutrientes e hidratação aos fios.
 
-*   *   O tratamento capilar fácil de usar requer apenas uma touca de banho para envolver o cabelo após a aplicação do produto.
+- - O tratamento capilar fácil de usar requer apenas uma touca de banho para envolver o cabelo após a aplicação do produto.
 
-*   *   Adequado para vários tipos de cabelo, incluindo cabelos secos, danificados e crespos.
+- - Adequado para vários tipos de cabelo, incluindo cabelos secos, danificados e crespos.
 
 **Como usar:**
 
-*   *   Depois de lavar o cabelo com xampu e secar com uma toalha, aplique o tratamento capilar no cabelo.
+- - Depois de lavar o cabelo com xampu e secar com uma toalha, aplique o tratamento capilar no cabelo.
 
-*   *   Você pode usar uma touca de banho para envolver o cabelo após aplicar o tratamento capilar.
+- - Você pode usar uma touca de banho para envolver o cabelo após aplicar o tratamento capilar.
 
-*   *   Após 5 a 20 minutos, enxágue com água.
+- - Após 5 a 20 minutos, enxágue com água.
 
 **Tamanho:**   100ml
 

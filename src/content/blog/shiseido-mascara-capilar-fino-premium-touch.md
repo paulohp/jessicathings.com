@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2025-02-26 12:30:11"
 excerpt: ""
 slug: shiseido-mascara-capilar-fino-premium-touch
@@ -29,22 +29,22 @@ Nº de catálogo:
 
 1126837080
 
- 
 
-*   Dê ao seu cabelo a mesma qualidade de cuidado que você dá à sua pele.
-*   Contém 6 tipos de ingredientes de sérum que proporcionam ao seu cabelo a mesma maciez da raiz às pontas.
-*   6 tipos de ingredientes de sérum: ingrediente hidratante rico (geleia real EX), ingrediente sustentador da maciez (trealose + sorbitol), ingrediente tensor da cutícula (PCA + base fracamente ácida), ingrediente reparador interno (derivado de fitoesteril), ingrediente de efeito de brilho (peptídeo de pérola de esqualano), ingrediente sustentador da coloração (ácido glutâmico).
-*   Ele derrete no seu cabelo, preenchendo cada fio com ingredientes do sérum de beleza.
-*   Encontra e repara até mesmo os menores danos no cabelo.
-*   Dá ao seu cabelo um acabamento suave e uniforme da raiz às pontas.
-*   Um aroma floral elegante, agradável e gracioso.
-*   Para cabelos especialmente danificados.
-*   Tipo de enxágue.**Modo de usar:**
-*   Após a lavagem, escorra a água com cuidado.
-*   Aplique uma quantidade adequada (cerca de 1-2 grãos do tamanho de moscatel para cabelos de comprimento médio) nas áreas danificadas do cabelo.
-*   Depois enxágue bem.
-*   Enxaguar imediatamente também é eficaz.
-*   É altamente eficaz, por isso é recomendado usá-lo uma ou duas vezes por semana.
+
+- Dê ao seu cabelo a mesma qualidade de cuidado que você dá à sua pele.
+- Contém 6 tipos de ingredientes de sérum que proporcionam ao seu cabelo a mesma maciez da raiz às pontas.
+- 6 tipos de ingredientes de sérum: ingrediente hidratante rico (geleia real EX), ingrediente sustentador da maciez (trealose + sorbitol), ingrediente tensor da cutícula (PCA + base fracamente ácida), ingrediente reparador interno (derivado de fitoesteril), ingrediente de efeito de brilho (peptídeo de pérola de esqualano), ingrediente sustentador da coloração (ácido glutâmico).
+- Ele derrete no seu cabelo, preenchendo cada fio com ingredientes do sérum de beleza.
+- Encontra e repara até mesmo os menores danos no cabelo.
+- Dá ao seu cabelo um acabamento suave e uniforme da raiz às pontas.
+- Um aroma floral elegante, agradável e gracioso.
+- Para cabelos especialmente danificados.
+- Tipo de enxágue.**Modo de usar:**
+- Após a lavagem, escorra a água com cuidado.
+- Aplique uma quantidade adequada (cerca de 1-2 grãos do tamanho de moscatel para cabelos de comprimento médio) nas áreas danificadas do cabelo.
+- Depois enxágue bem.
+- Enxaguar imediatamente também é eficaz.
+- É altamente eficaz, por isso é recomendado usá-lo uma ou duas vezes por semana.
 
 ![](https://images.jessicathings.com/2025/02/Captura-de-Tela-2025-02-26-as-16.19.08.png)
 

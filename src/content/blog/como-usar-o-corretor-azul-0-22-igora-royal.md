@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2025-02-06 11:42:25"
 excerpt: ""
 slug: como-usar-o-corretor-azul-0-22-igora-royal

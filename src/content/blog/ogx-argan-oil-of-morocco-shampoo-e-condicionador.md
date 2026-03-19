@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2022-08-14 16:25:11"
 excerpt: ""
 slug: ogx-argan-oil-of-morocco-shampoo-e-condicionador
@@ -21,10 +21,10 @@ title: OGX ARGAN OIL OF MOROCCO SHAMPOO E CONDICIONADOR
 
 Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre o shampoo e condicionador da [**OGX Beauty**](https://www.instagram.com/ogx_beauty/?hl=pt-br) da linha de Argan Oil Of Morocco. Indicado para todos os tipos de cabelo, principalmente para cabelos danificados. Rico em vitamina E natural e antioxidantes promete cabelos mais forte, macios e brilhantes!
 
-*   Hidrata
-*   Restaura
-*   Proteje contra o calor
-*   Sem sulfato
+- Hidrata
+- Restaura
+- Proteje contra o calor
+- Sem sulfato
 
 ![](https://images.jessicathings.com/2022/07/IMG_6293-scaled.jpeg)
 
@@ -46,9 +46,9 @@ Hidrata, repara e renova os cabelos secos, danificados e quebradiços, ideal par
 
 #### MODO DE USO
 
-*   Aplique o shampoo Shampoo nos cabelos molhados, massageie formando espuma até as pontas, e depois enxágue bem.
-*   Após o shampoo, aplique o Condicionador generosamente nos cabelos, massageando até as pontas.
-*   Aguarde de 3 a 5 minutos. Enxágue os cabelos completamente.
+- Aplique o shampoo Shampoo nos cabelos molhados, massageie formando espuma até as pontas, e depois enxágue bem.
+- Após o shampoo, aplique o Condicionador generosamente nos cabelos, massageando até as pontas.
+- Aguarde de 3 a 5 minutos. Enxágue os cabelos completamente.
 
 #### VALOR
 
@@ -58,12 +58,12 @@ Paguei **€8,49** aqui na Holanda que da mais ou menos **46,00 reais** dependen
 
 Online no site da magazine
 
-*   [Shampoo Ogx Argan Oil Of Morocco 385ml](https://www.parceiromagalu.com.br/magazinejessicathings/shampoo-ogx-argan-oil-of-morocco-385ml/p/ak9a59176e/ME/MSHP/?utm_source=jessicathings&utm_medium=shampoo-ogx-argan-oil-of-morocco-385ml&utm_campaign=copy-paste&utm_content=copy-paste-share)
-*   [Condicionador Ogx Argan Oil Of Morocco 385ml](https://www.parceiromagalu.com.br/magazinejessicathings/condicionador-ogx-argan-oil-of-morocco-385ml/p/ag1j243k1a/ME/MCND/?utm_source=jessicathings&utm_medium=condicionador-ogx-argan-oil-of-morocco-385ml&utm_campaign=copy-paste&utm_content=copy-paste-share)
+- [Shampoo Ogx Argan Oil Of Morocco 385ml](https://www.parceiromagalu.com.br/magazinejessicathings/shampoo-ogx-argan-oil-of-morocco-385ml/p/ak9a59176e/ME/MSHP/?utm_source=jessicathings&utm_medium=shampoo-ogx-argan-oil-of-morocco-385ml&utm_campaign=copy-paste&utm_content=copy-paste-share)
+- [Condicionador Ogx Argan Oil Of Morocco 385ml](https://www.parceiromagalu.com.br/magazinejessicathings/condicionador-ogx-argan-oil-of-morocco-385ml/p/ag1j243k1a/ME/MCND/?utm_source=jessicathings&utm_medium=condicionador-ogx-argan-oil-of-morocco-385ml&utm_campaign=copy-paste&utm_content=copy-paste-share)
 
 #### MINHAS CONSIDERAÇÕES
 
-Já usei a duplinha várias vezes, tanto com o cabelo escovado quanto com o cabelo natural, com o cabelo natural eu percebi uma maciez e brilho maior que quando eu uso e escovo meu cabelo. \[caption id="attachment\_124399" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/01.png) ANTES CABELO NATURAL X DEPOIS CABELO ESCOVADO\[/caption\] Sempre que uso sinto que meu cabelo fica MUITO macio, soltinho e com Muito brilho além de hidratado. \[caption id="attachment\_124401" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/03.png) OLHA O BRILHO DESSE CABELO ✨\[/caption\] Eu acho que o shampoo limpa e hidrata bem os fios, e o condicionador além de desembaraçar deixou o cabelo bem macio. \[caption id="attachment\_124400" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/02.png) ATÉ PARECE QUE EU PINTEI O CABELO 😍\[/caption\]  
+Já usei a duplinha várias vezes, tanto com o cabelo escovado quanto com o cabelo natural, com o cabelo natural eu percebi uma maciez e brilho maior que quando eu uso e escovo meu cabelo. \[caption id="attachment_124399" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/01.png) ANTES CABELO NATURAL X DEPOIS CABELO ESCOVADO\[/caption\] Sempre que uso sinto que meu cabelo fica MUITO macio, soltinho e com Muito brilho além de hidratado. \[caption id="attachment_124401" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/03.png) OLHA O BRILHO DESSE CABELO ✨\[/caption\] Eu acho que o shampoo limpa e hidrata bem os fios, e o condicionador além de desembaraçar deixou o cabelo bem macio. \[caption id="attachment_124400" align="aligncenter" width="1280"\]![](https://images.jessicathings.com/2022/08/02.png) ATÉ PARECE QUE EU PINTEI O CABELO 😍\[/caption\]
 
 #### ASSISTA O VÍDEO PARA MAIS DETALHES👇
 

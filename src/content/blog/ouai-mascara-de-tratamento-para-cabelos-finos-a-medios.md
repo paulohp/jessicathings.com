@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2024-05-07 09:40:38"
 excerpt: ""
 slug: ouai-mascara-de-tratamento-para-cabelos-finos-a-medios
@@ -16,25 +16,25 @@ Olá meus amores tudo bem com você?! No post de hoje vamos falar sobre uma más
 
 ##### PERFEITO PARA
 
-*   CABELO FINO-MÉDIO
-*   CONTROLE DE DANO
-*   CONDICIONAMENTO
+- CABELO FINO-MÉDIO
+- CONTROLE DE DANO
+- CONDICIONAMENTO
 
 Pronto para se separar das pontas duplas? Esta máscara reparadora restaura instantaneamente a hidratação, combate o frizz e fortalece os fios finos a médios. Formulado com uma mistura nutritiva de manteiga de karité, pantenol e queratina hidrolisada, deixa os cabelos macios, brilhantes e saudáveis. ![](https://images.jessicathings.com/2024/05/IMG_4683-copy.png)
 
 #### INGREDIENTES CHAVE
 
-*   MANTEIGA DE KARITÉ
-*   PANTENOL
-*   QUERATINA HIDROLISADA
+- MANTEIGA DE KARITÉ
+- PANTENOL
+- QUERATINA HIDROLISADA
 
 #### COMO SEMPRE, TODOS OS NOSSOS PRODUTOS SÃO
 
-*   CRUELDADE LIVRE
-*   NÃO CONTÉM GLUTEN
-*   LIVRE DE PARABENOS
-*   LIVRE DE FTALATOS
-*   SLS e SLES GRATUITOS
+- CRUELDADE LIVRE
+- NÃO CONTÉM GLUTEN
+- LIVRE DE PARABENOS
+- LIVRE DE FTALATOS
+- SLS e SLES GRATUITOS
 
 ![](https://images.jessicathings.com/2024/05/IMG_4684-copy.png)
 
@@ -56,6 +56,6 @@ Sim, sou totalmente reciclável!
 
 Eu já quero usar a linha completa porque amei demais 😍
 
-\[caption id="attachment\_126565" align="aligncenter" width="2316"\]![](https://images.jessicathings.com/2024/05/IMG_4682-copy.png) Meu cabelo ficou extremamente macio, sedoso e com muito brilho!\[/caption\]
+\[caption id="attachment_126565" align="aligncenter" width="2316"\]![](https://images.jessicathings.com/2024/05/IMG_4682-copy.png) Meu cabelo ficou extremamente macio, sedoso e com muito brilho!\[/caption\]
 
 \[!\[YouTube Video\](http://img.youtube.com/vi/OawnatULiNM/0.jpg)\](http://www.youtube.com/watch?v=OawnatULiNM "Click to Watch") \[!\[YouTube Video\](http://img.youtube.com/vi/sife\_fpMDL4/0.jpg)\](http://www.youtube.com/watch?v=sife\_fpMDL4 "Click to Watch")

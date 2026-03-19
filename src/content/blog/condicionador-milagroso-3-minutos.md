@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2017-07-12 01:26:32"
 excerpt: ""
 slug: condicionador-milagroso-3-minutos

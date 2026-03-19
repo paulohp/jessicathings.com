@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2025-02-06 10:57:37"
 excerpt: ""
 slug: como-usar-o-corretor-verde-0-33-igora-royal

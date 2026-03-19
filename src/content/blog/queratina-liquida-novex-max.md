@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2024-06-04 19:15:43"
 excerpt: ""
 slug: queratina-liquida-novex-max
@@ -20,17 +20,17 @@ Olá meus amores, tudo bem com vocês ?! No post de hoje vamos falar sobre a que
 
 ##### BENEFÍCIOS
 
-*   Repositor de proteína de queratina líquido concentrado
-*   Reparação da fibra capilar, Força, Maciez e Brilho
-*   Fortalece e restaura o cabelo
-*   Alinha o cabelo, controlando o frizz excessivo
-*   Fortalece a cutícula do cabelo
-*   Promove um movimento natural.
-*   Reconstrói a fibra capilar
-*   Enriquecido com a proteína de queratina líquida brasileira original
-*   Sem formaldeído
-*   Amigável para o consumidor e seguro para ser usado em casa
-*   Adequado para todos os tipos e texturas de cabelo
+- Repositor de proteína de queratina líquido concentrado
+- Reparação da fibra capilar, Força, Maciez e Brilho
+- Fortalece e restaura o cabelo
+- Alinha o cabelo, controlando o frizz excessivo
+- Fortalece a cutícula do cabelo
+- Promove um movimento natural.
+- Reconstrói a fibra capilar
+- Enriquecido com a proteína de queratina líquida brasileira original
+- Sem formaldeído
+- Amigável para o consumidor e seguro para ser usado em casa
+- Adequado para todos os tipos e texturas de cabelo
 
 ![](https://images.jessicathings.com/2024/06/IMG_5105.jpg)
 
@@ -52,4 +52,4 @@ Olá meus amores, tudo bem com vocês ?! No post de hoje vamos falar sobre a que
 
 Eu estou simplesmente apaixonada, meu cabelo ficou incrivelmente alinhado, brilhoso e cheiroso. Já quero usar ela mais vezes!
 
-\[caption id="attachment\_126850" align="aligncenter" width="2068"\]![](https://images.jessicathings.com/2024/06/IMG_5757.jpg) 2º vez que utilizei\[/caption\]
+\[caption id="attachment_126850" align="aligncenter" width="2068"\]![](https://images.jessicathings.com/2024/06/IMG_5757.jpg) 2º vez que utilizei\[/caption\]

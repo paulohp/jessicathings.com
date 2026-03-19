@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2018-08-14 15:33:41"
 excerpt: ""
 slug: melhores-mascaras-da-novex
@@ -54,11 +54,11 @@ Olá meus amores, tudo bem com vocês?! Hoje eu vim compartilhar as minhas **TOP
 
 #### NOVEX GOURMET CAFÉ EXPRESSO
 
-[![](https://images.jessicathings.com/2018/08/IMG_6912.webp)](https://jessicathings.com/novex-mascara-gourmet-cafe-expresso/)  
+[![](https://images.jessicathings.com/2018/08/IMG_6912.webp)](https://jessicathings.com/novex-mascara-gourmet-cafe-expresso/)
 
 **Então é isso amores um grande beijo e até o próximooo!**
 
- 
+
 
 #### VEJA TAMBÉM
 

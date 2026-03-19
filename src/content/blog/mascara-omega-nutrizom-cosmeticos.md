@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2023-06-11 18:00:29"
 excerpt: ""
 slug: mascara-omega-nutrizom-cosmeticos
@@ -18,9 +18,9 @@ title: MÁSCARA OMEGA NUTRIZOM COSMETICOS
 
 Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre a máscara de tratamento [**"Omega Máscara de Alta Performance"**](https://www.instagram.com/nutrizomcosmeticos/) da Nutrizom Native Cosmetic. Que promete restauração dos fios trazendo forca e resistência além de brilho e maciez.
 
-*   Contém Ômega 3 e 6 que combatem o envelhecimento da fibra capilar
-*   Óleo de linho dourado que dá força e resistência e o brilho acetinado no cabelo
-*   Alto poder de restruturação da fibra capilar deixando os fios mais fortes e macios
+- Contém Ômega 3 e 6 que combatem o envelhecimento da fibra capilar
+- Óleo de linho dourado que dá força e resistência e o brilho acetinado no cabelo
+- Alto poder de restruturação da fibra capilar deixando os fios mais fortes e macios
 
 ![](https://images.jessicathings.com/2023/05/IMG_1997.jpg)
 
@@ -36,10 +36,10 @@ AQUA CETEARYL ALCOHOL CETYL ALCOHOL, CETRIMONIUM CHLORIDE PARFUM GLYCERYL STERAT
 
 #### MODO DE USO
 
-*   Aplicar a MÁSCARA ÔMEGA sobre os cabelos limpos e úmidos
-*   Massagear mecha por mecha
-*   Deixar agir de 5 a 10 minutos
-*   Enxaguar e finalizar como desejar
+- Aplicar a MÁSCARA ÔMEGA sobre os cabelos limpos e úmidos
+- Massagear mecha por mecha
+- Deixar agir de 5 a 10 minutos
+- Enxaguar e finalizar como desejar
 
 #### VALOR
 

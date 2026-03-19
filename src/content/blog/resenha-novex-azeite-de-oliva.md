@@ -1,6 +1,6 @@
 ---
 categories:
-  - Produtos de cabelo
+  - Produtos de Cabelo
 date: "2018-01-16 11:30:52"
 excerpt: ""
 slug: resenha-novex-azeite-de-oliva
@@ -28,10 +28,10 @@ Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre a más
 
 É uma máscara de nutrição indicada para cabelos fracos ressecados e quebradiços, tem o ph de 3,4 e rende 17 aplicações sendo uma embalagem de 400g. Pode ser utilizada como ação rápida de 3 minutos ou seja no banho ou para uma nutrição profunda.
 
-*   Alta consistência
-*   Rico em vitaminas
-*   Alta concentração
-*   Ótimo rendimento
+- Alta consistência
+- Rico em vitaminas
+- Alta concentração
+- Ótimo rendimento
 
 #### RITUAL POLIMENTO ULTRANUTRITIVO
 
@@ -45,14 +45,14 @@ Eu gostei bastante da textura da máscara ela é bem consistente ao contrário d
 
 #### QUANTO CUSTA
 
-Custa em torno de **R$ 10,90 reais** nas lojas redes.  
+Custa em torno de **R$ 10,90 reais** nas lojas redes.
 
 #### ONDE COMPRAR
 
-Você encontra em lojas de cosméticos e  [aqui na Magazine.](https://www.parceiromagalu.com.br/magazinejessicathings/novex-creme-de-tratamento-capilar-azeite-de-oliva-400g-embelleze/p/kbeea8c78c/PF/CPOL/?utm_source=jessicathings&utm_medium=novex-creme-de-tratamento-capilar-azeite-de-oliva-&utm_campaign=copy-paste&utm_content=copy-paste-share)  
+Você encontra em lojas de cosméticos e  [aqui na Magazine.](https://www.parceiromagalu.com.br/magazinejessicathings/novex-creme-de-tratamento-capilar-azeite-de-oliva-400g-embelleze/p/kbeea8c78c/PF/CPOL/?utm_source=jessicathings&utm_medium=novex-creme-de-tratamento-capilar-azeite-de-oliva-&utm_campaign=copy-paste&utm_content=copy-paste-share)
 
 **ASSISTA O VÍDEO PARA MAIS DETALHES!**
 
 **Por hoje é só, um grande beijo e até o próximooo!**
 
-    **Veja também :** https://jessicathings.com/posso-lavar-os-cabelos-todos-os-dias/
+**Veja também :** https://jessicathings.com/posso-lavar-os-cabelos-todos-os-dias/
