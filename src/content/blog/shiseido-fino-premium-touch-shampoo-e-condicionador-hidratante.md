@@ -11,14 +11,14 @@ tags:
   - shampoo
   - condicionador
   - k-beauty
-  - ""
 ---
-Olá meus amores, tudo bem com vocês?! na resenha de hoje vamos falar do shampoo e condicionador "Shiseido - Fino Premium Touch Hidratante" que promete hidratação, reparação, nutrição, deixando os cabelos, macios e brilhantes.
+Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre shampoo e condicionador **"Shiseido - Fino Premium Touch Hidratante"** que promete hidratação, reparação, nutrição, deixando os cabelos, macios e brilhantes.
 
 * Geleia real EX
 * PCA, butilenoglicol e proteína de trigo
 * Para cabelos secos, danificados, coloridos ou com químicas
 * Hidratação, fortalecimento e reparação
+* Para todos os tipos de cabelo
 
 Se você sofre com pontas duplas, cabelos quebradiços, sem brilho e outros problemas associados a cabelos secos, tingidos ou com permanente. Enriquecidos com extrato de geleia real, PCA, butilenoglicol e proteína de trigo, limpa os cabelos enquanto restaura a força, a hidratação e a vitalidade. Sua fórmula contém ingredientes que cuidam dos cabelos danificados, como o Lipidure EX, para que você possa desfrutar de cabelos radiantes novamente.
 
@@ -42,17 +42,13 @@ O shampoo Fino Premium Touch é o produto perfeito para cabelos secos e danifica
 * Tipo de cabelo: Cabelo seco ou danificado (incluindo cabelo tingido ou com permanente)
 * Problemas: Ressecamento, pontas duplas, frizz, mau cheiro, opacidade, oleosidade.
 
-
-
-#### COMO USAR 
+#### COMO USAR
 
 * Comece molhando o cabelo e o couro cabeludo. Aplique uma quantidade adequada do shampoo  nas mãos e massageie até formar uma espuma rica e cremosa.
 * Massageie suavemente a espuma no couro cabeludo e nos cabelos para remover o excesso de oleosidade, sujeira e resíduos. Enxágue bem com água até que o couro cabeludo e os cabelos estejam limpos e refrescados.
 * O shampoo Fino é adequado para uso diário, mas você pode ajustar a frequência de acordo com as necessidades do seu cabelo. 
 
-
-
-#### COMPOSIÇÃO 
+#### COMPOSIÇÃO
 
 Água, lauril éter sulfato de sódio, cocoanfoacetato de sódio, metil cocoil taurato de sódio, dipropilenoglicol, diestearato de glicol, cocamida MEA, sorbitol, dimeticona, cloreto de sódio, PCA, proteína de trigo hidrolisada, poliquatérnio-64, amido de trigo hidrolisado, extrato de geleia real, ácido cítrico, cloreto de hidroxipropiltrimônio de Ceratonia siliqua, metil lauroil taurato de sódio, EDTA de sódio, butilenoglicol, sorbato de potássio, benzoato de sódio, fenoxietanol, parabeno, fragrância
 Os ingredientes podem estar sujeitos a alterações por parte dos fabricantes. Para obter a lista de ingredientes mais completa e atualizada, consulte a embalagem do produto.  
@@ -74,24 +70,16 @@ O condicionador Fino Premium Touch é o produto perfeito para cabelos secos e da
 * Contém geleia real EX para hidratar, PCA para melhorar e Lipidure EX para reparar.
 * Deixando seu cabelo brilhante
 
-
-
-#### COMO USAR 
+#### COMO USAR
 
 * Após lavar o cabelo com shampoo, aplique uma quantidade adequada de condicionador.
-
 * Aplique uniformemente no meio e nas pontas do cabelo e massageie suavemente.
-
 * Enxágue bem com água morna.
-
-
 
 #### COMPOSIÇÃO
 
 Água, lauril éter sulfato de sódio, cocoanfoacetato de sódio, metil cocoil taurato de sódio, dipropilenoglicol, diestearato de glicol, cocamida MEA, sorbitol, dimeticona, cloreto de sódio, PCA, proteína de trigo hidrolisada, poliquatérnio-64, amido de trigo hidrolisado, extrato de geleia real, ácido cítrico, cloreto de hidroxipropiltrimônio de Ceratonia siliqua, metil lauroil taurato de sódio, EDTA de sódio, butilenoglicol, sorbato de potássio, benzoato de sódio, fenoxietanol, parabeno, fragrância
 Os ingredientes podem estar sujeitos a alterações por parte dos fabricantes. Para obter a lista de ingredientes mais completa e atualizada, consulte a embalagem do produto.
-
-
 
 #### ONDE COMPRAR
 
