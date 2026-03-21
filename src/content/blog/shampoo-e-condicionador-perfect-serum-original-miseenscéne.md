@@ -13,6 +13,7 @@ tags:
   - perfect serum
   - shampoo e condicionador
   - miseenscéne
+  - k-beauty
 ---
 Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o Shampoo e Condicionador **"Perfect Serum Original - Miseenscéne"** que promete nutrição aos cabelos, protegê-los contra a quebra e proporcionar uma aparência mais saudável por mais tempo. Indicado para cabelos secos, quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro cabeludo.
 
@@ -72,6 +73,10 @@ Promove Hidratação, brilho e maciez, prevenção de pontas duplas,  limpeza, r
 * Massageie suavemente, deixe agir por alguns minutos e enxágue completamente.
 
 ### Onde comprar
+
+[Eu comprei no site Stylevana aqui n](http://rwrd.io/fixg6sy?c)[a Holanda ](http://rwrd.io/fixg6sy?c)
+
+Você ganha um DESCONTO + pontos EXTRAS, sem valor mínimo de compra no seu PRIMEIRO pedido, €10 + DOBRO DE PONTOS
 
 1. Mercado Livre:[ Shampoo e condicionador](https://meli.la/16jRt39)
 2. Amazon: [Shampoo e condicionador](https://amzn.to/4s7epLH)
