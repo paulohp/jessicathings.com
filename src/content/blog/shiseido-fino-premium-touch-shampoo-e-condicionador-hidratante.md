@@ -11,7 +11,6 @@ tags:
   - shampoo
   - condicionador
   - k-beauty
-  - ""
 ---
 Olá meus amores, tudo bem com vocês?! na resenha de hoje vamos falar do shampoo e condicionador "Shiseido - Fino Premium Touch Hidratante" que promete hidratação, reparação, nutrição, deixando os cabelos, macios e brilhantes.
 
