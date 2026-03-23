@@ -10,7 +10,7 @@ tags:
   - shampoo
   - shampoo loreal metal detox
   - shampoometadetox
-  - ""
+  - água dura
 ---
 Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o  "**Shampoo Metal Detox da L'Oréal”** que promete brilho e suavidade, proteção da cor, prevenção de pontas espigadas, limpeza profunda.
 
