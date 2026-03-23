@@ -16,6 +16,8 @@ Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o  
 
 *Aqui no Países Baixos/Holanda e na maioria dos países da Europa temos a a água com calcário (água dura) que contém metais, principalmente cálcio (Ca²⁺) e magnésio (Mg²⁺), em elevadas concentrações. Esses minerais são dissolvidos naturalmente ao passar por rochas calcárias. Embora o calcário cause ressecamento na pele e cabelo, ele não é um metal tóxico.*
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774280156/co%CC%81pia_de_IMG_5297_wsbfit.jpg)
+
 A penetração de metais na água que se acumula no cabelo lavagem após cada lavagem, é uma das principais causas de quebra. Este tratamento capilar patenteado é enriquecido com Glicoamina, uma molécula pequena suficiente para penetrar na fibra capilar, capturar os metais e neutralizar seu efeito.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1773655302/product_packshotmd_ajo3nx.webp)
@@ -33,6 +35,8 @@ A penetração de metais na água que se acumula no cabelo lavagem após cada la
 ### SOBRE O PRODUTO
 
 Ele proporciona uma verdadeira desintoxicação para os seus cabelos. Uma inovação revolucionária para cabelos com coloração, balayage e descoloração. A fórmula patenteada Metal Detox contém moléculas pequenas o suficiente para penetrar nas fibras capilares e remover o metal. A presença de metal nas fibras capilares pode comprometer a eficácia de serviços de coloração, balayage ou descoloração. A intensidade da cor é preservada e não desbota. Este tratamento deixa os cabelos com uma aparência muito mais saudável e um brilho incrível. 
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774281160/06_ymwhzx.png)
 
 O acúmulo de metais nas fibras capilares é responsável por danos e quebra dos fios. Após procedimentos complexos de coloração, descoloração ou balayage, ocorre uma reação com partículas metálicas que pode causar alterações indesejadas na cor.
 
@@ -65,6 +69,8 @@ O shampoo L'Oréal Professionnel Serie Expert Metal Detox, com sua textura cremo
 
 O fabricante é responsável pela composição deste produto. Devido a possíveis alterações, recomendamos verificar a composição diretamente na embalagem.
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774281034/05_hlxd8z.png)
+
 ### MODO DE USO
 
 * Aplique uma pequena quantidade do shampoo de limpeza L'Oréal Metal Detox nos cabelos molhados. 
@@ -79,3 +85,5 @@ Magazine: <https://divulgador.magalu.com/it6-7Pa4>
 Amazon:[ https://amzn.to/4dmWOuv](https://amzn.to/4dmWOuv)
 
 Shopee: <https://s.shopee.com.br/6pw1HPVLD3>
+
+<https://youtu.be/UmhKafUSCsM?si=ZXxEdkgYU7vmDqIG>
