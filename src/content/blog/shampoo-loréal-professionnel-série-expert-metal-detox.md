@@ -88,4 +88,4 @@ Shopee: <https://s.shopee.com.br/6pw1HPVLD3>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UmhKafUSCsM?si=hkoN-mht8Ykgxeia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**LEIA TAMBÉM.**.. https://www.jessica.blog.br/m%C3%A1scara-lor%C3%A9al-professionnel-s%C3%A9rie-expert-metal-detox
+**LEIA TAMBÉM.**..*[ Máscara L'Oréal Professionnel Série Expert Metal Detox ](https://www.jessica.blog.br/m%C3%A1scara-lor%C3%A9al-professionnel-s%C3%A9rie-expert-metal-detox)*
