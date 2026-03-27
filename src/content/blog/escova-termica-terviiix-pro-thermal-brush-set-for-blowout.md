@@ -75,7 +75,6 @@ A escova térmica deve ser usada apenas no cabelo seco. Jamais deve ser usada no
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_t73p6V3nsg?si=HZTvZXMnvg1ICZxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tralJ35n96k?si=kTMCLHYDyWV6I583" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jfYRZscNDHg?si=AgMAiY2IspP0ujt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -104,4 +103,4 @@ A escova térmica deve ser usada apenas no cabelo seco. Jamais deve ser usada no
 
 [🛍️ https://shopee.com.br/-UTOPIAS-Escova-T%C3%A9rmica-El%C3%A9trica-Redonda-3-Em-1-32mm-De-Ferro-De-Cachear-Aquecida-Volumizante-Super-Leve-](https://shopee.com.br/-UTOPIAS-Escova-T%C3%A9rmica-El%C3%A9trica-Redonda-3-Em-1-32mm-De-Ferro-De-Cachear-Aquecida-Volumizante-Super-Leve-E-F%C3%A1cil-Manuseio-De-Pente-Reto-Home-i.1231617749.28004944505?uls_trackid=50rk09ft00lo&utm_campaign=-&utm_content=----&utm_medium=affiliates&utm_source=an_18315580356&utm_term=btochcqm5n8w&xptdk=08e190c9-8fc3-4911-a70e-f9a232c6f618)
 
-*Eu estou apaixonada com essa escova, em breve vídeos utilizando ela no meu cabelo natural 😍*
+#### **Eu estou apaixonada com essa escova, em breve vídeos utilizando ela no meu cabelo natural 😍**
