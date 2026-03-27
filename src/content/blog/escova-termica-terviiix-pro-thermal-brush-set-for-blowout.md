@@ -58,40 +58,34 @@ A Terviiix Thermal Brush Set combina a conveniência de um secador de cabelo e u
 
 * Dimensões da embalagem: 15,35 x 6,81 x 3,31 polegadas; 2,07 libras
 * Número do modelo do item ‏ : ‎ FA168B
-* Fabricante ‏ : ‎ Terviiix
-* ASIN ‏ : ‎ B0D45FK53R
-* País de origem ‏ : ‎ China
+* Fabricante ‏: ‎Terviiix
+* ASIN ‏: ‎B0D45FK53R
+* País de origem ‏: ‎China
 * Marca: Terviiix
 * Cor: Preto
 * Material: Nylon, Cerâmica, Plástico
 * Fonte de energia: Elétrico com fio
 * Recurso especial: Cabo giratório removível de 360 ​​graus, ajustável, voltagem dupla, desligamento automático
 
-#### MODO DE USO
+
+
+### MODO DE USO
+
+
 
 A escova térmica deve ser usada apenas no cabelo seco. Jamais deve ser usada no cabelo molhado ou úmido. 
 
-Lá no meu canal você encontra vários tutoriais 
+##### Lá no meu canal você encontra vários tutoriais 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_t73p6V3nsg?si=HZTvZXMnvg1ICZxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tralJ35n96k?si=kTMCLHYDyWV6I583" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jfYRZscNDHg?si=AgMAiY2IspP0ujt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tdsl4kYGeZk?si=kJKC77-KTvU8oLwK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b7rFjB5u2cw?si=GnXlCHc3YsuHscg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pQD65Ocxaxg?si=nfxK13Kxu1xeDzHp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
