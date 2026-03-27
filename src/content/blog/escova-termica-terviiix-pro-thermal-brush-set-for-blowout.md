@@ -54,6 +54,16 @@ A Terviiix Thermal Brush Set combina a conveniência de um secador de cabelo e u
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774618867/01_cwkfgd.png)
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774618895/16_teyqdn.png)
+
+
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774618895/14_xdknsx.png)
+
+
+
+![]()
+
 ### DETALHES DO PRODUTO
 
 * Dimensões da embalagem: 15,35 x 6,81 x 3,31 polegadas; 2,07 libras
@@ -66,6 +76,10 @@ A Terviiix Thermal Brush Set combina a conveniência de um secador de cabelo e u
 * Material: Nylon, Cerâmica, Plástico
 * Fonte de energia: Elétrico com fio
 * Recurso especial: Cabo giratório removível de 360 ​​graus, ajustável, voltagem dupla, desligamento automático
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1774618865/03_njtxbq.png)
+
+
 
 ### MODO DE USO
 
