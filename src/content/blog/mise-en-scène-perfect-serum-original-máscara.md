@@ -26,8 +26,6 @@ Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre a más
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128153/mise-en-scene-perfect-serum-treatment-330mlmise-en-scenekiokii-and-7270644_joyfwe.webp)
 
-
-
 ### SOBRE O PRODUTO
 
 O **Tratamento Perfect Serum Máscara** é uma solução intensiva para cabelos danificados, secos ou sem brilho. Com textura rica e altamente nutritiva, atua profundamente na fibra capilar devolvendo **maciez**, **brilho intenso** e **redução do frizz**.
@@ -40,13 +38,13 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 **Selagem de Cutículas (pH Ácido):** Possui pH ácido (entre 3.1 e 4.1), que ajuda a selar as cutículas, reter nutrientes e restaurar a saúde de fios porosos ou quimicamente tratados.
 **Frragnância Floral:** Aroma sofisticado com notas de cítricos, maçã verde, flor de laranjeira e lírio-do-vale, com acabamento adocicado. 
 
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/miseensc-ne-perfect-serum-treatment-180ml-497_uzrszn.webp "A embalagem pode varias de acordo com o site que você comprar")
-
-
+![A embalagem pode varias de acordo com o site que você comprar](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/51CXdD2puZL_almfbw.jpg "A embalagem pode varias de acordo com o site que você comprar")
 
 ### COMPOSIÇÃO
 
 Água (Aqua), Cetearyl Alcohol, Dimethicone, Behentrimonium Chloride, Óleo de Coco (Cocos Nucifera), Óleo de Argan (Argania Spinosa Kernel), Óleo de Semente de Camélia (Camellia Japonica), Óleo de Jojoba (Simmondsia Chinensis), Óleo de Oliva (Olea Europaea), Óleo de Rosa Mosqueta (Rosa Canina), Óleo de Damasco (Prunus Armeniaca), Proteína Hidrolisada da Seda (Hydrolyzed Silk), Queratina Hidrolisada (Hydrolyzed Keratin), Fragrância (Parfum), Glicerina, Amodimethicone, Álcool Isopropílico, Ácido Lático, Fenoxietanol, Metilparabeno, Dissódico EDTA, CI 15985, CI 19140.
+
+
 
 ### MODO DE USO
 
@@ -54,9 +52,13 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 2. Massageie suavemente e deixe agir por 2 a 3 minutos.
 3. Enxágue bem.
 
+
+
 ### VALOR
 
 Eu paguei € 5,79 aqui na europa - [Stylevana ](http://rwrd.io/fixg6sy?c)Você ganha um DESCONTO + pontos EXTRAS, sem valor mínimo de compra no seu PRIMEIRO pedido, €10 + DOBRO DE PONTOS <http://rwrd.io/fixg6sy?c>
+
+
 
 ### ONDE COMPRAR
 
@@ -68,9 +70,13 @@ Eu paguei € 5,79 aqui na europa - [Stylevana ](http://rwrd.io/fixg6sy?c)Você
 
 🛍️ Magalu:  <https://divulgador.magalu.com/F-uWNUhe> - <https://www.magazinevoce.com.br/magazinejessicathings/busca/mise+en+scene+perfect+serum+original+treatment/>
 
-### MINHAS CONSIDERAÇÕES
+
+
+
 
 ### ASSISTA O VÍDEO PARA MAIS DETALHES
+
+
 
 ### VEJA TAMBÉM
 
