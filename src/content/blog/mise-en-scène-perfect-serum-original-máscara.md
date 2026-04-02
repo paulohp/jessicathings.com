@@ -13,15 +13,20 @@ tags:
   - Máscara
   - k-beauty
 ---
-Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre a máscara de tratament **"Mise en Scène - Perfect Serum Original - Máscara"** que promete nutrição profunda e reparação de danos. 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/51lCkhdE8tL_igehpm.jpg)
 
-*
+Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre a máscara de tratamento **"Mise en Scène - Perfect Serum Original - Máscara"** que promete nutrição profunda e reparação de danos. 
+
 * 7 óleos luxuosos
 * Controle de frizz e Umidade
 * Selagem das cutículas
 * Para cabelos danificados, ressecados e sem brilho 
 
 É uma máscara capilar coreana de alta performance focada em nutrição profunda e reparação de danos. Ela faz parte da linha número 1 de cuidados capilares na Coreia do Sul há mais de uma década. 
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128153/mise-en-scene-perfect-serum-treatment-330mlmise-en-scenekiokii-and-7270644_joyfwe.webp)
+
+
 
 ### SOBRE O PRODUTO
 
@@ -34,6 +39,10 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 **Ação em 3 Minutos:** Projetada para um cuidado rápido e eficaz no dia a dia, desembaraçando e suavizando os fios quase instantaneamente.
 **Selagem de Cutículas (pH Ácido):** Possui pH ácido (entre 3.1 e 4.1), que ajuda a selar as cutículas, reter nutrientes e restaurar a saúde de fios porosos ou quimicamente tratados.
 **Frragnância Floral:** Aroma sofisticado com notas de cítricos, maçã verde, flor de laranjeira e lírio-do-vale, com acabamento adocicado. 
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/miseensc-ne-perfect-serum-treatment-180ml-497_uzrszn.webp "A embalagem pode varias de acordo com o site que você comprar")
+
+
 
 ### COMPOSIÇÃO
 
@@ -59,17 +68,9 @@ Eu paguei € 5,79 aqui na europa - [Stylevana ](http://rwrd.io/fixg6sy?c)Você
 
 🛍️ Magalu:  <https://divulgador.magalu.com/F-uWNUhe> - <https://www.magazinevoce.com.br/magazinejessicathings/busca/mise+en+scene+perfect+serum+original+treatment/>
 
-
-
-
-
 ### MINHAS CONSIDERAÇÕES
 
-
-
 ### ASSISTA O VÍDEO PARA MAIS DETALHES
-
-
 
 ### VEJA TAMBÉM
 
