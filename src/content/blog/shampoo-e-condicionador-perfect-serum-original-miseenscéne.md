@@ -1,5 +1,5 @@
 ---
-title: Shampoo e Condicionador Perfect Serum Original - miseenscéne
+title: Shampoo e Condicionador Perfect Serum Original - Mise en Scène
 date: 2026-03-16T09:45:00.000+01:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1773652855/perfect-serum-original-conditioner___260112_puryyn.webp
 description: nutrição aos cabelos, protegê-los contra a quebra e proporcionar
@@ -15,7 +15,7 @@ tags:
   - miseenscéne
   - k-beauty
 ---
-Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o Shampoo e Condicionador **"Perfect Serum Original - Miseenscéne"** que promete nutrição aos cabelos, protegê-los contra a quebra e proporcionar uma aparência mais saudável por mais tempo. Indicado para cabelos secos, quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro cabeludo.
+Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o Shampoo e Condicionador **"Perfect Serum Original - Mise en Scène"** que promete nutrição aos cabelos, protegê-los contra a quebra e proporcionar uma aparência mais saudável por mais tempo. Indicado para cabelos secos, quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro cabeludo.
 
 Indicado para todos os tipos de cabelo, o **Shampoo Perfect Serum** limpa delicadamente enquanto hidrata e fortalece, revelando a beleza natural dos fios. Experimente resultados visíveis desde a primeira aplicação!
 
