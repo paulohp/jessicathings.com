@@ -26,8 +26,6 @@ Olá meus amores, tudo bem com vocês?! No post de hoje vamos falar sobre a más
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128153/mise-en-scene-perfect-serum-treatment-330mlmise-en-scenekiokii-and-7270644_joyfwe.webp)
 
-
-
 ### SOBRE O PRODUTO
 
 O **Tratamento Perfect Serum Máscara** é uma solução intensiva para cabelos danificados, secos ou sem brilho. Com textura rica e altamente nutritiva, atua profundamente na fibra capilar devolvendo **maciez**, **brilho intenso** e **redução do frizz**.
@@ -40,9 +38,7 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 **Selagem de Cutículas (pH Ácido):** Possui pH ácido (entre 3.1 e 4.1), que ajuda a selar as cutículas, reter nutrientes e restaurar a saúde de fios porosos ou quimicamente tratados.
 **Frragnância Floral:** Aroma sofisticado com notas de cítricos, maçã verde, flor de laranjeira e lírio-do-vale, com acabamento adocicado. 
 
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/miseensc-ne-perfect-serum-treatment-180ml-497_uzrszn.webp "A embalagem pode varias de acordo com o site que você comprar")
-
-
+![A embalagem pode varias de acordo com o site que você comprar](https://res.cloudinary.com/dnk8j20ch/image/upload/v1775128151/miseensc-ne-perfect-serum-treatment-180ml-497_uzrszn.webp "A embalagem pode varias de acordo com o site que você comprar")
 
 ### COMPOSIÇÃO
 
