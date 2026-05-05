@@ -26,8 +26,6 @@ Olá meus amores, tudo bem com vocês?! No resenha de hoje vamos falar da "**Esc
 * Modela os cabelos úmidos e secos
 * Jato frio, revestimento em cerâmico  e Íon tourmaline
 
-
-
 #### **SOBRE O PRODUTO**
 
 A **Escova Secadora Philco PES33A** une potência e tecnologia para facilitar sua rotina de beleza. Com **1300W** e **3 velocidades,** ela garante uma secagem rápida, eficiente e com acabamento profissional.
@@ -38,13 +36,15 @@ A tecnologia **Íon Tourmaline** libera íons negativos que mantêm a hidrataç�
 
 O **cordão giratório de 360°** e o **anel para pendurar** oferecem liberdade e praticidade no manuseio. **Compacta, leve e bivolt**, é perfeita para uso em casa ou em viagens.
 
-• Potência de 1300W para secagem rápida e eficiente
-• Bivolt: ideal para levar em viagens
-• 3 velocidades e 3 temperaturas + jato de ar frio
-• Revestimento cerâmico com tecnologia Íon Tourmaline
-• Cerdas de nylon com escova oval de 38mm
-• Cordão giratório 360° e alça para pendurar
-• Temperatura de até 124°C com controle preciso.
+*  Potência de 1300W para secagem rápida e eficiente
+* Bivolt: ideal para levar em viagens
+* 3 velocidades e 3 temperaturas + jato de ar frio
+* Revestimento cerâmico com tecnologia Íon Tourmaline
+* Cerdas de nylon com escova oval de 38mm
+* Cordão giratório 360° e alça para pendurar
+* Temperatura de até 124°C com controle preciso.
+
+
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1777980576/274130-1200-1200_xtgibv.webp)
 
@@ -56,13 +56,9 @@ Após secar os cabelos com auxilio de um secador. Aplique um protetor térmico 
 
 Você pode utilizar essa escova para revitalizar o penteado no dia seguinte. Para penteados volumosos, coloque a escova sob o cabelo próximo da raiz e escove em direção a ponta. Para penteados mais suaves, coloque a escova próximo a raiz e escove até as pontas. Para enrolar as pontas para fora, coloque a escova acima das pontas e segure por 3s antes de girar para fora. Pare enrolar as pontas para dentro, coloque a scova sob as pontas e segure por 3 segundos antes de girar para dentro
 
-
-
 #### **VALOR**
 
 Eu paguei assim que foi lançada mas agora você encontra com preços melhores
-
-
 
 #### **ONDE COMPRAR**
 
