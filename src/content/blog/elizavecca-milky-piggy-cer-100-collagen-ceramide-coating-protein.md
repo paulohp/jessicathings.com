@@ -49,8 +49,6 @@ Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 
 <https://ystyle.co/18KF> Code 5% JESSITHINGS1 🚨ATENÇÃO🚨Envio para o Brasil Frete padrão grátis em qualquer compra de US$ 59 ( 15 a 30 dias úteis )
 
-
-
 ### **ONDE COMPRAR**
 
 **🛍️ Mercado:** [https://meli.la/2op6r8W ](https://meli.la/2op6r8W)**\-** <https://meli.la/1gWYGpK>
@@ -60,3 +58,9 @@ Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 **🛍️ Shopee:** <https://s.shopee.com.br/W3HMwxLet> - [https://s.shopee.com.br/AKXD52n4oW ](https://s.shopee.com.br/AKXD52n4oW)
 
 **🛍️ Magazine:** <https://magazineluiza.onelink.me/589508454/vp57xuls>
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n_Lvigd6HEc?si=qvT-u49ZUOVl4LQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
