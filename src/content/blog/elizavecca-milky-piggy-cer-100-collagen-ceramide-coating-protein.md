@@ -3,7 +3,7 @@ excerpt: ""
 slug: elizavecca-milky-piggy-cer-100-collagen-ceramide-coating-protein
 title: Elizavecca - Milky Piggy CER-100 Collagen Ceramide Coating Protein
 date: 2025-02-26 13:16:22
-thumbnail: https://images.jessicathings.com/2025/02/Captura-de-Tela-2025-02-26-as-16.46.22.png
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1778076316/01_r9mrbr.png
 description: O tratamento com colágeno de porco protege e fornece nutrientes
   para cabelos danificados por tingimento ou modelagem frequente.
 categories:
