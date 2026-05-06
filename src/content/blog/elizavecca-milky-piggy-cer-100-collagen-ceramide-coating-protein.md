@@ -19,8 +19,6 @@ Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre a m
 * Nutrição e hidratação
 * Colágeno de porco
 
-
-
 ### **SOBRE O PRODUTO**
 
 O tratamento com colágeno de porco protege e fornece nutrientes para cabelos danificados por tingimento ou modelagem frequente. Extratos de ervas, leite hidrolisado e aminoácidos da seda aliviam o estresse e estimulam o couro cabeludo para melhorar a elasticidade e maciez do cabelo.
@@ -28,8 +26,6 @@ O tratamento com colágeno de porco protege e fornece nutrientes para cabelos da
 O tratamento capilar repara cutículas e cabelos danificados e proporciona hidratação para melhorar a saúde dos fios, deixando um acabamento brilhante.
 
 Contém colágeno e ingredientes vegetais (como colágeno de origem suína, proteína de soja hidrolisada e ceramida), que fornecem nutrientes e hidratação aos fios. Adequado para vários tipos de cabelo, incluindo cabelos secos, danificados e crespos.
-
-
 
 ![](https://images.jessicathings.com/2025/02/Captura-de-Tela-2025-02-26-as-16.46.22.png)
 
@@ -39,9 +35,7 @@ Contém colágeno e ingredientes vegetais (como colágeno de origem suína, prot
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1778076316/02_sqpofd.png)
 
-
-
-### **MODO DE USO** 
+### **MODO DE USO**
 
 * Depois de lavar o cabelo com xampu e secar com uma toalha, aplique o tratamento capilar no cabelo.
 * Você pode usar uma touca de banho para envolver o cabelo após aplicar o tratamento capilar.
@@ -49,9 +43,7 @@ Contém colágeno e ingredientes vegetais (como colágeno de origem suína, prot
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1778076316/03_o65plj.png)
 
-
-
-### **VALOR** 
+### **VALOR**
 
 Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 
@@ -60,3 +52,11 @@ Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 
 
 ### **ONDE COMPRAR**
+
+**🛍️ Mercado:** [https://meli.la/2op6r8W ](https://meli.la/2op6r8W)**\-** <https://meli.la/1gWYGpK>
+
+**🛍️ Amazon:** [https://amzn.to/4cUmWws ](https://amzn.to/4cUmWws)
+
+**🛍️ Shopee:** <https://s.shopee.com.br/W3HMwxLet> - [https://s.shopee.com.br/AKXD52n4oW ](https://s.shopee.com.br/AKXD52n4oW)
+
+**🛍️ Magazine:** <https://magazineluiza.onelink.me/589508454/vp57xuls>
