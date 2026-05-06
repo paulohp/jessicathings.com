@@ -3,7 +3,7 @@ excerpt: ""
 slug: elizavecca-milky-piggy-cer-100-collagen-ceramide-coating-protein
 title: Elizavecca - Milky Piggy CER-100 Collagen Ceramide Coating Protein
 date: 2025-02-26 13:16:22
-thumbnail: https://images.jessicathings.com/2025/02/Captura-de-Tela-2025-02-26-as-16.46.22.png
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1778076316/01_r9mrbr.png
 description: O tratamento com colágeno de porco protege e fornece nutrientes
   para cabelos danificados por tingimento ou modelagem frequente.
 categories:
@@ -49,8 +49,6 @@ Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 
 <https://ystyle.co/18KF> Code 5% JESSITHINGS1 🚨ATENÇÃO🚨Envio para o Brasil Frete padrão grátis em qualquer compra de US$ 59 ( 15 a 30 dias úteis )
 
-
-
 ### **ONDE COMPRAR**
 
 **🛍️ Mercado:** [https://meli.la/2op6r8W ](https://meli.la/2op6r8W)**\-** <https://meli.la/1gWYGpK>
@@ -60,3 +58,9 @@ Eu paguei 7,25 € no site da Yesstyle https://ystyle.co/bANc5
 **🛍️ Shopee:** <https://s.shopee.com.br/W3HMwxLet> - [https://s.shopee.com.br/AKXD52n4oW ](https://s.shopee.com.br/AKXD52n4oW)
 
 **🛍️ Magazine:** <https://magazineluiza.onelink.me/589508454/vp57xuls>
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n_Lvigd6HEc?si=qvT-u49ZUOVl4LQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
