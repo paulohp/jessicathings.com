@@ -1,11 +1,11 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2022-10-27 12:28:00"
 excerpt: ""
 slug: top-3-melhores-escovas-secadoras
 tags:
-  - "\"\\\"Escova secadora britânia soft BES1 luz infravermelha bivolt\\\".\""
+  - Escova secadora britânia soft BES1 luz infravermelha bivolt
   - Escova secadora
   - escova secadora britania
   - escova secadora revlon
