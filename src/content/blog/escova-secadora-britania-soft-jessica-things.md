@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2021-05-10 17:41:03"
 excerpt: ""
 slug: escova-secadora-britania-soft-jessica-things

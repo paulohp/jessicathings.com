@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2020-03-25 12:00:55"
 excerpt: ""
 slug: escova-secadora-golden-rose-line-mondial-vale-a-pena

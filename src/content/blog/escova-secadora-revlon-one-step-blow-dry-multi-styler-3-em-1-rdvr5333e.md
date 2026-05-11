@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2024-04-14 08:21:23"
 excerpt: ""
 slug: escova-secadora-revlon-one-step-blow-dry-multi-styler-3-em-1-rdvr5333e

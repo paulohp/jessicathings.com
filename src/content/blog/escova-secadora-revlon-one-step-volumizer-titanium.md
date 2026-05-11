@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2023-04-05 19:35:55"
 excerpt: ""
 slug: escova-secadora-revlon-one-step-volumizer-titanium

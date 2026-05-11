@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2022-10-27 12:28:00"
 excerpt: ""
 slug: top-3-melhores-escovas-secadoras

@@ -6,7 +6,7 @@ description: "O Shark SmoothStyle é o modelador multifuncional ideal para os
   dias de lavagem e para todos os outros dias, combinando uma escova secadora e
   uma chapinha. "
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 ---
 Olá meus amores, tudo bem com vocês? Olha quem voltou e com resenha de escova secadora 😍! Eu já estava de olho nessa escova já tinha um tempo e agora com as promoções de final de ano eu comprei no precinho 🙌 O código da minha é o HT202EU pode ser usada no dia a dia e promete não danificar o cabelo, ela tem o cabo giratório , jato frio , múltiplas configurações de temperatura , fluxo de ar uniforme , múltiplas configurações de calor , tecnologia iônica , tecnologia cerâmica
 

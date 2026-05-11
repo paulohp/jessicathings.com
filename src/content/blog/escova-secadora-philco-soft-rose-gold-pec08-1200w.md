@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2022-10-25 13:05:50"
 excerpt: ""
 slug: escova-secadora-philco-soft-rose-gold-pec08-1200w

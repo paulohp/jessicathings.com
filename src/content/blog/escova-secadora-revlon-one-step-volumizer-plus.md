@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2024-06-28 12:38:05"
 excerpt: ""
 slug: escova-secadora-revlon-one-step-volumizer-plus

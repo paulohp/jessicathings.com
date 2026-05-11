@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2023-02-15 17:03:40"
 excerpt: ""
 slug: escova-secadora-e-modeladora-revlon-root-booster-rvdr5292-127v
