@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2024-04-24 05:36:40"
 excerpt: ""
 slug: escova-secadora-falsificada-britania-soft-bec02pr

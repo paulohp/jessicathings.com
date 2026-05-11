@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2023-06-07 18:00:40"
 excerpt: ""
 slug: escova-secadora-britania-bes24p-compact-bivolt-1300w

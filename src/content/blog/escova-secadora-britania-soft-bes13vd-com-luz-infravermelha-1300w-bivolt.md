@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2022-01-04 14:15:27"
 excerpt: ""
 slug: escova-secadora-britania-soft-bes13vd-com-luz-infravermelha-1300w-bivolt

@@ -7,7 +7,7 @@ thumbnail: https://images.jessicathings.com/2024/07/IMG_2977-copy.png
 description: Menos frizz 1200w de potência 2,4 polegadas Design leve e
   ergonómico Na versão 127v e 220v Escova não é rotativa.
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 tags:
   - escova secador revlon max edition
   - Escova secadora

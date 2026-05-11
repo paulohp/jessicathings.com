@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2022-10-18 08:22:56"
 excerpt: ""
 slug: revlon-root-booster-escova-secadora-redonda

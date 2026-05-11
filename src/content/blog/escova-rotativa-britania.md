@@ -1,6 +1,6 @@
 ---
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 date: "2023-06-18 18:00:55"
 excerpt: ""
 slug: escova-rotativa-britania

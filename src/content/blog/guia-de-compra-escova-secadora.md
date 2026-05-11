@@ -7,7 +7,7 @@ thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1764687655/co%CC%8
 description: Primeiro precisamos saber qual é a textura do seu fio; Liso,
   Ondulado, Cacheado ou Crespo?
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 tags:
   - britania ou mondial
   - Escova secadora
@@ -124,7 +124,7 @@ A lista está ordenada conforme custo benéfico e a performance das escovas. ![]
 
 [TABELA PARA COMPRA ESCOVA SECADORA2PAGINAS](https://images.jessicathings.com/2025/01/TABELA-PARA-COMPRA-ESCOVA-SECADORA2PAGINAS.pdf)
 
-**7. MINHAS ESCOVA FAVORITAS** Se eu fosse classificar minhas TOP Escovas secadoras favoritas, testadas até hoje sem levar em consideração o valor, ficaria assim
+**7. MINHAS ESCOVA FAVORITAS** Se eu fosse classificar minhas TOP Escovas Secadoras favoritas, testadas até hoje sem levar em consideração o valor, ficaria assim
 
 1. [Escova Secadora Root Booster Revlon 1100W](https://a.co/d/htCBQ9l)
 2. [Escova Secadora Titanium Revlon 1200W](https://a.co/d/9yxudfK)

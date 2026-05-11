@@ -6,7 +6,7 @@ date: 2024-06-10 13:31:03
 thumbnail: https://images.jessicathings.com/2024/06/IMG_1433-EDIT.jpg
 description: '"Escova Secadora Qu4tro Elementos Mondial By Julliete ES-JU-03"'
 categories:
-  - Escovas secadoras
+  - Escovas Secadoras
 tags:
   - escovas secadoras
   - escova secadodora mondial
