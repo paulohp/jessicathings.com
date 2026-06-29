@@ -48,8 +48,6 @@ Tecnologia Ceramic Titanium Tourmaline em um modelador de ar 360°: a cerâmica 
 
 Com 32mm, funciona como um cacheador de finalização: ideal para definir cachos nas pontas e criar movimento cheio de brilho e leveza. Menos dano, mais resultado.
 
-
-
 #### PENTE CONCENTRADOR DE RAIZ:
 
 Desenvolvido para proteger os fios em cada etapa: o jato de ar quente concentrado seca a raiz com precisão, sem exposição excessiva ao calor.
@@ -74,10 +72,6 @@ Mais potência, cabeçote removível que vira secador, e ainda mais fácil de gu
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1782713534/Captura_de_Tela_2026-06-29_a%CC%80s_08.08.07_bmeid2.png)
 
-
-
-
-
 #### ESPECIFICAÇÕES:
 
 * Código:RVDR5334AB2
@@ -94,4 +88,6 @@ Mais potência, cabeçote removível que vira secador, e ainda mais fácil de gu
 
 #### ONDE COMPRAR:
 
-#### Amazon: https://link.amazon/B01lLYVFe
+**Mercado Livre:** https://meli.la/2st64zY - https://meli.la/15HZhb6 - https://meli.la/13EYGQ8
+
+**Amazon:** https://link.amazon/B01lLYVFe
