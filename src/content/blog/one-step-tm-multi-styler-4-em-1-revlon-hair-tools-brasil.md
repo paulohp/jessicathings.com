@@ -1,7 +1,7 @@
 ---
 title: One-Step TM Multi Styler 4 em 1 - Revlon Hair Tools Brasil
 date: 2026-06-29T08:05:00.000+02:00
-thumbnail: https://gamma.app/docs/Multy-Styler-4-em-1-qo669nlls7vdkht?mode=doc
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1782713178/Captura_de_Tela_2026-06-29_a%CC%80s_08.02.33_znyspi.png
 description: "A Multi Styler 4 em 1 foi desenvolvida para atender as diferentes
   necessidades que habitam cada mulher: secar, escovar, alisar, dar volume,
   modelar ou criar cachos incríveis."
