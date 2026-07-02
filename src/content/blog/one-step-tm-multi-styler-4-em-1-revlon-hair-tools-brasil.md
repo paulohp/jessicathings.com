@@ -32,8 +32,7 @@ Não é mais um produto na sua rotina é um sistema que substitui a escova de vo
 
 * **Pente concentrador**? prepara os fios desde a raiz e garante resultados mais duradouros;
 * **One-Step Volumizer Plus**? escova de alta potência que seca, alisa e modela em apenas 1 passo;
-
-  **One-Step Root Booster Plus**? desenvolvida para estilizar todos os tipos de cabelos, até os mais curtos;
+* **One-Step Root Booster Plus**? desenvolvida para estilizar todos os tipos de cabelos, até os mais curtos;
 * **One-Step Blowout Curls?** Modelador de Ar 360°, ideal para cachos soltos e cheios de movimento.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1782713537/Captura_de_Tela_2026-06-29_a%CC%80s_08.08.01_kxaskm.png)
@@ -89,8 +88,6 @@ Mais potência, cabeçote removível que vira secador, e ainda mais fácil de gu
 * Descrição da garantia: 2 anos de garantia
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1782812124/IMG_9528_mnejt8.jpg)
-
-
 
 #### ONDE COMPRAR:
 
