@@ -26,8 +26,6 @@ Quer transformar sua rotina de beleza? Te apresento a "Escova Modeladora Philco 
 * Luz indicadora de funcionamento
 * Botão liga/desliga
 
-
-
 #### DESCRIÇÃO DO PRODUTO
 
 Ela aquece em poucos minutos e atinge a temperatura de 230º. A **tecnologia Íon Tourmaline** traz o toque extra de maciez e controle do frizz, enquanto a **cerâmica** protege os fios e distribui o calor de forma suave e uniforme. O **tubo de 38mm** da Escova Modeladoracria ondas definidas, movimento natural ou um liso elegante com facilidade. A liberdade do **cordão de 2 metros** e a segurança da **ponta fria** tornam o processo muito mais leve e confortável. 
@@ -36,9 +34,7 @@ Ela aquece em poucos minutos e atinge a temperatura de 230º. A **tecnologia Ío
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785069672/273323-1200-1200_dcqbck.webp)
 
-
-
-#### MODO DE USO 
+#### MODO DE USO
 
 * Ligue o plugue da escova a uma tomada elétrica. Pressione o botão Liga/Desliga, a luz 
 
@@ -54,3 +50,17 @@ indicadora de funcionamento f cará verde.
 * Mantenha por 5 a 8 segundos, dependendo da textura e comprimento do seu cabelo.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785069672/273322-1200-1200_znkd5l.webp)
+
+
+
+ONDE COMPRAR
+
+Compre através dos meus link de indicação assim você me ajuda a produzir mais resenhas para vocês e você não paga nada além do preço dos produtos!
+
+Mercado Livre: https://meli.la/2ogPmjM - https://meli.la/2ogPmjM
+
+Amazon: https://link.amazon/B03UZWmvW
+
+Shoppe: https://s.shopee.com.br/9zwRpI5UDN
+
+Magalu: https://magazineluiza.onelink.me/589508454/dkmwys8y - https://magazineluiza.onelink.me/589508454/jf6ipiv1
