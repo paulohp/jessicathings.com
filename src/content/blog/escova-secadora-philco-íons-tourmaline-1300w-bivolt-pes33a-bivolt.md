@@ -26,8 +26,6 @@ Olá meus amores, tudo bem com vocês?! No resenha de hoje vamos falar da "**Esc
 * Modela os cabelos úmidos e secos
 * Jato frio, revestimento em cerâmico  e Íon tourmaline
 
-
-
 ### **SOBRE O PRODUTO**
 
 A **Escova Secadora Philco PES33A** une potência e tecnologia para facilitar sua rotina de beleza. Com **1300W** e **3 velocidades,** ela garante uma secagem rápida, eficiente e com acabamento profissional.
@@ -52,17 +50,13 @@ O **cordão giratório de 360°** e o **anel para pendurar** oferecem liberdade 
 
  O aparelho não é indicado para secar cabelos molhados. A Escova PES33A foi desenvolvida para modelar e dar volume aos seus cabelos, finalizando seus penteados com o efeito de salão em casa.
 
-Após secar os cabelos com auxilio de um secador. Aplique um protetor térmico antes da utilização da escova. Separe o cabelo em pequenas mechas e enrole-o sobre a escova. Aguarde 3segundos e puxe segurando pela ponta-fria.
+Após secar os cabelos com auxilio de um secador. Aplique um protetor térmico antes da utilização da escova. Separe o cabelo em pequenas mechas e enrole-o sobre a escova. Aguarde 3segundos e puxe segurando pela ponta-fria.
 
 Você pode utilizar essa escova para revitalizar o penteado no dia seguinte. Para penteados volumosos, coloque a escova sob o cabelo próximo da raiz e escove em direção a ponta. Para penteados mais suaves, coloque a escova próximo a raiz e escove até as pontas. Para enrolar as pontas para fora, coloque a escova acima das pontas e segure por 3s antes de girar para fora. Pare enrolar as pontas para dentro, coloque a scova sob as pontas e segure por 3 segundos antes de girar para dentro
-
-
 
 ### **VALOR**
 
 Eu paguei assim que foi lançada mas agora você encontra com preços melhores
-
-
 
 ### **ONDE COMPRAR**
 
