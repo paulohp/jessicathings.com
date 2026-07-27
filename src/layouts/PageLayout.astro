@@ -1,12 +1,223 @@
+---
+import "@assets/styles/global.css";
+
+export interface Props {
+	title: string;
+	description?: string;
+	ogImage?: string;
+	canonicalUrl?: string;
+	structuredData?: object;
+	publishDate?: string;
+	author?: string;
+	tags?: string[];
+	articleType?: "article" | "website";
+}
+
+const {
+	title,
+	description,
+	ogImage,
+	canonicalUrl,
+	structuredData,
+	publishDate,
+	author,
+	tags,
+	articleType = "website",
+} = Astro.props;
+
+// Generate full URLs for social media
+const fullOgImage = ogImage ? new URL(ogImage, Astro.site).toString() : null;
+const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, Astro.site).toString();
+
+// Default structured data for website
+const defaultStructuredData = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	name: "Jéssica Oliveira Beauty",
+	description: "Sua fonte de inspiração para beleza, cabelo e estilo de vida",
+	url: Astro.site?.toString(),
+	publisher: {
+		"@type": "Organization",
+		name: "Jéssica Oliveira Beauty",
+		logo: {
+			"@type": "ImageObject",
+			url: new URL("/favicon.svg", Astro.site).toString(),
+		},
+	},
+};
+
+const finalStructuredData = structuredData || defaultStructuredData;
+---
+
 <html lang="pt-BR">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover"
+		/>
 		<meta name="generator" content={Astro.generator} />
-		<title>Jéssica Oliveira Beauty</title>
+
+		<!-- iOS Safari specific meta tags -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=no" />
+
+		<!-- SEO Meta Tags -->
+		<title>{title}</title>
+		{description && <meta name="description" content={description} />}
+		<link rel="canonical" href={fullCanonicalUrl} />
+
+		<!-- Open Graph Meta Tags -->
+		<meta property="og:type" content={articleType} />
+		<meta property="og:title" content={title} />
+		{description && <meta property="og:description" content={description} />}
+		<meta property="og:url" content={fullCanonicalUrl} />
+		<meta property="og:site_name" content="Jéssica Oliveira Beauty" />
+		<meta property="og:locale" content="pt_BR" />
+		{fullOgImage && <meta property="og:image" content={fullOgImage} />}
+		{fullOgImage && <meta property="og:image:alt" content={title} />}
+		{fullOgImage && <meta property="og:image:width" content="1200" />}
+		{fullOgImage && <meta property="og:image:height" content="630" />}
+
+		<!-- Article-specific Open Graph tags -->
+		{
+			articleType === "article" && publishDate && (
+				<meta property="article:published_time" content={new Date(publishDate).toISOString()} />
+			)
+		}
+		{articleType === "article" && author && <meta property="article:author" content={author} />}
+		{
+			articleType === "article" &&
+				tags &&
+				tags.map((tag: string) => <meta property="article:tag" content={tag} />)
+		}
+
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		{description && <meta name="twitter:description" content={description} />}
+		{fullOgImage && <meta name="twitter:image" content={fullOgImage} />}
+		{author && <meta name="twitter:creator" content={`@${author}`} />}
+
+		<!-- Additional SEO Meta Tags -->
+		<meta name="robots" content="index, follow" />
+		<meta name="author" content="Jéssica Oliveira Beauty" />
+		<meta name="language" content="pt-BR" />
+
+		<!-- Structured Data -->
+		<script type="application/ld+json" set:html={JSON.stringify(finalStructuredData)} />
+
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-850SV2GM0R"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				window.dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-850SV2GM0R");
+		</script>
+
+		<script
+			async
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9737122509851883"
+			crossorigin="anonymous"></script>
+
+		<!-- Preconnect to external domains for performance -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			/* iOS Safari fixes */
+			* {
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
+				-webkit-touch-callout: none;
+			}
+
+			body {
+				-webkit-text-size-adjust: 100%;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				min-height: 100vh;
+				min-height: -webkit-fill-available;
+			}
+
+			html {
+				height: -webkit-fill-available;
+			}
+
+			/* Fix for sticky header on iOS */
+			.sticky {
+				position: -webkit-sticky;
+				position: sticky;
+			}
+
+			/* Smooth scrolling for iOS */
+			* {
+				-webkit-overflow-scrolling: touch;
+			}
+
+			/* Button and input fixes for iOS */
+			button,
+			input,
+			select,
+			textarea {
+				-webkit-appearance: none;
+				appearance: none;
+				border-radius: 0;
+			}
+
+			button {
+				cursor: pointer;
+				user-select: none;
+				-webkit-user-select: none;
+			}
+
+			/* Line clamp utilities */
+			.line-clamp-2 {
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				word-break: break-word;
+			}
+			.line-clamp-3 {
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				word-break: break-word;
+			}
+
+			/* Fix flexbox issues on iOS */
+			.flex {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: flex;
+			}
+
+			/* Grid fixes for iOS */
+			.grid {
+				display: -ms-grid;
+				display: grid;
+			}
+
+			/* Safe area insets for iOS notch */
+			@supports (padding: max(0px)) {
+				body {
+					padding-left: max(0px, env(safe-area-inset-left));
+					padding-right: max(0px, env(safe-area-inset-right));
+				}
+			}
+		</style>
 	</head>
 	<body>
-		<slot/>
+		<slot />
 	</body>
 </html>
