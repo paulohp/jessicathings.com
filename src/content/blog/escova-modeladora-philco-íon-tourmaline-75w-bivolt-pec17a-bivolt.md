@@ -13,7 +13,7 @@ tags:
 ---
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785069672/273326-1200-1200_kc2hop.webp)
 
-Quer transformar sua rotina de beleza? Te apresento a "Escova Modeladora Philco Íon Tourmaline 75W Bivolt PEC17A" Desenvolvida para quem busca fios mais alinhados, modelados, brilhantes e com resultado de salão.
+Quer transformar sua rotina de beleza? Te apresento a **"Escova Modeladora Philco Íon Tourmaline 75W Bivolt PEC17A".** Desenvolvida para quem busca fios mais alinhados, modelados, brilhantes e com resultado de salão.
 
 * Revestimento em cerâmica
 * Turmalina Íon
@@ -25,6 +25,8 @@ Quer transformar sua rotina de beleza? Te apresento a "Escova Modeladora Philco 
 * Ponta fria
 * Luz indicadora de funcionamento
 * Botão liga/desliga
+
+
 
 #### DESCRIÇÃO DO PRODUTO
 
@@ -50,8 +52,6 @@ indicadora de funcionamento f cará verde.
 * Mantenha por 5 a 8 segundos, dependendo da textura e comprimento do seu cabelo.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785069672/273322-1200-1200_znkd5l.webp)
-
-
 
 ONDE COMPRAR
 
