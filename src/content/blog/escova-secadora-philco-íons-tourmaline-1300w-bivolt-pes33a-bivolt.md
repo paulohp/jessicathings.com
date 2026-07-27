@@ -1,5 +1,5 @@
 ---
-title: Escova Secadora Philco Íons Tourmaline 1300W Bivolt PES33A - Bivolt
+title: Escova Secadora Philco Íons Tourmaline 1300W PES33A - Bivolt
 date: 2026-05-05T08:30:00.000-03:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1777977116/Captura_de_Tela_2026-05-05_a%CC%80s_07.31.09_v3qnoi.png
 description: Com 1300W e 3 velocidades, ela garante uma secagem rápida,
