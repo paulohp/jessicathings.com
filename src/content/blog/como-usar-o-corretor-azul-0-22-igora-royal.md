@@ -8,18 +8,26 @@ description: 'como usar o corretor/neutralizante "Schwarzkopf Igora Royal - 0-22
   Concentrado Anti Laranja" '
 categories:
   - Produtos de Cabelo
-tags: []
+tags:
+  - igora royal
+  - corretor 0-22
 ---
 Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como usar o corretor/neutralizante **"Schwarzkopf Igora Royal - 0-22 Concentrado Anti Laranja"** ![](https://images.jessicathings.com/2025/02/copia-de-IMG_3384-scaled-e1738849239151.jpg) O meu cabelo natural é castanho médio acinzentado e toda vez que uso coloração castanho médio ou castanho médio natural meu cabelo fica com tons avermelhados, então por um tempo eu decidi pintar com o mas essa cor desbota muito rápido e fica muito a vermelhado para um tom que eu não gosto, então decidi voltar para o castanho. Um problema que eu tenho é que as colorações castanho médio acinzentado de farmácia nunca fica acinzentado e sempre fica mais escuro do que a minha cor natural, e o castanho claro sempre fica mais claro que a minha cor natural natural. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DBQcYtDywrk?si=QSjktbKyui5FM2s6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![](https://images.jessicathings.com/2025/02/03.png) Os corretores são feitos para neutralizar tons indesejados das colorações, como tons dourados nos cabelos loiros, tons avermelhados, tons alaranjados e vários outros. Cada corretor tem uma função especifica e cada cor anula sua cor oposta. O azul anula os tons alaranjados como na tabela abaixo. ![](https://images.jessicathings.com/2025/02/circulo-1.jpg)   Para as pessoas que não sabem como usar, vou tentar explicar de uma forma fácil. Primeiramente não é para aplicar o tubo de tinta  no cabelo todo como se fosse uma tinta normal, a não ser em casos muitos específicos O corretor verde serve para neutralizar os tons avermelhados, você usa uma quantidade pouquíssima tipo 1cm, 2cm ou 1g 2g dependendo da quantidade de tinta que você vai usar por exp: 1 tudo de tinta de 60g para 60g de ox você usa de 1cm a 2cm de corretor ou 1g a  2g no máximo para cabelos claros pois corre o risco de chumbar ou deixar o cabelo preto ou muito escuro. ![](https://images.jessicathings.com/2025/02/02.png) Caso você tem tenha o cabelo escuro pode usar uma quantidade maior de 4g a 8g por exemplo No vídeo abaixo eu mostrei as quantidades que eu usei e a forma que eu usei. [![YouTube Video](http://img.youtube.com/vi/lKZjHlD7kac/0.jpg)](http://www.youtube.com/watch?v=lKZjHlD7kac "Click to Watch") Para a quantidade de tinta e a quantidade de cabelo eu poderia ter usado 4g de cada ou mais, já estou na 3 lavagem pós coloarção e o cabelo continua com um pouco do reflexo avermelhado então no retoque irei testar com uma quantidade maior de corretores e volto para contar para vocês sobre o resultado. 
+![](https://images.jessicathings.com/2025/02/03.png)
+
+ Os corretores são feitos para neutralizar tons indesejados das colorações, como tons dourados nos cabelos loiros, tons avermelhados, tons alaranjados e vários outros. Cada corretor tem uma função especifica e cada cor anula sua cor oposta. O azul anula os tons alaranjados como na tabela abaixo. ![](https://images.jessicathings.com/2025/02/circulo-1.jpg)   Para as pessoas que não sabem como usar, vou tentar explicar de uma forma fácil. Primeiramente não é para aplicar o tubo de tinta  no cabelo todo como se fosse uma tinta normal, a não ser em casos muitos específicos O corretor verde serve para neutralizar os tons avermelhados, você usa uma quantidade pouquíssima tipo 1cm, 2cm ou 1g 2g dependendo da quantidade de tinta que você vai usar por exp: 1 tudo de tinta de 60g para 60g de ox você usa de 1cm a 2cm de corretor ou 1g a  2g no máximo para cabelos claros pois corre o risco de chumbar ou deixar o cabelo preto ou muito escuro. ![](https://images.jessicathings.com/2025/02/02.png) Caso você tem tenha o cabelo escuro pode usar uma quantidade maior de 4g a 8g por exemplo No vídeo abaixo eu mostrei as quantidades que eu usei e a forma que eu usei. [![YouTube Video](http://img.youtube.com/vi/lKZjHlD7kac/0.jpg)](http://www.youtube.com/watch?v=lKZjHlD7kac "Click to Watch") Para a quantidade de tinta e a quantidade de cabelo eu poderia ter usado 4g de cada ou mais, já estou na 3 lavagem pós coloarção e o cabelo continua com um pouco do reflexo avermelhado então no retoque irei testar com uma quantidade maior de corretores e volto para contar para vocês sobre o resultado. 
 
 ![](https://images.jessicathings.com/2025/02/01.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lKZjHlD7kac?si=bpItAkoEEdL69Eta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-gVD6Gu-58U?si=MnCPEabNMKOi_poU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVN7fhk2vVU?si=SA4Z-5_7M1mpi7KZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
