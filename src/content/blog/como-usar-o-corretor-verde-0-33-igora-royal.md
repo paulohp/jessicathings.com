@@ -13,10 +13,9 @@ tags:
   - cabelo
   - cabelos
   - corretor para anti-vermelho
-  - corretor verde
+  - corretor verd
   - corretor verde igora
-  - corretor verde igora 0-33
-  - resenhas
+  - ""
 ---
 Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como usar o corretor/neutralizante **"Schwarzkopf Igora Royal - 0-33 Concentrado Anti Vermelho"** ![](https://images.jessicathings.com/2025/02/copia-de-IMG_3386-scaled.jpg) O meu cabelo natural é castanho médio acinzentado e toda vez que uso coloração castanho médio ou castanho médio natural meu cabelo fica com tons avermelhados, então por um tempo eu decidi pintar com o mas essa cor desbota muito rápido e fica muito a vermelhado para um tom que eu não gosto, então decidi voltar para o castanho. Um problema que eu tenho é que as colorações castanho médio acinzentado de farmácia nunca fica acinzentado e sempre fica mais escuro do que a minha cor natural, e o castanho claro sempre fica mais claro que a minha cor natural natural. 
 
