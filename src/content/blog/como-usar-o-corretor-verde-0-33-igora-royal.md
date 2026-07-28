@@ -37,3 +37,11 @@ Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como us
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVN7fhk2vVU?si=gFXcM_pG4-d_q98q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+🛒 ONDE COMPRAR: 
+
+🛍️ Amazon: https://a.co/d/09ixpvxy
+
+🛍️ Mercado Livre: https://meli.la/1BbCYbW
