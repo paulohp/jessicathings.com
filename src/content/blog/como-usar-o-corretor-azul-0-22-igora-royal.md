@@ -24,10 +24,14 @@ Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como us
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lKZjHlD7kac?si=bpItAkoEEdL69Eta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-gVD6Gu-58U?si=MnCPEabNMKOi_poU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVN7fhk2vVU?si=SA4Z-5_7M1mpi7KZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+🛒 ONDE COMPRAR: 
+
+🛍️ Amazon: https://a.co/d/09ixpvxy
+
+🛍️ Mercado Livre: https://meli.la/1BbCYbW
