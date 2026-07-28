@@ -11,6 +11,8 @@ categories:
 tags:
   - igora royal
   - corretor 0-22
+  - corretor azul
+  - corretor azul igora
 ---
 Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como usar o corretor/neutralizante **"Schwarzkopf Igora Royal - 0-22 Concentrado Anti Laranja"** ![](https://images.jessicathings.com/2025/02/copia-de-IMG_3384-scaled-e1738849239151.jpg) O meu cabelo natural é castanho médio acinzentado e toda vez que uso coloração castanho médio ou castanho médio natural meu cabelo fica com tons avermelhados, então por um tempo eu decidi pintar com o mas essa cor desbota muito rápido e fica muito a vermelhado para um tom que eu não gosto, então decidi voltar para o castanho. Um problema que eu tenho é que as colorações castanho médio acinzentado de farmácia nunca fica acinzentado e sempre fica mais escuro do que a minha cor natural, e o castanho claro sempre fica mais claro que a minha cor natural natural. 
 
@@ -24,10 +26,14 @@ Olá meus amores, tudo bem com vocês? No post de hoje vamos falar sobre como us
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lKZjHlD7kac?si=bpItAkoEEdL69Eta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-gVD6Gu-58U?si=MnCPEabNMKOi_poU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YVN7fhk2vVU?si=SA4Z-5_7M1mpi7KZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+🛒 ONDE COMPRAR: 
+
+🛍️ Amazon: https://a.co/d/09ixpvxy
+
+🛍️ Mercado Livre: https://meli.la/1BbCYbW
