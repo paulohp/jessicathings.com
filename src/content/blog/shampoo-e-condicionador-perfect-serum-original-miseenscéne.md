@@ -1,7 +1,7 @@
 ---
 title: Shampoo e Condicionador Perfect Serum Original - Mise en Scène
 date: 2026-03-16T09:45:00.000+01:00
-thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1773652855/perfect-serum-original-conditioner___260112_puryyn.webp
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1785320739/Design_sem_nome_m2szsk.png
 description: nutrição aos cabelos, protegê-los contra a quebra e proporcionar
   uma aparência mais saudável por mais tempo. Indicado para cabelos secos,
   quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro
@@ -15,6 +15,8 @@ tags:
   - miseenscéne
   - k-beauty
 ---
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785320739/Design_sem_nome_m2szsk.png)
+
 Olá meus amores, tudo bem com vocês?! Na resenha de hoje vamos falar sobre o Shampoo e Condicionador **"Perfect Serum Original - Mise en Scène"** que promete nutrição aos cabelos, protegê-los contra a quebra e proporcionar uma aparência mais saudável por mais tempo. Indicado para cabelos secos, quebradiços e quimicamente tratados, limpa suavemente o cabelo e o couro cabeludo.
 
 Indicado para todos os tipos de cabelo, o **Shampoo Perfect Serum** limpa delicadamente enquanto hidrata e fortalece, revelando a beleza natural dos fios. Experimente resultados visíveis desde a primeira aplicação!
@@ -35,6 +37,10 @@ Shampoo Golden Morocco Argan Oil + Perfect Serum que bloqueia partículas finas 
 Contém óleo dourado extraído do argan, planta com forte vitalidade originária do Marrocos, para amaciar os cabelos. Contém 7X GOLDEN OIL™ (Argan + Camélia + Coco + Damasco + Marula + Jojoba + Azeite de Oliva).
 
 O óleo de jojoba e o azeite de oliva hidratam, o óleo de coco reveste os fios, o óleo de marula e o óleo de argan protegem, o extrato de damasco adiciona brilho e o óleo de camélia nutre.
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785320739/Design_sem_nome_1_f5hn4r.png)
+
+
 
 ### Ingredientes
 
@@ -78,6 +84,10 @@ Promove Hidratação, brilho e maciez, prevenção de pontas duplas,  limpeza, r
 
 Você ganha um DESCONTO + pontos EXTRAS, sem valor mínimo de compra no seu PRIMEIRO pedido, €10 + DOBRO DE PONTOS
 
-1. Mercado Livre:[ Shampoo e condicionador](https://meli.la/16jRt39)
+1. Mercado Livre: <https://meli.la/1dtzMT6> - [https://meli.la/25covxk ](https://meli.la/25covxk)
 2. Amazon: [Shampoo e condicionador](https://amzn.to/4s7epLH)
 3. Shopee: [Shampoo e condicionador ](https://s.shopee.com.br/AUpJbhdBVw)
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w5LzhypIt2k?si=X5GIQN-rqeuzABCd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
