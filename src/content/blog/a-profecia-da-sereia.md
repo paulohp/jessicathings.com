@@ -20,14 +20,14 @@ A profecia da sereia faz parte de uma trilogia e é um romance clichê leve e ch
 
 A trilogia conta com [*A profecia da sereia livro 1*,](https://link.amazon/B0eZ8kr9m) *[A lenda da sereia 2 ](https://link.amazon/B05AUurPj)*e *[O destino da sereia 3](https://link.amazon/B04R3Mk2O).* São livros curtos e gostosinho de ler antes de dormir pra relaxar depois de um dia cansativo. 
 
-A história é contado pelo ponto de vista de Lia que é uma sereia que sempre sentiu que não se encaixava por não ter uma alma gêmea, afinal todas os sereianos tem uma. Sempre teve curiosidade sobre o mundo dos humanos apesar de todos e principalmente a sua mãe sempre dizer que o humanos são perigosos.
+A história é contado pelo ponto de vista de Lia que é uma sereia que sempre sentiu que não se encaixava por não ter uma alma gêmea, afinal todos os sereianos tem uma. Sempre teve curiosidade sobre o mundo dos humanos, apesar de todos e principalmente as suas mães sempre dizer que o humanos eram perigosos.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785316853/IMG_0031_pbjs3m.jpg)
 
-Tudo muda quando ela conhece Daisy uma feiticeira que dá a ela a esperança de uma dia ter pernas e que ira encontrar sua alma gemia em uma festa de ano novo.
+Tudo muda quando ela conhece Daisy uma feiticeira que dá a ela a esperança de uma dia ter pernas e que ira encontrar sua alma gêmea em uma festa de ano novo.
 
-Assim todo dia 31 de dezembro ela volta á superfície para aproveitar as festa de Ano novo em busca do seu amor.
+Assim todo dia 31 de dezembro ela volta á superfície para aproveitar as festa de Ano Novo em busca do seu amor.
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785316853/IMG_0034_yoqzav.jpg)
 
-Até que um dia ela encontra uma pessoa e sente algo que nunca sentiu antes, mas será que será a sua alma gêmea?
+Até que um dia ela encontra uma pessoa incrível e sente algo tão intenso que nunca sentiu antes, mas será que ela encontrou  sua alma gêmea?
