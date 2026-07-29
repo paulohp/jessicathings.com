@@ -47,7 +47,7 @@ O produto proporciona cabelos fortes.
 * Apos lavar o cabelo com shampoo, retire o excesso de água com a tolha e aplique a máscara normalmente
 * Aplique uma quantidade generosa da máscara capilar em todo cabelo. Enxágue bem.
 * Apesar do enxágue imediato, o cabelo ainda é restaurado de forma eficaz.
-* Recomenda-se o uso do produto uma ou duas vezes por semana.
+* Recomenda-se o uso do produto uma ou duas vezes por semana
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1770203801/co%CC%81pia_de_IMG_4812_pwmd17.jpg)
 
@@ -65,8 +65,10 @@ Mercado Livre: [https://meli.la/1MV9JE8 ](https://meli.la/1MV9JE8)- <https://mel
 
 Shopee: <https://s.shopee.com.br/7pnWt46HMo>
 
-Amazon: [https://link.amazon/B0gnjw0df ](https://link.amazon/B0gnjw0df)- <https://link.amazon/B062Sh2lN>[](https://amzn.to/4te23lT)
+Amazon: [https://link.amazon/B0gnjw0df ](https://link.amazon/B0gnjw0df)- <https://link.amazon/B062Sh2lN>
+
+Yesstyle: <https://ystyle.co/18KF> Code 5% JESSITHINGS1 🚨ATENÇÃO🚨Envio para o Brasil Frete padrão grátis em qualquer compra de US$ 59 ( 15 a 30 dias úteis )[ https://ystyle.co/8iQEv](https://ystyle.co/8iQEv)
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1On7Zyfe9MY?si=LnfXf83kva3VTCHZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-\#yesstyle #yesstylecode #fino #shiseido #hairmask #cabelo #tratamentocapilar #hairmask #shiseido #yesstylereview #japones #tsubaki #cabelo
