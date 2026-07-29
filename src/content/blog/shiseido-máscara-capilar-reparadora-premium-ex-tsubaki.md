@@ -59,20 +59,14 @@ O produto proporciona cabelos fortes.
 
 Eu paguei 12,59 € [no site da YesStyle ](https://www.yesstyle.com/en/shiseido-tsubaki-premium-ex-repair-hair-mask-180g/info.html/pid.1130837968?rco=JESSITHINGS1&utm_term=JESSITHINGS1&utm_medium=Influencer&utm_source=dynamic&mcg=influencer)Code 5% JESSITHINGS1 🚨ATENÇÃO🚨Envio para o Brasil Frete padrão grátis em qualquer compra de US$ 59 ( 15 a 30 dias úteis )
 
-
-
 #### **ONDE COMPRAR**
 
-Mercado Livre:[ https://mercadolivre.com/sec/2EP2KKk](https://mercadolivre.com/sec/2EP2KKk)
+Mercado Livre: [https://meli.la/1MV9JE8 ](https://meli.la/1MV9JE8)- <https://meli.la/1qGPgDV>
 
 Shopee: <https://s.shopee.com.br/7pnWt46HMo>
 
-Amazon <https://amzn.to/4te23lT>[](https://amzn.to/4te23lT)
-
-
+Amazon: [https://link.amazon/B0gnjw0df ](https://link.amazon/B0gnjw0df)- <https://link.amazon/B062Sh2lN>[](https://amzn.to/4te23lT)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1On7Zyfe9MY?si=LnfXf83kva3VTCHZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 
 \#yesstyle #yesstylecode #fino #shiseido #hairmask #cabelo #tratamentocapilar #hairmask #shiseido #yesstylereview #japones #tsubaki #cabelo
