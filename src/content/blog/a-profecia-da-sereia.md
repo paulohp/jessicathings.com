@@ -2,9 +2,15 @@
 title: A profecia da sereia
 date: 2026-07-11T10:50:00.000+02:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1783535778/91sZ5GUluyL._SL1500__teljzd.jpg
-description: Trilogia
+description: A profecia da sereia faz parte de uma trilogia e é um romance
+  clichê leve e cheio de magia. Da autora brasileira do best-seller Conectadas,
+  Clara Alves.
 categories:
   - Livros
+tags:
+  - Livros
+  - Leitoras
+  - Leitores
 ---
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1783535778/91sZ5GUluyL._SL1500__teljzd.jpg)
 
