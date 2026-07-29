@@ -22,12 +22,12 @@ A trilogia conta com [*A profecia da sereia livro 1*,](https://link.amazon/B0eZ8
 
 A história é contado pelo ponto de vista de Lia que é uma sereia que sempre sentiu que não se encaixava por não ter uma alma gêmea, afinal todas os sereianos tem uma. Sempre teve curiosidade sobre o mundo dos humanos apesar de todos e principalmente a sua mãe sempre dizer que o humanos são perigosos.
 
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1783535778/91QG4QJLc8L._SL1500__rz4ab4.jpg)
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785316853/IMG_0031_pbjs3m.jpg)
 
 Tudo muda quando ela conhece Daisy uma feiticeira que dá a ela a esperança de uma dia ter pernas e que ira encontrar sua alma gemia em uma festa de ano novo.
 
 Assim todo dia 31 de dezembro ela volta á superfície para aproveitar as festa de Ano novo em busca do seu amor.
 
-![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1783535779/91PMQm4umfL._SL1500__ffbbum.jpg)
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785316853/IMG_0034_yoqzav.jpg)
 
 Até que um dia ela encontra uma pessoa e sente algo que nunca sentiu antes, mas será que será a sua alma gêmea?
