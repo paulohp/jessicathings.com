@@ -44,11 +44,7 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 
 Água (Aqua), Cetearyl Alcohol, Dimethicone, Behentrimonium Chloride, Óleo de Coco (Cocos Nucifera), Óleo de Argan (Argania Spinosa Kernel), Óleo de Semente de Camélia (Camellia Japonica), Óleo de Jojoba (Simmondsia Chinensis), Óleo de Oliva (Olea Europaea), Óleo de Rosa Mosqueta (Rosa Canina), Óleo de Damasco (Prunus Armeniaca), Proteína Hidrolisada da Seda (Hydrolyzed Silk), Queratina Hidrolisada (Hydrolyzed Keratin), Fragrância (Parfum), Glicerina, Amodimethicone, Álcool Isopropílico, Ácido Lático, Fenoxietanol, Metilparabeno, Dissódico EDTA, CI 15985, CI 19140.
 
-
-
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785327975/Design_sem_nome_ujhfjz.png)
-
-
 
 ### MODO DE USO
 
@@ -60,9 +56,11 @@ Formulado com o exclusivo **Golden Moroccan Argan Oil** e um complexo de **7 
 
 Eu paguei € 5,79 aqui na europa - [Stylevana ](http://rwrd.io/fixg6sy?c)Você ganha um DESCONTO + pontos EXTRAS, sem valor mínimo de compra no seu PRIMEIRO pedido, €10 + DOBRO DE PONTOS <http://rwrd.io/fixg6sy?c>
 
-### ONDE COMPRAR
-
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785327976/Design_sem_nome_2_qyligl.png)
+
+
+
+### ONDE COMPRAR
 
 🛍️ Amazon: <https://amzn.to/41e0R5g> - <https://amzn.to/3QebXVs>
 
