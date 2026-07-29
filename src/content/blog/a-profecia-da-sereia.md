@@ -1,5 +1,5 @@
 ---
-title: A profecia da sereia
+title: A profecia da sereia - Clara Alves
 date: 2026-07-11T10:50:00.000+02:00
 thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1785316194/IMG_0024_ruppcx.jpg
 description: A profecia da sereia faz parte de uma trilogia e é um romance
