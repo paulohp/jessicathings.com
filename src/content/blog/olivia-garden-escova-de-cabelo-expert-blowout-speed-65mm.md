@@ -84,6 +84,8 @@ Tipo de cabelo: Oleoso, crespo, normal, seco, todos os tipos de cabelo
 
 🛍️ Mercado Livre: <https://meli.la/32vAZfX> -[ https://meli.la/1LLsmNb](https://meli.la/1LLsmNb)
 
+🛍️ Amazon.br: <https://link.amazon/B05pkYWmB>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2_NvFgQ_4g?si=5Q9LgkHKkB9vgeTe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0LrYVANOZG8?si=bFz_Mphwk7WPTXfy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
