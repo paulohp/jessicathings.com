@@ -65,3 +65,69 @@ collections:
         widget: "list"
         required: false
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "gallery"
+    label: "Galeria"
+    label_singular: "Item da Galeria"
+    folder: "src/content/gallery"
+    create: true
+    identifier_field: "alt"
+    fields:
+      - {
+          label: "Imagem",
+          name: "image",
+          widget: "image",
+          hint: "Upload da foto ou thumbnail do vídeo",
+        }
+      - { label: "Texto alternativo", name: "alt", widget: "string" }
+      - {
+          label: "Legenda",
+          name: "caption",
+          widget: "string",
+          required: false,
+          hint: "Aparece ao passar o mouse e no lightbox",
+        }
+      - label: "Tipo"
+        name: "type"
+        widget: "select"
+        default: "photo"
+        options:
+          - { label: "📷 Foto", value: "photo" }
+          - { label: "🎥 Vídeo", value: "video" }
+      - {
+          label: "Link do vídeo",
+          name: "videoSrc",
+          widget: "string",
+          required: false,
+          hint: "URL do vídeo no Cloudinary, YouTube ou Vimeo. Só para tipo 'Vídeo'.",
+        }
+      - {
+          label: "Largura (px)",
+          name: "width",
+          widget: "number",
+          required: false,
+          hint: "Largura original da imagem para manter proporção",
+          value_type: "int",
+        }
+      - {
+          label: "Altura (px)",
+          name: "height",
+          widget: "number",
+          required: false,
+          hint: "Altura original da imagem para manter proporção",
+          value_type: "int",
+        }
+      - {
+          label: "Data",
+          name: "date",
+          widget: "datetime",
+          required: false,
+          hint: "Data da foto/vídeo para ordenação",
+        }
+      - {
+          label: "Rascunho",
+          name: "draft",
+          widget: "boolean",
+          default: false,
+          required: false,
+          hint: "Marque para esconder do site",
+        }

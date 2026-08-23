@@ -17,6 +17,9 @@ importers:
       astro:
         specifier: ^5.11.0
         version: 5.11.0(@types/node@24.0.10)(jiti@1.21.6)(rollup@4.44.2)(typescript@5.5.4)(yaml@2.5.0)
+      photoswipe:
+        specifier: ^5.4.4
+        version: 5.4.4
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
@@ -2732,6 +2735,10 @@ packages:
 
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
+
+  photoswipe@5.4.4:
+    resolution: {integrity: sha512-WNFHoKrkZNnvFFhbHL93WDkW3ifwVOXSW3w1UuZZelSmgXpIGiZSNlZJq37rR8YejqME2rHs9EhH9ZvlvFH2NA==}
+    engines: {node: '>= 0.12.0'}
 
   picocolors@1.0.1:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
@@ -6822,6 +6829,8 @@ snapshots:
   path-type@5.0.0: {}
 
   pathe@2.0.3: {}
+
+  photoswipe@5.4.4: {}
 
   picocolors@1.0.1: {}
 

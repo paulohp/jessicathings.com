@@ -18,6 +18,22 @@ const blogsCollection = defineCollection({
 		}),
 });
 
+const galleryCollection = defineCollection({
+	type: "content",
+	schema: z.object({
+		image: z.string(),
+		alt: z.string().default(""),
+		caption: z.string().optional(),
+		type: z.enum(["photo", "video"]).default("photo"),
+		videoSrc: z.string().optional(),
+		width: z.number().optional(),
+		height: z.number().optional(),
+		date: z.string().optional(),
+		draft: z.boolean().optional().default(false),
+	}),
+});
+
 export const collections = {
 	blog: blogsCollection,
+	gallery: galleryCollection,
 };

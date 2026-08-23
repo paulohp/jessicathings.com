@@ -1,6 +1,6 @@
 ---
 interface Props {
-	currentPage?: "home" | "explorar" | "categories" | "tags";
+	currentPage?: "home" | "explorar" | "categories" | "tags" | "galeria";
 }
 
 const { currentPage = "home" } = Astro.props;
@@ -10,8 +10,14 @@ const { currentPage = "home" } = Astro.props;
 	<div class="container mx-auto px-4 py-4">
 		<div class="flex items-center justify-between">
 			<div class="flex items-center space-x-3 md:space-x-5">
-				<a href="/" class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">Jéssica Oliveira Beauty</a>
-				<span class="hidden text-xs uppercase tracking-widest text-gray-400 sm:inline">Beleza & Estilo</span>
+				<a
+					href="/"
+					class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl"
+					>Jéssica Oliveira Beauty</a
+				>
+				<span class="hidden text-xs uppercase tracking-widest text-gray-400 sm:inline"
+					>Beleza & Estilo</span
+				>
 			</div>
 
 			<!-- Desktop Navigation -->
@@ -37,6 +43,17 @@ const { currentPage = "home" } = Astro.props;
 					]}
 				>
 					Explorar
+				</a>
+				<a
+					href="/galeria"
+					class:list={[
+						"text-sm tracking-wide transition-colors",
+						currentPage === "galeria"
+							? "border-b border-gray-900 pb-0.5 font-medium text-gray-900"
+							: "text-gray-500 hover:text-gray-900",
+					]}
+				>
+					Galeria
 				</a>
 				<a
 					href="/categories"
@@ -115,6 +132,17 @@ const { currentPage = "home" } = Astro.props;
 					]}
 				>
 					Explorar
+				</a>
+				<a
+					href="/galeria"
+					class:list={[
+						"block rounded-lg px-3 py-2 text-base font-medium transition-colors",
+						currentPage === "galeria"
+							? "bg-gray-100 text-gray-900"
+							: "text-gray-700 hover:bg-gray-100 hover:text-gray-900",
+					]}
+				>
+					Galeria
 				</a>
 				<a
 					href="/categories"

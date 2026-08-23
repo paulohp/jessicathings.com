@@ -1,0 +1,254 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+
+const galleryItems = await getCollection("gallery", ({ data }) => {
+	// Filter out drafts in production
+	return import.meta.env.PROD ? !data.draft : true;
+});
+
+// Sort by date descending, newest first
+const sortedItems = galleryItems.sort((a, b) => {
+	const dateA = a.data.date ? new Date(a.data.date).getTime() : 0;
+	const dateB = b.data.date ? new Date(b.data.date).getTime() : 0;
+	return dateB - dateA;
+});
+
+const photos = galleryItems.filter((i) => i.data.type === "photo");
+const videos = galleryItems.filter((i) => i.data.type === "video");
+
+const seoTitle = "Galeria - Jéssica Oliveira Beauty";
+const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de vida.";
+---
+
+<BaseLayout title={seoTitle} description={seoDescription}>
+	<div class="min-h-screen bg-white">
+		<Header currentPage="galeria" />
+
+		<main class="container mx-auto px-4 py-6 md:py-10">
+			<!-- Page Header -->
+			<div class="mb-8 text-center">
+				<h1
+					class="mb-2 font-display text-4xl font-semibold tracking-tight text-gray-900 md:text-5xl"
+				>
+					Galeria
+				</h1>
+				<p class="mx-auto max-w-xl text-gray-500">
+					Um feed de inspiração em beleza, moda e estilo de vida. Clique em qualquer foto ou vídeo
+					para ampliar.
+				</p>
+			</div>
+
+			<!-- Filter tabs -->
+			{
+				sortedItems.length > 0 && (
+					<div class="mb-8 flex justify-center gap-2">
+						<button
+							data-filter="all"
+							class="filter-btn rounded-full bg-black px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800"
+						>
+							Todos
+						</button>
+						{photos.length > 0 && (
+							<button
+								data-filter="photo"
+								class="filter-btn rounded-full bg-gray-100 px-5 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200"
+							>
+								📷 Fotos
+							</button>
+						)}
+						{videos.length > 0 && (
+							<button
+								data-filter="video"
+								class="filter-btn rounded-full bg-gray-100 px-5 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-200"
+							>
+								🎥 Vídeos
+							</button>
+						)}
+					</div>
+				)
+			}
+
+			<!-- Empty state -->
+			{
+				sortedItems.length === 0 && (
+					<div class="flex flex-col items-center justify-center py-20 text-gray-400">
+						<svg class="mb-4 h-16 w-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="1.5"
+								d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+							/>
+						</svg>
+						<p class="text-lg font-medium">Nenhuma foto ainda</p>
+						<p class="mt-1 text-sm">
+							Adicione itens pelo CMS em{" "}
+							<code class="rounded bg-gray-100 px-1.5 py-0.5 text-xs">/admin</code> → Galeria
+						</p>
+					</div>
+				)
+			}
+
+			<!-- Gallery Grid (Masonry CSS columns) -->
+			<div id="gallery-grid" class="gallery-masonry">
+				{
+					sortedItems.map((entry) => {
+						const item = entry.data;
+						const thumbSrc = item.image;
+						const href = item.type === "video" && item.videoSrc ? item.videoSrc : item.image;
+
+						return (
+							<a
+								href={href}
+								data-pswp-type={item.type}
+								data-pswp-width={item.width || 1200}
+								data-pswp-height={item.height || 1200}
+								data-filter={item.type}
+								data-caption={item.caption || item.alt}
+								class="gallery-item group relative mb-4 block overflow-hidden rounded-xl"
+								style={item.width && item.height ? `aspect-ratio:${item.width}/${item.height}` : ""}
+							>
+								{item.type === "photo" ? (
+									<img
+										src={thumbSrc}
+										alt={item.alt}
+										loading="lazy"
+										class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+									/>
+								) : (
+									<div class="relative h-full w-full">
+										<img
+											src={thumbSrc}
+											alt={item.alt}
+											loading="lazy"
+											class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+										/>
+										<div class="absolute inset-0 flex items-center justify-center">
+											<div class="flex h-14 w-14 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm transition-transform group-hover:scale-110">
+												<svg class="ml-1 h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+													<path d="M8 5v14l11-7z" />
+												</svg>
+											</div>
+										</div>
+									</div>
+								)}
+
+								{/* Hover overlay */}
+								{item.caption && (
+									<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent p-4 opacity-0 transition-opacity group-hover:opacity-100">
+										<p class="text-sm text-white">{item.caption}</p>
+									</div>
+								)}
+							</a>
+						);
+					})
+				}
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="border-t border-gray-200 bg-gray-50 py-8">
+			<div class="container mx-auto px-4 text-center text-sm text-gray-500">
+				&copy; {new Date().getFullYear()} Jéssica Oliveira Beauty. Todos os direitos reservados.
+			</div>
+		</footer>
+	</div>
+</BaseLayout>
+
+<style is:global>
+	/* Masonry layout using CSS columns */
+	.gallery-masonry {
+		column-count: 2;
+		column-gap: 1rem;
+	}
+
+	@media (min-width: 640px) {
+		.gallery-masonry {
+			column-count: 3;
+			column-gap: 1.25rem;
+		}
+	}
+
+	@media (min-width: 1024px) {
+		.gallery-masonry {
+			column-count: 4;
+			column-gap: 1.5rem;
+		}
+	}
+
+	.gallery-item {
+		break-inside: avoid;
+		-webkit-column-break-inside: avoid;
+	}
+
+	/* PhotoSwipe dark caption bar */
+	.pswp__caption__center {
+		text-align: center !important;
+		font-size: 14px;
+		color: #ccc;
+	}
+</style>
+
+<script>
+	import PhotoSwipeLightbox from "photoswipe/lightbox";
+	import "photoswipe/style.css";
+
+	// Initialize PhotoSwipe
+	const lightbox = new PhotoSwipeLightbox({
+		gallery: "#gallery-grid",
+		children: "a",
+		pswpModule: () => import("photoswipe"),
+		// Custom data source for mixed photo/video
+		bgOpacity: 0.9,
+		padding: { top: 20, bottom: 20, left: 20, right: 20 },
+	});
+
+	// Handle video items
+	lightbox.on("contentLoad", (e) => {
+		const { content } = e;
+		if (content.data.src && content.data.element?.dataset?.pswpType === "video") {
+			// Check if it's a video URL (YouTube, Vimeo, or direct video file)
+			const src = content.data.src;
+			if (src.match(/\.(mp4|webm|ogg)(\?|$)/)) {
+				content.data.html = `<video controls playsinline class="pswp__video" style="max-width:100%;max-height:90vh">
+          <source src="${src}" type="video/mp4">
+        </video>`;
+				e.preventDefault();
+			} else if (src.match(/youtube\.com|youtu\.be|vimeo\.com/)) {
+				// For YouTube/Vimeo, let PhotoSwipe handle as iframe
+				// No preventDefault needed
+			}
+		}
+	});
+
+	lightbox.init();
+
+	// Filter buttons
+	const filterButtons = document.querySelectorAll<HTMLButtonElement>(".filter-btn");
+	const galleryItems = document.querySelectorAll<HTMLElement>(".gallery-item");
+
+	filterButtons.forEach((btn) => {
+		btn.addEventListener("click", () => {
+			const filter = btn.dataset.filter || "all";
+
+			// Update active button style
+			filterButtons.forEach((b) => {
+				b.classList.remove("bg-black", "text-white");
+				b.classList.add("bg-gray-100", "text-gray-700");
+			});
+			btn.classList.add("bg-black", "text-white");
+			btn.classList.remove("bg-gray-100", "text-gray-700");
+
+			// Filter items
+			galleryItems.forEach((item) => {
+				if (filter === "all" || item.dataset.filter === filter) {
+					item.style.display = "";
+				} else {
+					item.style.display = "none";
+				}
+			});
+		});
+	});
+</script>
