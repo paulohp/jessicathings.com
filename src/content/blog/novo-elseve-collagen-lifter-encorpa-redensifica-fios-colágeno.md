@@ -1,7 +1,7 @@
 ---
 title: Novo Elseve Collagen Lifter Encorpa Redensifica Fios Colágeno
 date: 2026-04-20T20:54:00.000-03:00
-thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1776729726/IMG_6518_qvt3gg.jpg
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1785401527/Design_sem_nome_1_vhikbj.png
 description: L'Oréal Paris  "Elseve Collagen Lifter Encorpa Redensifica Fios
   Colágeno" Essa linha promete injeção de massa capilar, promovendo cabelos 12x
   mais macios, 72 horas de volume, sem pesar. A linha conta com shampoo,
@@ -58,9 +58,7 @@ Cabelos visivelmente encorpados desde o 1º uso\*. 72H de volume\*, fios livres 
 
 As listas de ingredientes usados na composição dos produtos da nossa marca são atualizadas regularmente. Desta forma, convidamos você a ler a lista de ingredientes na embalagem do seu produto para garantir que ingredientes são adequados para seu uso pessoal.
 
-![]()
-
-
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785401527/Design_sem_nome_gczcop.png)
 
 #### **MODO DE USO**
 
@@ -68,7 +66,7 @@ As listas de ingredientes usados na composição dos produtos da nossa marca sã
 * **Condicionador:** Aplique em todo o comprimento, até as pontas. Deixe o produto agir e enxágue abundantemente.
 * **Leave-in:** Aplicar nos cabelos molhados ou secos, antes da escova ou como finalizador. Sem enxágue.
 
-
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1785401527/Design_sem_nome_2_lgx5wz.png)
 
 #### **ONDE COMPRAR**
 
@@ -79,3 +77,7 @@ As listas de ingredientes usados na composição dos produtos da nossa marca sã
 🛍️ Shopee: <https://s.shopee.com.br/7KtDKfyXZQ> - <https://s.shopee.com.br/4VZ1xVLmq9>
 
 🛍️ Magazine: <https://divulgador.magalu.com/2GzrI00b> - <https://divulgador.magalu.com/UgHZtkge>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U2pvLoxNQqM?si=797ElWLc3OclgFsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
