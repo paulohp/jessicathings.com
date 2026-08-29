@@ -78,6 +78,14 @@ collections:
           widget: "image",
           hint: "Upload da foto ou thumbnail do vídeo",
         }
+      - {
+          label: "Fotos do Carrossel",
+          name: "images",
+          widget: "image",
+          multiple: true,
+          required: false,
+          hint: "Adicione 2 ou mais fotos para criar um carrossel (clicável para trocar de foto). Se vazio, usa apenas a Imagem acima.",
+        }
       - { label: "Texto alternativo", name: "alt", widget: "string" }
       - {
           label: "Legenda",

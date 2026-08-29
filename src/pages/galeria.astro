@@ -96,8 +96,109 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 				{
 					sortedItems.map((entry) => {
 						const item = entry.data;
-						const thumbSrc = item.image;
+						const carouselImages =
+							item.images && item.images.length > 0 ? item.images : [item.image];
+						const isCarousel = item.type === "photo" && carouselImages.length > 1;
+						const thumbSrc = carouselImages[0];
 						const href = item.type === "video" && item.videoSrc ? item.videoSrc : item.image;
+
+						if (isCarousel) {
+							return (
+								<div
+									class="gallery-item carousel-item group relative mb-4 block cursor-pointer overflow-hidden rounded-xl"
+									data-filter="photo"
+									data-images={JSON.stringify(carouselImages)}
+									data-index="0"
+									data-width={item.width || 1200}
+									data-height={item.height || 1200}
+									style={
+										item.width && item.height ? `aspect-ratio:${item.width}/${item.height}` : ""
+									}
+								>
+									<img
+										src={thumbSrc}
+										alt={item.alt}
+										loading="lazy"
+										class="carousel-img h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+									/>
+
+									{/* Multi-photo badge */}
+									<div class="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-black/50 text-white">
+										<svg
+											class="h-3.5 w-3.5"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="1.8"
+										>
+											<rect x="7" y="7" width="13" height="13" rx="2" />
+											<path d="M4 15V6a2 2 0 0 1 2-2h9" />
+										</svg>
+									</div>
+
+									{/* Prev / Next arrows */}
+									<button
+										type="button"
+										aria-label="Foto anterior"
+										class="carousel-prev absolute left-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white opacity-0 transition-opacity group-hover:opacity-100"
+									>
+										<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M15 19l-7-7 7-7"
+											/>
+										</svg>
+									</button>
+									<button
+										type="button"
+										aria-label="Próxima foto"
+										class="carousel-next absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 text-white opacity-0 transition-opacity group-hover:opacity-100"
+									>
+										<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M9 5l7 7-7 7"
+											/>
+										</svg>
+									</button>
+
+									{/* Expand to fullscreen lightbox */}
+									<button
+										type="button"
+										class="carousel-expand-btn absolute bottom-2 right-2 flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-white opacity-0 transition-opacity group-hover:opacity-100"
+										aria-label="Ver em tela cheia"
+									>
+										<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M4 8V4h4M16 4h4v4M20 16v4h-4M8 20H4v-4"
+											/>
+										</svg>
+									</button>
+
+									{/* Dots */}
+									<div class="carousel-dots pointer-events-none absolute inset-x-0 bottom-2 flex justify-center gap-1">
+										{carouselImages.map((_, i) => (
+											<span
+												class={`carousel-dot h-1.5 w-1.5 rounded-full transition-colors ${i === 0 ? "bg-white" : "bg-white/40"}`}
+											/>
+										))}
+									</div>
+
+									{item.caption && (
+										<div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent p-4 opacity-0 transition-opacity group-hover:opacity-100">
+											<p class="text-sm text-white">{item.caption}</p>
+										</div>
+									)}
+								</div>
+							);
+						}
 
 						return (
 							<a
@@ -224,6 +325,45 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 	});
 
 	lightbox.init();
+
+	// Carousel items: click to cycle photos, expand button opens full lightbox gallery
+	document.querySelectorAll<HTMLElement>(".carousel-item").forEach((card) => {
+		const images: string[] = JSON.parse(card.dataset.images || "[]");
+		const width = Number(card.dataset.width) || 1200;
+		const height = Number(card.dataset.height) || 1200;
+		const imgEl = card.querySelector<HTMLImageElement>(".carousel-img");
+		const dots = card.querySelectorAll<HTMLElement>(".carousel-dot");
+		let index = 0;
+
+		const render = () => {
+			if (imgEl) imgEl.src = images[index];
+			card.dataset.index = String(index);
+			dots.forEach((dot, i) => {
+				dot.classList.toggle("bg-white", i === index);
+				dot.classList.toggle("bg-white/40", i !== index);
+			});
+		};
+
+		const go = (delta: number) => {
+			index = (index + delta + images.length) % images.length;
+			render();
+		};
+
+		card.addEventListener("click", () => go(1));
+		card.querySelector(".carousel-prev")?.addEventListener("click", (e) => {
+			e.stopPropagation();
+			go(-1);
+		});
+		card.querySelector(".carousel-next")?.addEventListener("click", (e) => {
+			e.stopPropagation();
+			go(1);
+		});
+		card.querySelector(".carousel-expand-btn")?.addEventListener("click", (e) => {
+			e.stopPropagation();
+			const dataSource = images.map((src) => ({ src, width, height }));
+			lightbox.loadAndOpen(index, dataSource);
+		});
+	});
 
 	// Filter buttons
 	const filterButtons = document.querySelectorAll<HTMLButtonElement>(".filter-btn");

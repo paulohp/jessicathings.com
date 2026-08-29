@@ -22,6 +22,7 @@ const galleryCollection = defineCollection({
 	type: "content",
 	schema: z.object({
 		image: z.string(),
+		images: z.array(z.string()).optional(),
 		alt: z.string().default(""),
 		caption: z.string().optional(),
 		type: z.enum(["photo", "video"]).default("photo"),
