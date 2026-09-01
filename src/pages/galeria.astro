@@ -203,7 +203,7 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 						return (
 							<a
 								href={href}
-								data-item-type={item.type}
+								data-pswp-type={item.type === "video" ? "video" : undefined}
 								data-pswp-width={item.width || 1200}
 								data-pswp-height={item.height || 1200}
 								data-filter={item.type}
@@ -309,7 +309,7 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 	// Handle video items
 	lightbox.on("contentLoad", (e) => {
 		const { content } = e;
-		if (content.data.src && content.data.itemType === "video") {
+		if (content.data.src && content.data.element?.dataset?.pswpType === "video") {
 			// Check if it's a video URL (YouTube, Vimeo, or direct video file)
 			const src = content.data.src;
 			if (src.match(/\.(mp4|webm|ogg)(\?|$)/)) {
