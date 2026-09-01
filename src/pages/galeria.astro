@@ -349,7 +349,24 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 			render();
 		};
 
-		card.addEventListener("click", () => go(1));
+		const openLightbox = () => {
+			const dataSource = images.map((src) => ({ src, width, height }));
+			lightbox.loadAndOpen(index, dataSource);
+		};
+
+		// Tap left/right edge to change photo, tap the middle to open fullscreen
+		card.addEventListener("click", (e) => {
+			const rect = card.getBoundingClientRect();
+			const ratio = (e.clientX - rect.left) / rect.width;
+
+			if (ratio < 0.25) {
+				go(-1);
+			} else if (ratio > 0.75) {
+				go(1);
+			} else {
+				openLightbox();
+			}
+		});
 		card.querySelector(".carousel-prev")?.addEventListener("click", (e) => {
 			e.stopPropagation();
 			go(-1);
@@ -360,8 +377,7 @@ const seoDescription = "Fotos e vídeos do dia a dia de beleza, moda e estilo de
 		});
 		card.querySelector(".carousel-expand-btn")?.addEventListener("click", (e) => {
 			e.stopPropagation();
-			const dataSource = images.map((src) => ({ src, width, height }));
-			lightbox.loadAndOpen(index, dataSource);
+			openLightbox();
 		});
 	});
 
