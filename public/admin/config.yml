@@ -85,6 +85,7 @@ collections:
           multiple: true,
           required: false,
           hint: "Adicione 2 ou mais fotos para criar um carrossel (clicável para trocar de foto). Se vazio, usa apenas a Imagem acima.",
+          media_library: { config: { multiple: true } },
         }
       - { label: "Texto alternativo", name: "alt", widget: "string" }
       - {
