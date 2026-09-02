@@ -7,6 +7,5 @@ images:
 alt: "Pazze e Pizze "
 caption: Rabbijn Maarsenplein 7, 2512 HJ Den Haag
 type: photo
-width: ""
 draft: false
 ---

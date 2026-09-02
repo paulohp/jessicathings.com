@@ -27,8 +27,9 @@ const galleryCollection = defineCollection({
 		caption: z.string().optional(),
 		type: z.enum(["photo", "video"]).default("photo"),
 		videoSrc: z.string().optional(),
-		width: z.number().optional(),
-		height: z.number().optional(),
+		// Decap's number widget can persist an empty string; coerce and treat "" as unset
+		width: z.preprocess((v) => (v === "" ? undefined : v), z.coerce.number().optional()),
+		height: z.preprocess((v) => (v === "" ? undefined : v), z.coerce.number().optional()),
 		date: z.string().optional(),
 		draft: z.boolean().optional().default(false),
 	}),
