@@ -8,9 +8,6 @@ export const GET: APIRoute = ({ site }) => {
 	const robotsTxt = `User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: ${new URL("/sitemap.xml", site).toString()}
-
 # Disallow admin areas
 Disallow: /admin/
 Disallow: /_astro/
@@ -23,7 +20,14 @@ Allow: /category/
 Allow: /tag/
 
 # Crawl delay (optional)
-Crawl-delay: 1`;
+Crawl-delay: 1
+
+# Allow Google's ad crawler to serve relevant ads
+User-agent: Mediapartners-Google
+Disallow:
+
+# Sitemap
+Sitemap: ${new URL("/sitemap.xml", site).toString()}`;
 
 	return new Response(robotsTxt, {
 		headers: {

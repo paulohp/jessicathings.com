@@ -6,9 +6,7 @@ import vercel from "@astrojs/vercel";
 const config = defineConfig({
 	site: "https://www.jessica.blog.br/",
 	output: "static",
-	adapter: vercel({
-		webAnalytics: { enabled: true },
-	}),
+	adapter: vercel(),
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,
