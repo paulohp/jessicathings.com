@@ -61,12 +61,14 @@ const structuredData = {
 			<section class="mb-12 md:mb-16">
 				<div class="grid grid-cols-1 items-center gap-6 md:gap-8 lg:grid-cols-2">
 					<div>
-						<h2 class="mb-3 font-display text-4xl font-semibold tracking-tight text-gray-900 md:mb-4 md:text-6xl">
+						<h2
+							class="mb-3 font-display text-4xl font-semibold tracking-tight text-gray-900 md:mb-4 md:text-6xl"
+						>
 							Descubra Seu Estilo
 						</h2>
 						<p class="mb-4 text-base text-gray-600 md:mb-6 md:text-xl">
-							Explore o que há de mais novo em beleza, moda e estilo de vida com Jéssica Oliveira Beauty. Sua
-							fonte de dicas, resenhas e inspiração.
+							Explore o que há de mais novo em beleza, moda e estilo de vida com Jéssica Oliveira
+							Beauty. Sua fonte de dicas, resenhas e inspiração.
 						</p>
 						<a
 							href="/categories"
@@ -80,7 +82,7 @@ const structuredData = {
 							featuredPosts[0] && (
 								<div class="relative overflow-hidden rounded-lg">
 									<img
-										src={featuredPosts[0].data.thumbnail || "/placeholder-image.jpg"}
+										src={featuredPosts[0].data.thumbnail || "/placeholder-image.svg"}
 										alt={featuredPosts[0].data.title}
 										class="h-96 w-full object-cover"
 									/>
@@ -116,7 +118,9 @@ const structuredData = {
 			<!-- Editor's Pick -->
 			<section class="mb-12 md:mb-16">
 				<div class="mb-6 flex items-center justify-between md:mb-8">
-					<h2 class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">Escolha do Editor</h2>
+					<h2 class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">
+						Escolha do Editor
+					</h2>
 					<a href="/explorar" class="text-sm text-black hover:underline md:text-base">Ver Todos</a>
 				</div>
 				<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
@@ -128,7 +132,7 @@ const structuredData = {
 										src={
 											post.data.thumbnail ||
 											(post.data.ogImage as unknown as string) ||
-											"/placeholder-image.jpg"
+											"/placeholder-image.svg"
 										}
 										alt={post.data.title}
 										class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -179,7 +183,9 @@ const structuredData = {
 			<!-- Latest Posts - All Content -->
 			<section class="mb-12 md:mb-16">
 				<div class="mb-6 flex items-center justify-between md:mb-8">
-					<h2 class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">Mais Recentes</h2>
+					<h2 class="font-display text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">
+						Mais Recentes
+					</h2>
 					<span class="text-xs text-gray-500 md:text-sm">{latestPosts.length} posts</span>
 				</div>
 				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
@@ -188,7 +194,7 @@ const structuredData = {
 							<article class="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
 								<div class="relative overflow-hidden">
 									<img
-										src={post.data.thumbnail || "/placeholder-image.jpg"}
+										src={post.data.thumbnail || "/placeholder-image.svg"}
 										alt={post.data.title}
 										class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
 									/>

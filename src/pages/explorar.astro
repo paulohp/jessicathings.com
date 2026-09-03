@@ -130,7 +130,7 @@ const seoDescription =
 		article.className =
 			"group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-md";
 
-		const thumbnail = post.data.thumbnail || post.data.ogImage || "/placeholder-image.jpg";
+		const thumbnail = post.data.thumbnail || post.data.ogImage || "/placeholder-image.svg";
 		const category = post.data.categories?.[0] || "BLOG";
 		const date = new Date(post.data.date).toLocaleDateString("pt-BR", {
 			month: "short",
