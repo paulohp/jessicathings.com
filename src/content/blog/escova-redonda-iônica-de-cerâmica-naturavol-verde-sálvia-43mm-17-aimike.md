@@ -14,6 +14,8 @@ tags:
 
 Hoje a resenha é mais uma vez de escova para escovar os cabelos com o secador, vamo falar sobre a  **["Escova redonda iônica de cerâmica NaturaVol - Verde Sálvia 43mm/1'7 - AIMIKE". ](https://meli.la/1R8AyoP)**Núcleo térmico de secagem rápida | Fixação sem costuras que não prende os fios | Elevação da raiz sem esforço
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1788851523/DSC03157_c7ypjl.jpg)
+
 #### SOBRE O PRODUTO
 
 **Tecnologia Térmica e Iônica Acelerada**
