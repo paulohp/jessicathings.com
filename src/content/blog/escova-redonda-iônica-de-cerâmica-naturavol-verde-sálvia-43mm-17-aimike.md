@@ -63,8 +63,6 @@ Hoje a resenha é mais uma vez de escova para escovar os cabelos com o secador, 
 
 🛍️ Mercado Livre: <https://meli.la/1LLsmNb>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JSbMMpaK5FU?si=dAfJF-kWFAPaNOko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fzz7y6mOJsw?si=7SX0p8VQAkskOhXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
