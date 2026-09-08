@@ -40,6 +40,8 @@ Hoje a resenha é mais uma vez de escova para escovar os cabelos com o secador, 
 * Tipo de cabelo: Cabelo liso, ondulado e rebelde
 * Acessórios incluídos: Pino separador de mechas integrado + 2 presilhas de cabelo
 
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1788851531/DSC03158_wbohyy.jpg)
+
 #### COMO ESCOLHER A SUA ESCOVA
 
 **Escova de 1,3** **32mm** (5,3 cm de diâmetro total com as cerdas)
@@ -50,6 +52,10 @@ Hoje a resenha é mais uma vez de escova para escovar os cabelos com o secador, 
 
 **Escova de 2,1 - 53mm** (3,0 polegadas no total com as cerdas)
 – Ideal para: Cabelos longos (abaixo do peito), escovas volumosas de salão e alisamento rápido e impecável.
+
+![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1788851539/DSC03166_nwav0e.jpg)
+
+
 
 #### ONDE COMPRAR
 
