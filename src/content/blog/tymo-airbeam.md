@@ -5,6 +5,10 @@ thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1789383468/Captura
 description: Escova secadora "CHAMPAGNE TYMO AIRBEAM" de 1100w de potência
 categories:
   - Escovas Secadoras
+tags:
+  - escova secadora
+  - tymo
+  - TYMO AIRBEAM
 ---
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1789383468/Captura_de_Tela_2026-09-14_a%CC%80s_12.57.26_n6pjod.png)
 
