@@ -10,8 +10,6 @@ categories:
 
 Escova secadora "CHAMPAGNE TYMO AIRBEAM" de 1100w de potência, velocidade do fluxo de ar Coanda de 35 m/s, motor de alta rotação (110.000 rpm) 2 velocidades 3 temperaturas. Que promete secagem rápida, cabelos brilhantes macios e volumosos. 
 
-
-
 SOBRE O PRODUTO
 
 Estilização 3 em 1: Seca, alisa e dá volume
@@ -44,13 +42,12 @@ Estilização 3 em 1: Seca, alisa e dá volume
 
 ![](https://res.cloudinary.com/dnk8j20ch/image/upload/v1789383485/Captura_de_Tela_2026-09-14_a%CC%80s_12.55.25_klwsd0.png)
 
-
 O fluxo de ar com tecnologia Coanda seca mais rápido, protege as cutículas e proporciona resultados de salão com menos calor.
 
 **POR QUE O FLUXO DE AR ​​VENCE O SUPERAQUECIMENTO**: Protege a saúde do cabelo com menos danos causados ​​pelo calor.
 
-
-
 ONDE COMPRAR
 
 Mercado Livre: [https://meli.la/2LWwcLP ](https://meli.la/2LWwcLP)- [https://meli.la/2TxFKd7 ](https://meli.la/2TxFKd7)-[ https://meli.la/2DYrtgK](https://meli.la/2DYrtgK)
+
+<https://tymobeauty.com/?ref=jessicaoliveirabeauty>
