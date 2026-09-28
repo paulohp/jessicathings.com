@@ -1,7 +1,7 @@
 ---
 title: " HyperFlexGo Secador de Cabelo Bivolt e Dobrável "
 date: 2026-09-28T09:29:00.000+02:00
-thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1790580883/Captura_de_Tela_2026-09-28_a%CC%80s_09.33.36_pyzpmw.png
+thumbnail: https://res.cloudinary.com/dnk8j20ch/image/upload/v1790581633/Captura_de_Tela_2026-09-28_a%CC%80s_09.46.56_mrgsgc.png
 description: Um secador de cabelo potente e dobrável para casa e viagens.
   Adaptação automática de voltagem de 100 a 240 V para secar o cabelo sem
   esforço onde quer que você vá.
